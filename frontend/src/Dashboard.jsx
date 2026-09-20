@@ -2,39 +2,8 @@ import { useState, useRef } from "react";
 import axios from "axios";
 import {
   Search, TrainFront, Check, CalendarClock, Sparkles, ShieldCheck,
-  CloudFog, TrainTrack, Timer, AlertTriangle, Bus, ArrowRight, SearchX, Bot
+  CloudFog, TrainTrack, Timer, AlertTriangle, Bus, ArrowRight, SearchX, Bot, Radio
 } from "lucide-react";
-
-const ALL_STATIONS = [
-  { code: "NDLS", name: "New Delhi" },
-  { code: "KOTA", name: "Kota Jn" },
-  { code: "RTM", name: "Ratlam Jn" },
-  { code: "BRC", name: "Vadodara Jn" },
-  { code: "ST", name: "Surat" },
-  { code: "MMCT", name: "Mumbai Central" },
-];
-
-const SCHEDULED_TIMES = {
-  "New Delhi": "10:00 AM",
-  "Kota Jn": "2:00 PM",
-  "Ratlam Jn": "5:30 PM",
-  "Vadodara Jn": "8:00 PM",
-  "Surat": "9:30 PM",
-  "Mumbai Central": "11:45 PM",
-};
-
-function getActualTime(scheduledStr, delayMin) {
-  const [time, period] = scheduledStr.split(" ");
-  let [hours, minutes] = time.split(":").map(Number);
-  if (period === "PM" && hours !== 12) hours += 12;
-  if (period === "AM" && hours === 12) hours = 0;
-  const totalMinutes = hours * 60 + minutes + delayMin;
-  let newHours = Math.floor(totalMinutes / 60) % 24;
-  const newMinutes = Math.round(totalMinutes % 60);
-  const newPeriod = newHours >= 12 ? "PM" : "AM";
-  const displayHours = newHours % 12 === 0 ? 12 : newHours % 12;
-  return `${displayHours}:${String(newMinutes).padStart(2, "0")} ${newPeriod}`;
-}
 
 const POPULAR_TRAINS = [
   { number: "12951", name: "Mumbai Rajdhani Express" },
@@ -66,7 +35,7 @@ function LandingPage({ query, setQuery, onSubmit }) {
             Know when your train really arrives
           </h1>
           <p className="mt-3 max-w-md text-sm leading-relaxed text-muted-foreground">
-            Live, AI-powered arrival predictions for every train across the network.
+            Live, AI-powered arrival predictions for any train across the network.
           </p>
           <form onSubmit={onSubmit} className="mt-8 w-full max-w-xl">
             <div className="flex items-center gap-2 rounded-2xl border border-border bg-card p-2 shadow-sm">
@@ -75,7 +44,7 @@ function LandingPage({ query, setQuery, onSubmit }) {
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Enter train number or name"
+                placeholder="Enter any real train number (e.g. 12919)"
                 className="w-full bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
               />
               <button type="submit" className="shrink-0 rounded-xl bg-rail-orange px-4 py-2 text-sm font-semibold text-rail-orange-foreground hover:opacity-90">
@@ -132,7 +101,7 @@ function DashboardHeader({ query, setQuery, onSubmit }) {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Train number or name"
+              placeholder="Any train number"
               className="h-11 w-full rounded-xl border border-transparent bg-card pl-9 pr-3 text-sm text-foreground shadow-sm outline-none"
             />
           </div>
@@ -145,18 +114,18 @@ function DashboardHeader({ query, setQuery, onSubmit }) {
   );
 }
 
-function RouteTimeline({ currentStation }) {
-  const currentIndex = ALL_STATIONS.findIndex((s) => s.name === currentStation);
+function RouteTimeline({ route }) {
+  if (!route || route.length === 0) return null;
   return (
     <section className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
       <h2 className="mb-6 text-sm font-semibold text-foreground">Route Progress</h2>
-      <ol className="flex items-start justify-between">
-        {ALL_STATIONS.map((station, i) => {
-          const isCurrent = i === currentIndex;
-          const isDeparted = i < currentIndex;
+      <ol className="flex items-start justify-between overflow-x-auto">
+        {route.map((station, i) => {
+          const isCurrent = station.status === "current";
+          const isDeparted = station.status === "departed";
           return (
-            <li key={station.code} className="relative flex flex-1 flex-col items-center last:flex-none">
-              {i < ALL_STATIONS.length - 1 && (
+            <li key={station.code + i} className="relative flex flex-1 min-w-[60px] flex-col items-center last:flex-none">
+              {i < route.length - 1 && (
                 <span className={`absolute left-1/2 top-4 h-0.5 w-full ${isDeparted ? "bg-rail-blue" : "bg-border"}`} />
               )}
               <span className={`relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 ${
@@ -180,7 +149,6 @@ function RouteTimeline({ currentStation }) {
 
 function EtaComparison({ data }) {
   const status = getStatus(data.predictedDelayMin);
-  const scheduled = SCHEDULED_TIMES[data.nextStation];
   return (
     <section className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
@@ -194,23 +162,18 @@ function EtaComparison({ data }) {
         <div className="rounded-xl border border-border bg-secondary/50 p-4">
           <div className="flex items-center gap-2 text-muted-foreground">
             <CalendarClock className="h-4 w-4" />
-            <span className="text-xs font-medium uppercase tracking-wide">Scheduled Arrival</span>
+            <span className="text-xs font-medium uppercase tracking-wide">Current Conditions</span>
           </div>
-          <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">{scheduled}</p>
-          <p className="mt-1 text-xs text-muted-foreground">{data.weather} · {data.congestion}</p>
+          <p className="mt-2 text-lg font-semibold text-foreground">{data.weather} · {data.congestion}</p>
+          <p className="mt-1 text-xs text-muted-foreground">at {data.currentStation}</p>
         </div>
         <div className="rounded-xl border border-rail-orange/30 bg-rail-orange/5 p-4">
           <div className="flex items-center gap-2 text-rail-orange">
             <Sparkles className="h-4 w-4" />
-            <span className="text-xs font-medium uppercase tracking-wide">Predicted Arrival</span>
+            <span className="text-xs font-medium uppercase tracking-wide">Predicted Delay Range</span>
           </div>
           <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">
-            {getActualTime(scheduled, data.etaRangeMin)}
-            <span className="mx-1 text-muted-foreground">–</span>
-            {getActualTime(scheduled, data.etaRangeMax)}
-          </p>
-          <p className="mt-0.5 text-xs text-muted-foreground">
-            (+{Math.round(data.etaRangeMin * 10) / 10}–{Math.round(data.etaRangeMax * 10) / 10} min delay)
+            {Math.round(data.etaRangeMin * 10) / 10}<span className="mx-1 text-muted-foreground">–</span>{Math.round(data.etaRangeMax * 10) / 10} min
           </p>
           <p className="mt-1 inline-flex items-center gap-1 text-xs font-medium text-rail-orange">
             <ShieldCheck className="h-3.5 w-3.5" />
@@ -222,7 +185,7 @@ function EtaComparison({ data }) {
   );
 }
 
-const REASON_ICONS = { Fog: CloudFog, "Heavy Rain": CloudFog, Rain: CloudFog, "Route Congestion": TrainTrack, "Historical Pattern": Timer };
+const REASON_ICONS = { Fog: CloudFog, "Heavy Rain": CloudFog, Rain: CloudFog, "Route Congestion": TrainTrack, "Historical Pattern": Timer, "Live Running Delay": Radio };
 
 function DelayReasons({ reasons }) {
   const weights = { High: 45, Medium: 30, Low: 15 };
@@ -405,17 +368,19 @@ function Dashboard() {
     <div className="min-h-screen bg-background">
       <DashboardHeader query={query} setQuery={setQuery} onSubmit={handleSubmit} />
       <main className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-8">
-        <div className="mb-4">
-          {!simulating ? (
-            <button onClick={handleSimulate} className="rounded-xl bg-rail-blue px-4 py-2 text-sm font-semibold text-rail-blue-foreground hover:opacity-90">
-              ▶ Simulate Train Movement
-            </button>
-          ) : (
-            <button onClick={stopSimulation} className="rounded-xl bg-danger px-4 py-2 text-sm font-semibold text-danger-foreground hover:opacity-90">
-              ■ Stop Simulation
-            </button>
-          )}
-        </div>
+        {data && !data.isLive && (
+          <div className="mb-4">
+            {!simulating ? (
+              <button onClick={handleSimulate} className="rounded-xl bg-rail-blue px-4 py-2 text-sm font-semibold text-rail-blue-foreground hover:opacity-90">
+                ▶ Simulate Train Movement
+              </button>
+            ) : (
+              <button onClick={stopSimulation} className="rounded-xl bg-danger px-4 py-2 text-sm font-semibold text-danger-foreground hover:opacity-90">
+                ■ Stop Simulation
+              </button>
+            )}
+          </div>
+        )}
 
         {loading && <p className="text-sm text-muted-foreground">Loading prediction...</p>}
         {error && (
@@ -432,12 +397,17 @@ function Dashboard() {
                 <div className="flex items-center gap-2">
                   <span className="rounded-md bg-rail-blue/10 px-2 py-0.5 text-xs font-semibold text-rail-blue">#{data.trainNumber}</span>
                   <h2 className="text-base font-semibold text-foreground">{data.trainName}</h2>
+                  {data.isLive && (
+                    <span style={{ fontSize: "11px", fontWeight: "600", color: "#22c55e", backgroundColor: "#22c55e20", padding: "2px 8px", borderRadius: "999px" }}>
+                      🟢 LIVE
+                    </span>
+                  )}
                 </div>
                 <p className="mt-1 text-xs text-muted-foreground">{data.currentStation} → {data.nextStation}</p>
               </div>
             </div>
 
-            <RouteTimeline currentStation={data.currentStation} />
+            <RouteTimeline route={data.route} />
             <EtaComparison data={data} />
             <AiCopilot message={data.copilotMessage} />
 
