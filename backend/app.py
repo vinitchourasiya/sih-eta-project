@@ -30,7 +30,7 @@ train_names = {
 }
 
 WEATHER_API_KEY = "4cb82387c8921a4d532d86ffb457b953"
-RAILRADAR_API_KEY = "rg_9fd8037ff204491c9b2294d56a805b33"
+RAILRADAR_API_KEY = os.environ.get("RAILRADAR_API_KEY", "")
 
 STATION_COORDS = {
     "New Delhi": (28.6139, 77.2090),
