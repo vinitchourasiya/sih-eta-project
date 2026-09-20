@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import axios from "axios";
 import {
   Search, TrainFront, Check, CalendarClock, Sparkles, ShieldCheck,
-  CloudFog, TrainTrack, Timer, AlertTriangle, Bus, ArrowRight, SearchX
+  CloudFog, TrainTrack, Timer, AlertTriangle, Bus, ArrowRight, SearchX, Bot
 } from "lucide-react";
 
 const ALL_STATIONS = [
@@ -13,6 +13,7 @@ const ALL_STATIONS = [
   { code: "ST", name: "Surat" },
   { code: "MMCT", name: "Mumbai Central" },
 ];
+
 const SCHEDULED_TIMES = {
   "New Delhi": "10:00 AM",
   "Kota Jn": "2:00 PM",
@@ -27,13 +28,11 @@ function getActualTime(scheduledStr, delayMin) {
   let [hours, minutes] = time.split(":").map(Number);
   if (period === "PM" && hours !== 12) hours += 12;
   if (period === "AM" && hours === 12) hours = 0;
-
   const totalMinutes = hours * 60 + minutes + delayMin;
   let newHours = Math.floor(totalMinutes / 60) % 24;
   const newMinutes = Math.round(totalMinutes % 60);
   const newPeriod = newHours >= 12 ? "PM" : "AM";
   const displayHours = newHours % 12 === 0 ? 12 : newHours % 12;
-
   return `${displayHours}:${String(newMinutes).padStart(2, "0")} ${newPeriod}`;
 }
 
@@ -61,7 +60,6 @@ function LandingPage({ query, setQuery, onSubmit }) {
           Dynamic ETA <span className="text-muted-foreground">· Indian Railways</span>
         </span>
       </header>
-
       <main className="mx-auto max-w-3xl px-4 pb-16">
         <section className="flex flex-col items-center pt-10 text-center sm:pt-16">
           <h1 className="text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
@@ -70,7 +68,6 @@ function LandingPage({ query, setQuery, onSubmit }) {
           <p className="mt-3 max-w-md text-sm leading-relaxed text-muted-foreground">
             Live, AI-powered arrival predictions for every train across the network.
           </p>
-
           <form onSubmit={onSubmit} className="mt-8 w-full max-w-xl">
             <div className="flex items-center gap-2 rounded-2xl border border-border bg-card p-2 shadow-sm">
               <Search className="ml-2 h-5 w-5 shrink-0 text-muted-foreground" />
@@ -81,16 +78,12 @@ function LandingPage({ query, setQuery, onSubmit }) {
                 placeholder="Enter train number or name"
                 className="w-full bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
               />
-              <button
-                type="submit"
-                className="shrink-0 rounded-xl bg-rail-orange px-4 py-2 text-sm font-semibold text-rail-orange-foreground hover:opacity-90"
-              >
+              <button type="submit" className="shrink-0 rounded-xl bg-rail-orange px-4 py-2 text-sm font-semibold text-rail-orange-foreground hover:opacity-90">
                 Search
               </button>
             </div>
           </form>
         </section>
-
         <section className="mt-14">
           <div className="mb-4 flex items-center justify-between">
             <h2 className="text-sm font-semibold text-foreground">Popular Trains</h2>
@@ -105,9 +98,7 @@ function LandingPage({ query, setQuery, onSubmit }) {
               >
                 <div className="min-w-0">
                   <div className="flex items-center gap-2">
-                    <span className="rounded-md bg-rail-blue/10 px-2 py-0.5 text-xs font-semibold text-rail-blue">
-                      #{train.number}
-                    </span>
+                    <span className="rounded-md bg-rail-blue/10 px-2 py-0.5 text-xs font-semibold text-rail-blue">#{train.number}</span>
                     <h3 className="truncate text-sm font-semibold text-foreground">{train.name}</h3>
                   </div>
                 </div>
@@ -134,7 +125,6 @@ function DashboardHeader({ query, setQuery, onSubmit }) {
             <p className="text-xs font-medium text-rail-blue-foreground/70">Indian Railways</p>
           </div>
         </div>
-
         <form onSubmit={onSubmit} className="flex w-full items-center gap-2 sm:max-w-sm">
           <div className="relative flex-1">
             <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
@@ -190,6 +180,7 @@ function RouteTimeline({ currentStation }) {
 
 function EtaComparison({ data }) {
   const status = getStatus(data.predictedDelayMin);
+  const scheduled = SCHEDULED_TIMES[data.nextStation];
   return (
     <section className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
@@ -201,28 +192,26 @@ function EtaComparison({ data }) {
       </div>
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         <div className="rounded-xl border border-border bg-secondary/50 p-4">
-  <div className="flex items-center gap-2 text-muted-foreground">
-    <CalendarClock className="h-4 w-4" />
-    <span className="text-xs font-medium uppercase tracking-wide">Scheduled Arrival</span>
-  </div>
-  <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">
-    {SCHEDULED_TIMES[data.nextStation]}
-  </p>
-  <p className="mt-1 text-xs text-muted-foreground">{data.weather} · {data.congestion}</p>
-</div>
+          <div className="flex items-center gap-2 text-muted-foreground">
+            <CalendarClock className="h-4 w-4" />
+            <span className="text-xs font-medium uppercase tracking-wide">Scheduled Arrival</span>
+          </div>
+          <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">{scheduled}</p>
+          <p className="mt-1 text-xs text-muted-foreground">{data.weather} · {data.congestion}</p>
+        </div>
         <div className="rounded-xl border border-rail-orange/30 bg-rail-orange/5 p-4">
           <div className="flex items-center gap-2 text-rail-orange">
             <Sparkles className="h-4 w-4" />
-            <span className="text-xs font-medium uppercase tracking-wide">Predicted Delay</span>
+            <span className="text-xs font-medium uppercase tracking-wide">Predicted Arrival</span>
           </div>
           <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">
-  {getActualTime(SCHEDULED_TIMES[data.nextStation], data.etaRangeMin)}
-  <span className="mx-1 text-muted-foreground">–</span>
-  {getActualTime(SCHEDULED_TIMES[data.nextStation], data.etaRangeMax)}
-</p>
-<p className="mt-0.5 text-xs text-muted-foreground">
-  (+{Math.round(data.etaRangeMin * 10) / 10}–{Math.round(data.etaRangeMax * 10) / 10} min delay)
-</p>
+            {getActualTime(scheduled, data.etaRangeMin)}
+            <span className="mx-1 text-muted-foreground">–</span>
+            {getActualTime(scheduled, data.etaRangeMax)}
+          </p>
+          <p className="mt-0.5 text-xs text-muted-foreground">
+            (+{Math.round(data.etaRangeMin * 10) / 10}–{Math.round(data.etaRangeMax * 10) / 10} min delay)
+          </p>
           <p className="mt-1 inline-flex items-center gap-1 text-xs font-medium text-rail-orange">
             <ShieldCheck className="h-3.5 w-3.5" />
             {data.confidencePercent}% confidence
@@ -239,7 +228,6 @@ function DelayReasons({ reasons }) {
   const weights = { High: 45, Medium: 30, Low: 15 };
   const withContribution = reasons.map((r) => ({ ...r, value: weights[r.impact] || 20 }));
   const total = withContribution.reduce((sum, r) => sum + r.value, 0) || 1;
-
   return (
     <section className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
       <h2 className="text-sm font-semibold text-foreground">Why this delay?</h2>
@@ -262,6 +250,7 @@ function DelayReasons({ reasons }) {
               <div className="h-2 w-full overflow-hidden rounded-full bg-secondary">
                 <div className="h-full rounded-full bg-rail-orange" style={{ width: `${pct}%` }} />
               </div>
+              <p style={{ fontSize: "12px", color: "#6b7280", marginTop: "6px" }}>{reason.explanation}</p>
             </li>
           );
         })}
@@ -296,6 +285,60 @@ function ConnectionsAffected({ alerts, delay }) {
   );
 }
 
+function ConnectionRiskScore({ score, level, factors }) {
+  const color = level === "High" ? "#ef4444" : level === "Medium" ? "#f59e0b" : "#22c55e";
+  return (
+    <section className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
+      <h2 className="text-sm font-semibold text-foreground">Connection Risk Score</h2>
+      <div style={{ display: "flex", alignItems: "center", gap: "12px", marginTop: "10px" }}>
+        <span style={{ fontSize: "28px", fontWeight: "bold", color }}>{score}%</span>
+        <span style={{ fontSize: "13px", fontWeight: "600", color, backgroundColor: `${color}20`, padding: "4px 10px", borderRadius: "999px" }}>
+          {level} Risk
+        </span>
+      </div>
+      <ul style={{ marginTop: "10px", fontSize: "12px", color: "#6b7280" }}>
+        {factors.map((f, i) => (
+          <li key={i}>• {f}</li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+function AlternativeRoutes({ routes }) {
+  if (!routes || routes.length === 0) return null;
+  return (
+    <section className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
+      <h2 className="text-sm font-semibold text-foreground">Alternative Route Options</h2>
+      <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "12px" }}>
+        {routes.map((r, i) => (
+          <div key={i} style={{ border: "1px solid #e5e7eb", borderRadius: "10px", padding: "12px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+            <div>
+              <p style={{ fontWeight: "600", fontSize: "13px" }}>{r.option}</p>
+              <p style={{ fontSize: "12px", color: "#6b7280" }}>{r.arrival} · Extra: {r.extraCost}</p>
+            </div>
+            <span style={{ fontSize: "12px", fontWeight: "600", color: r.risk > 60 ? "#ef4444" : r.risk > 30 ? "#f59e0b" : "#22c55e" }}>
+              Risk {r.risk}%
+            </span>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function AiCopilot({ message }) {
+  return (
+    <section className="rounded-2xl border border-rail-blue/30 bg-rail-blue/5 p-5 shadow-sm sm:p-6">
+      <div className="flex items-center gap-2">
+        <Bot className="h-4 w-4 text-rail-blue" />
+        <h2 className="text-sm font-semibold text-foreground">AI Travel Copilot</h2>
+      </div>
+      <p style={{ marginTop: "8px", fontSize: "13px", color: "#374151" }}>{message}</p>
+    </section>
+  );
+}
+
 function Dashboard() {
   const [view, setView] = useState("landing");
   const [query, setQuery] = useState("");
@@ -306,15 +349,15 @@ function Dashboard() {
   const stationIndexRef = useRef(0);
   const intervalRef = useRef(null);
 
+  const API_URL = import.meta.env.DEV
+    ? "http://127.0.0.1:5000"
+    : "https://sih-eta-backend-l25w.onrender.com";
+
   const fetchPrediction = async (trainNumber, stationIndex = null) => {
     try {
       const payload = { trainNumber };
       if (stationIndex !== null) payload.stationIndex = stationIndex;
-      const API_URL = import.meta.env.DEV 
-  ? "http://127.0.0.1:5000" 
-  : "https://sih-eta-backend-l25w.onrender.com";
-
-const response = await axios.post(`${API_URL}/predict`, payload);
+      const response = await axios.post(`${API_URL}/predict`, payload);
       setData(response.data);
       setError("");
     } catch (err) {
@@ -396,11 +439,15 @@ const response = await axios.post(`${API_URL}/predict`, payload);
 
             <RouteTimeline currentStation={data.currentStation} />
             <EtaComparison data={data} />
+            <AiCopilot message={data.copilotMessage} />
 
             <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
               <DelayReasons reasons={data.reasons} />
-              <ConnectionsAffected alerts={data.cascadeAlerts} delay={data.predictedDelayMin} />
+              <ConnectionRiskScore score={data.connectionRiskScore} level={data.connectionRiskLevel} factors={data.connectionRiskFactors} />
             </div>
+
+            <ConnectionsAffected alerts={data.cascadeAlerts} delay={data.predictedDelayMin} />
+            <AlternativeRoutes routes={data.alternativeRoutes} />
           </div>
         )}
       </main>
