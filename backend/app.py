@@ -4,6 +4,7 @@ import pickle
 import pandas as pd
 import numpy as np
 import random
+import requests
 
 app = Flask(__name__)
 CORS(app)  # allows frontend to call this backend
@@ -25,6 +26,38 @@ train_names = {
     "12009": "Shatabdi Express",
     "22119": "Tejas Express",
 }
+
+WEATHER_API_KEY = "4cb82387c8921a4d532d86ffb457b953"
+
+STATION_COORDS = {
+    "New Delhi": (28.6139, 77.2090),
+    "Kota Jn": (25.2138, 75.8648),
+    "Ratlam Jn": (23.3315, 75.0367),
+    "Vadodara Jn": (22.3072, 73.1812),
+    "Surat": (21.1702, 72.8311),
+    "Mumbai Central": (19.0760, 72.8777),
+}
+
+def get_real_weather(station_name):
+    lat, lon = STATION_COORDS.get(station_name, (28.6139, 77.2090))
+    try:
+        url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={WEATHER_API_KEY}&units=metric"
+        response = requests.get(url, timeout=5)
+        data = response.json()
+        condition = data["weather"][0]["main"]
+        
+        if condition in ["Rain", "Drizzle"]:
+            return "Rain"
+        elif condition == "Thunderstorm":
+            return "Heavy Rain"
+        elif condition in ["Fog", "Mist", "Haze"]:
+            return "Fog"
+        else:
+            return "Clear"
+    except Exception as e:
+        print(f"Weather API error: {e}")
+        return random.choice(weather_options)
+    
 weather_options = ["Clear", "Fog", "Rain", "Heavy Rain"]
 congestion_options = ["Low", "Medium", "High"]
 days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
@@ -49,7 +82,7 @@ def predict():
     next_station = stations[next_idx]
     distance_km = round(random.uniform(20, 150), 1)
     scheduled_travel_time = round(distance_km / 60 * 60, 1)
-    weather = random.choice(weather_options)
+    weather = get_real_weather(current_station)
     congestion = random.choice(congestion_options)
     historical_avg_delay = round(random.uniform(0, 20), 1)
     hour_of_day = random.randint(0, 23)
