@@ -105,7 +105,13 @@ def predict():
     predicted_delay = model.predict(input_df)[0]
     predicted_delay = max(0, round(float(predicted_delay), 1))
 
-    confidence_range = 5  # +/- minutes for demo purposes
+        # Confidence improves as train gets closer to destination
+    station_position = stations.index(current_station)
+    total_stations = len(stations)
+    progress_ratio = station_position / (total_stations - 1)  # 0 to 1
+
+    confidence_percent_value = int(70 + (progress_ratio * 25))  # 70% to 95%
+    confidence_range = 8 - (progress_ratio * 5)  # narrows from 8 min to 3 min
     lower_bound = max(0, predicted_delay - confidence_range)
     upper_bound = predicted_delay + confidence_range
 
@@ -136,7 +142,7 @@ def predict():
         "predictedDelayMin": predicted_delay,
         "etaRangeMin": lower_bound,
         "etaRangeMax": upper_bound,
-        "confidencePercent": 85,
+        "confidencePercent": confidence_percent_value,
         "weather": weather,
         "congestion": congestion,
         "reasons": reasons,
