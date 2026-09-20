@@ -310,7 +310,7 @@ function Dashboard() {
     try {
       const payload = { trainNumber };
       if (stationIndex !== null) payload.stationIndex = stationIndex;
-      const response = await axios.post("http://127.0.0.1:5000/predict", payload);
+      const response = await axios.post("https://sih-eta-backend-l25w.onrender.com/predict", payload);
       setData(response.data);
       setError("");
     } catch (err) {
