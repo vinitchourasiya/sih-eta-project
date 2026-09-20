@@ -1,0 +1,2001 @@
+train_name,train_number,current_station,next_station,distance_km,scheduled_travel_time_min,weather,congestion_level,historical_avg_delay_min,day_of_week,hour_of_day,actual_delay_min
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,116.4,116.4,Clear,Low,2.0,Fri,2,3.4
+Tejas Express,22119,New Delhi,Kota Jn,23.9,23.9,Clear,Medium,0.5,Sat,22,7.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,78.4,78.4,Clear,High,15.2,Thu,10,24.2
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,48.0,48.0,Fog,Low,7.6,Wed,19,17.4
+Shatabdi Express,12009,New Delhi,Kota Jn,114.9,114.9,Clear,High,7.6,Sun,20,24.3
+Shatabdi Express,12009,Surat,Mumbai Central,45.0,45.0,Clear,Medium,15.5,Sun,7,22.6
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,56.1,56.1,Fog,Low,7.4,Wed,22,15.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,102.5,102.5,Clear,Low,9.2,Sat,22,2.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,129.6,129.6,Fog,Low,0.6,Wed,2,13.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,133.9,133.9,Clear,Medium,7.9,Thu,4,18.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,52.1,52.1,Clear,Low,11.7,Thu,11,9.8
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,86.2,86.2,Clear,Low,2.2,Sun,21,2.4
+Tejas Express,22119,Surat,Mumbai Central,28.3,28.3,Clear,High,10.6,Sun,0,30.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,117.6,117.6,Fog,Low,5.9,Mon,23,14.5
+Shatabdi Express,12009,Surat,Mumbai Central,119.1,119.1,Clear,Low,12.5,Fri,19,9.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,68.6,68.6,Clear,High,18.4,Fri,10,33.4
+Tejas Express,22119,New Delhi,Kota Jn,34.5,34.5,Clear,High,16.1,Tue,18,25.4
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,115.1,115.1,Rain,High,10.7,Sat,15,29.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,88.6,88.6,Fog,High,18.6,Sat,6,46.9
+Shatabdi Express,12009,Vadodara Jn,Surat,149.4,149.4,Fog,Low,10.4,Tue,2,16.4
+Shatabdi Express,12009,New Delhi,Kota Jn,96.5,96.5,Clear,Low,1.4,Tue,2,2.0
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,29.2,29.2,Clear,Medium,4.3,Fri,18,8.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,122.0,122.0,Rain,Low,1.9,Thu,13,8.2
+Tejas Express,22119,New Delhi,Kota Jn,107.5,107.5,Heavy Rain,Low,8.1,Sun,3,27.4
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,44.7,44.7,Clear,Low,5.6,Mon,14,0.3
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,104.8,104.8,Clear,Low,1.9,Tue,5,3.5
+Tejas Express,22119,Vadodara Jn,Surat,82.6,82.6,Rain,High,3.3,Thu,8,24.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,75.0,75.0,Heavy Rain,High,11.1,Tue,6,52.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,145.9,145.9,Clear,Medium,15.0,Fri,15,13.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,144.9,144.9,Clear,Low,11.9,Tue,12,7.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,52.0,52.0,Clear,Medium,8.4,Fri,10,15.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,107.1,107.1,Clear,Low,2.6,Thu,10,2.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,79.6,79.6,Heavy Rain,High,1.5,Wed,4,42.9
+Shatabdi Express,12009,New Delhi,Kota Jn,134.3,134.3,Clear,Low,16.7,Fri,20,10.3
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,58.9,58.9,Fog,High,2.7,Mon,23,32.6
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,56.6,56.6,Clear,Low,13.7,Fri,15,10.3
+Shatabdi Express,12009,New Delhi,Kota Jn,32.0,32.0,Clear,Low,0.1,Sat,8,2.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,91.7,91.7,Clear,Low,1.5,Tue,17,4.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,95.7,95.7,Clear,Low,6.2,Sun,1,7.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,108.7,108.7,Fog,Low,11.2,Fri,23,24.3
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,132.4,132.4,Heavy Rain,Medium,17.6,Sat,10,39.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,54.7,54.7,Fog,Low,17.4,Tue,6,27.3
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,59.7,59.7,Fog,Low,0.5,Wed,8,12.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,65.6,65.6,Clear,Medium,16.9,Mon,3,16.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,95.5,95.5,Heavy Rain,Low,11.9,Sun,10,29.4
+Tejas Express,22119,Surat,Mumbai Central,148.0,148.0,Clear,High,3.8,Thu,0,17.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,76.1,76.1,Rain,High,12.5,Mon,23,35.9
+Shatabdi Express,12009,Surat,Mumbai Central,60.2,60.2,Clear,Low,5.9,Thu,21,0.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,100.0,100.0,Clear,Medium,0.0,Thu,18,7.9
+Shatabdi Express,12009,Vadodara Jn,Surat,77.4,77.4,Fog,Medium,15.9,Sat,5,37.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,87.0,87.0,Fog,Low,16.4,Sat,9,25.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,39.2,39.2,Clear,High,12.2,Thu,13,28.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,84.3,84.3,Clear,Medium,0.1,Sun,3,12.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,42.9,42.9,Heavy Rain,Medium,1.0,Sun,3,33.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,124.2,124.2,Fog,High,11.9,Thu,19,45.5
+Tejas Express,22119,Surat,Mumbai Central,78.0,78.0,Clear,High,9.0,Sun,20,27.0
+Shatabdi Express,12009,Surat,Mumbai Central,83.0,83.0,Clear,Low,14.3,Wed,10,4.5
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,39.6,39.6,Clear,Low,4.3,Wed,17,1.2
+Tejas Express,22119,Vadodara Jn,Surat,28.1,28.1,Rain,Low,15.4,Mon,18,20.2
+Tejas Express,22119,Vadodara Jn,Surat,20.8,20.8,Clear,Medium,17.1,Thu,17,23.1
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,48.5,48.5,Clear,Low,6.7,Thu,23,5.2
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,139.5,139.5,Heavy Rain,Medium,18.1,Sat,0,44.9
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,37.6,37.6,Clear,Low,7.6,Wed,10,0.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,117.8,117.8,Rain,Low,1.6,Fri,1,4.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,104.5,104.5,Fog,Medium,15.1,Tue,0,37.0
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,36.4,36.4,Fog,Medium,4.4,Sun,11,29.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,98.9,98.9,Fog,Low,16.4,Mon,18,27.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,94.9,94.9,Rain,Low,18.8,Fri,22,14.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,110.6,110.6,Clear,Medium,16.1,Fri,1,21.1
+Shatabdi Express,12009,Surat,Mumbai Central,75.7,75.7,Clear,Medium,6.8,Sun,15,16.9
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,144.9,144.9,Fog,Medium,14.1,Sat,16,31.4
+Shatabdi Express,12009,Surat,Mumbai Central,125.1,125.1,Clear,Low,8.7,Wed,10,6.6
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,56.3,56.3,Clear,Medium,11.4,Wed,0,17.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,43.6,43.6,Clear,Medium,6.8,Sat,8,17.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,143.2,143.2,Clear,Medium,9.8,Sat,15,17.5
+Tejas Express,22119,Vadodara Jn,Surat,123.1,123.1,Clear,Low,13.8,Fri,11,5.0
+Tejas Express,22119,Surat,Mumbai Central,89.0,89.0,Clear,Medium,6.6,Wed,9,15.3
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,35.7,35.7,Clear,Low,10.7,Tue,6,7.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,55.9,55.9,Clear,Medium,11.9,Sun,6,20.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,66.9,66.9,Clear,Medium,2.5,Mon,17,6.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,102.9,102.9,Fog,Low,0.2,Thu,14,12.9
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,145.5,145.5,Clear,High,2.3,Thu,2,16.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,39.4,39.4,Clear,Low,19.9,Sun,13,6.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,69.4,69.4,Rain,Low,11.8,Fri,19,13.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,144.8,144.8,Clear,Medium,12.5,Mon,5,13.8
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,91.8,91.8,Clear,Low,13.8,Mon,7,6.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,111.4,111.4,Clear,Medium,18.5,Sat,18,22.1
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,34.9,34.9,Clear,Low,5.3,Mon,5,0.0
+Shatabdi Express,12009,Surat,Mumbai Central,117.4,117.4,Clear,Low,2.5,Sat,12,3.1
+Shatabdi Express,12009,Surat,Mumbai Central,90.2,90.2,Clear,Medium,17.8,Fri,8,21.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,49.8,49.8,Fog,High,11.7,Sun,21,36.1
+Shatabdi Express,12009,Surat,Mumbai Central,25.2,25.2,Fog,Low,13.0,Tue,18,25.7
+Tejas Express,22119,Vadodara Jn,Surat,146.0,146.0,Clear,Low,6.4,Tue,10,0.0
+Tejas Express,22119,Vadodara Jn,Surat,57.5,57.5,Rain,Medium,11.0,Wed,8,23.0
+Shatabdi Express,12009,New Delhi,Kota Jn,146.1,146.1,Clear,Medium,19.8,Fri,14,21.5
+Tejas Express,22119,New Delhi,Kota Jn,44.4,44.4,Clear,Medium,12.5,Tue,8,18.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,77.0,77.0,Fog,Low,19.5,Tue,22,25.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,91.6,91.6,Clear,Low,19.8,Thu,3,14.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,141.2,141.2,Clear,Medium,8.3,Thu,7,14.0
+Tejas Express,22119,Surat,Mumbai Central,38.8,38.8,Clear,Medium,14.9,Mon,8,13.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,141.5,141.5,Clear,Medium,5.7,Fri,18,10.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,78.1,78.1,Clear,Low,15.3,Wed,6,6.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,69.8,69.8,Rain,Low,6.4,Sun,12,10.9
+Tejas Express,22119,Kota Jn,Ratlam Jn,84.4,84.4,Clear,Medium,11.8,Sun,14,19.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,138.4,138.4,Clear,Low,17.4,Mon,15,13.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,101.0,101.0,Clear,Low,6.6,Fri,12,5.0
+Shatabdi Express,12009,Vadodara Jn,Surat,133.4,133.4,Clear,Low,12.6,Tue,23,10.5
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,147.2,147.2,Fog,Medium,2.0,Wed,0,22.7
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,123.5,123.5,Clear,Low,2.9,Fri,21,1.8
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,42.8,42.8,Fog,Low,13.7,Fri,4,21.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,102.9,102.9,Clear,Medium,18.0,Wed,21,18.7
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,77.4,77.4,Clear,Medium,12.8,Wed,14,15.6
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,149.9,149.9,Rain,Low,7.6,Wed,22,10.4
+Shatabdi Express,12009,New Delhi,Kota Jn,147.1,147.1,Fog,Low,11.3,Sat,1,22.5
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,120.8,120.8,Clear,Medium,4.4,Wed,21,9.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,137.4,137.4,Fog,Low,8.8,Sat,4,20.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,62.5,62.5,Clear,Low,15.7,Wed,16,11.6
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,53.4,53.4,Rain,Low,16.1,Wed,3,18.6
+Tejas Express,22119,New Delhi,Kota Jn,38.3,38.3,Heavy Rain,High,14.5,Sun,17,57.0
+Shatabdi Express,12009,New Delhi,Kota Jn,122.8,122.8,Clear,Medium,9.1,Sat,8,16.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,34.1,34.1,Clear,Low,17.7,Fri,7,9.4
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,138.2,138.2,Clear,Low,2.8,Wed,15,5.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,50.5,50.5,Clear,Low,7.4,Sat,17,8.2
+Tejas Express,22119,Surat,Mumbai Central,116.5,116.5,Clear,Low,2.0,Thu,8,0.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,48.2,48.2,Clear,Low,7.3,Wed,17,8.4
+Shatabdi Express,12009,New Delhi,Kota Jn,71.8,71.8,Clear,Low,17.0,Sat,6,8.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,122.3,122.3,Clear,Low,11.3,Sun,17,1.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,48.1,48.1,Rain,Low,3.0,Mon,8,13.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,90.2,90.2,Fog,Low,17.3,Wed,7,19.9
+Shatabdi Express,12009,New Delhi,Kota Jn,42.7,42.7,Clear,Medium,10.5,Thu,14,17.8
+Shatabdi Express,12009,Surat,Mumbai Central,97.2,97.2,Clear,Low,12.3,Sun,21,8.4
+Shatabdi Express,12009,Vadodara Jn,Surat,103.6,103.6,Clear,High,16.9,Mon,15,27.8
+Tejas Express,22119,New Delhi,Kota Jn,136.9,136.9,Clear,Low,2.5,Fri,17,2.5
+Shatabdi Express,12009,Vadodara Jn,Surat,149.3,149.3,Clear,Low,12.1,Sat,3,2.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,78.7,78.7,Clear,Low,9.1,Mon,10,3.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,106.5,106.5,Clear,Low,18.5,Sun,2,5.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,32.6,32.6,Fog,Medium,11.1,Fri,17,31.4
+Shatabdi Express,12009,New Delhi,Kota Jn,73.4,73.4,Rain,High,8.5,Mon,9,36.5
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,33.5,33.5,Clear,Low,9.6,Wed,17,8.3
+Shatabdi Express,12009,New Delhi,Kota Jn,119.1,119.1,Clear,Medium,16.9,Sun,19,23.1
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,140.8,140.8,Rain,Low,3.6,Wed,10,11.8
+Shatabdi Express,12009,New Delhi,Kota Jn,43.6,43.6,Clear,Medium,1.4,Mon,2,13.1
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,74.6,74.6,Clear,Low,14.4,Fri,19,10.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,40.2,40.2,Fog,Low,1.6,Thu,15,15.2
+Tejas Express,22119,Vadodara Jn,Surat,55.5,55.5,Fog,Low,8.6,Sat,18,17.1
+Tejas Express,22119,Surat,Mumbai Central,106.7,106.7,Clear,Low,12.0,Wed,6,1.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,57.6,57.6,Clear,Low,8.6,Fri,22,0.6
+August Kranti Rajdhani,12953,Surat,Mumbai Central,92.6,92.6,Fog,Low,7.9,Thu,0,21.3
+Tejas Express,22119,New Delhi,Kota Jn,132.1,132.1,Clear,Medium,14.2,Mon,12,16.3
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,42.3,42.3,Rain,Low,13.8,Thu,3,13.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,96.6,96.6,Clear,Low,6.2,Wed,5,1.5
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,102.3,102.3,Clear,Low,15.5,Sun,20,6.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,33.4,33.4,Clear,Low,3.1,Mon,5,4.2
+Tejas Express,22119,Vadodara Jn,Surat,118.1,118.1,Fog,Low,18.5,Sat,19,24.9
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,39.6,39.6,Clear,Low,6.1,Mon,11,0.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,80.0,80.0,Clear,Low,5.7,Sun,2,4.2
+Tejas Express,22119,Vadodara Jn,Surat,95.4,95.4,Heavy Rain,Medium,0.8,Fri,20,39.5
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,98.7,98.7,Clear,High,9.0,Sun,10,27.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,104.0,104.0,Clear,Medium,19.8,Fri,5,20.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,139.3,139.3,Clear,Medium,13.6,Sat,20,12.3
+Shatabdi Express,12009,New Delhi,Kota Jn,62.9,62.9,Clear,Low,5.0,Fri,4,6.0
+Shatabdi Express,12009,New Delhi,Kota Jn,95.8,95.8,Clear,Low,19.4,Thu,4,11.7
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,92.7,92.7,Fog,Low,2.6,Sat,21,18.3
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,86.1,86.1,Clear,Low,19.0,Sun,15,7.9
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,150.0,150.0,Clear,Low,15.8,Fri,23,8.0
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,133.9,133.9,Fog,Medium,3.1,Sat,19,23.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,25.7,25.7,Clear,Medium,19.4,Sun,23,20.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,89.4,89.4,Clear,Medium,9.4,Wed,21,18.1
+Tejas Express,22119,Vadodara Jn,Surat,120.0,120.0,Fog,Medium,8.4,Tue,19,25.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,26.8,26.8,Clear,Low,18.7,Fri,3,11.4
+Shatabdi Express,12009,New Delhi,Kota Jn,119.2,119.2,Clear,High,2.9,Tue,14,20.8
+Shatabdi Express,12009,New Delhi,Kota Jn,73.9,73.9,Clear,Low,7.7,Tue,0,0.0
+Shatabdi Express,12009,New Delhi,Kota Jn,129.1,129.1,Fog,Medium,2.8,Sun,15,24.3
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,78.3,78.3,Clear,Low,5.1,Fri,23,5.8
+Tejas Express,22119,New Delhi,Kota Jn,120.9,120.9,Clear,Low,4.8,Fri,14,3.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,128.8,128.8,Clear,Medium,12.6,Sat,4,17.1
+Shatabdi Express,12009,Vadodara Jn,Surat,20.2,20.2,Clear,Medium,3.7,Fri,11,13.5
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,90.7,90.7,Fog,Medium,0.4,Mon,20,28.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,53.0,53.0,Clear,Medium,6.9,Sat,3,15.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,25.8,25.8,Clear,Medium,3.5,Thu,22,14.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,125.5,125.5,Clear,Medium,9.2,Mon,6,12.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,141.3,141.3,Clear,High,10.9,Sun,20,22.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,66.4,66.4,Fog,High,6.6,Wed,13,34.5
+Tejas Express,22119,Vadodara Jn,Surat,136.3,136.3,Clear,High,9.9,Sun,16,24.9
+Shatabdi Express,12009,New Delhi,Kota Jn,114.5,114.5,Clear,Medium,16.4,Wed,3,18.7
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,105.9,105.9,Clear,Medium,8.5,Wed,14,16.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,99.9,99.9,Clear,Medium,15.8,Sat,20,13.5
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,86.7,86.7,Fog,Low,0.6,Sat,14,18.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,28.7,28.7,Fog,Low,7.7,Fri,4,19.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,68.4,68.4,Fog,Medium,10.6,Sat,8,29.3
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,23.4,23.4,Clear,Medium,18.3,Sun,8,15.3
+Tejas Express,22119,Kota Jn,Ratlam Jn,149.5,149.5,Clear,High,9.8,Sun,2,21.1
+Tejas Express,22119,Kota Jn,Ratlam Jn,136.8,136.8,Clear,Low,13.6,Wed,21,10.3
+Shatabdi Express,12009,New Delhi,Kota Jn,91.5,91.5,Clear,Low,3.2,Sat,20,3.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,86.1,86.1,Clear,Low,2.8,Mon,11,4.3
+Shatabdi Express,12009,Vadodara Jn,Surat,124.5,124.5,Clear,Medium,1.7,Sat,23,8.9
+Tejas Express,22119,Surat,Mumbai Central,73.4,73.4,Clear,Medium,2.5,Mon,14,9.4
+Tejas Express,22119,Surat,Mumbai Central,64.8,64.8,Rain,Medium,12.8,Tue,13,21.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,87.4,87.4,Clear,Low,18.7,Fri,9,6.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,45.5,45.5,Heavy Rain,Low,12.5,Mon,16,32.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,142.4,142.4,Clear,Medium,14.4,Sun,18,18.3
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,30.6,30.6,Rain,Medium,5.3,Fri,13,17.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,135.6,135.6,Clear,Medium,6.0,Sun,21,10.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,79.0,79.0,Fog,Low,8.3,Wed,19,18.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,132.0,132.0,Clear,High,6.9,Sun,11,22.4
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,51.4,51.4,Clear,Low,2.8,Thu,19,0.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,145.1,145.1,Rain,Medium,18.7,Tue,5,29.6
+Tejas Express,22119,Surat,Mumbai Central,80.7,80.7,Rain,Low,1.8,Thu,7,7.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,65.9,65.9,Clear,Low,17.6,Thu,9,10.3
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,76.0,76.0,Rain,Medium,15.3,Thu,1,24.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,91.9,91.9,Clear,Medium,15.3,Fri,21,15.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,146.8,146.8,Clear,Medium,6.8,Sun,4,17.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,86.2,86.2,Clear,Low,2.7,Thu,16,0.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,98.8,98.8,Clear,Low,12.3,Fri,23,2.8
+Shatabdi Express,12009,Surat,Mumbai Central,63.7,63.7,Rain,Medium,14.2,Sun,0,23.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,107.6,107.6,Heavy Rain,Medium,15.9,Sat,20,45.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,81.7,81.7,Heavy Rain,Medium,15.5,Sat,1,43.5
+Tejas Express,22119,Kota Jn,Ratlam Jn,88.2,88.2,Fog,Medium,7.6,Tue,1,32.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,22.5,22.5,Clear,Low,13.8,Sun,19,6.0
+Tejas Express,22119,New Delhi,Kota Jn,111.8,111.8,Clear,Medium,20.0,Thu,10,19.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,138.6,138.6,Clear,Low,15.4,Sat,22,9.9
+Shatabdi Express,12009,Surat,Mumbai Central,82.9,82.9,Heavy Rain,Low,6.0,Wed,9,32.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,61.2,61.2,Clear,High,15.9,Mon,18,25.6
+Tejas Express,22119,Vadodara Jn,Surat,126.4,126.4,Heavy Rain,Medium,5.8,Sat,2,35.8
+Shatabdi Express,12009,Vadodara Jn,Surat,105.3,105.3,Fog,Low,16.6,Fri,22,21.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,34.2,34.2,Fog,Low,1.0,Tue,20,19.6
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,33.0,33.0,Clear,Low,13.6,Fri,5,3.2
+Tejas Express,22119,Vadodara Jn,Surat,82.1,82.1,Clear,High,6.4,Sun,2,24.7
+August Kranti Rajdhani,12953,Surat,Mumbai Central,116.0,116.0,Rain,Low,18.4,Sun,5,16.4
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,122.4,122.4,Clear,Medium,17.4,Mon,0,16.6
+Shatabdi Express,12009,Surat,Mumbai Central,98.4,98.4,Rain,Low,9.1,Fri,15,14.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,80.8,80.8,Clear,Low,3.2,Wed,22,1.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,115.8,115.8,Fog,Medium,15.1,Sun,20,29.3
+Tejas Express,22119,Vadodara Jn,Surat,87.0,87.0,Clear,Medium,3.7,Wed,7,8.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,69.9,69.9,Clear,Low,6.6,Fri,0,4.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,110.1,110.1,Clear,Low,6.1,Fri,22,2.1
+Shatabdi Express,12009,New Delhi,Kota Jn,103.0,103.0,Rain,Low,4.4,Thu,4,14.8
+Tejas Express,22119,Surat,Mumbai Central,68.6,68.6,Fog,High,15.1,Sun,6,45.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,133.5,133.5,Clear,Low,14.1,Fri,3,2.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,137.4,137.4,Clear,Medium,3.3,Thu,3,15.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,83.5,83.5,Rain,Low,1.1,Thu,14,4.9
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,80.1,80.1,Rain,Medium,7.9,Sat,6,25.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,75.1,75.1,Fog,Medium,1.2,Thu,1,29.5
+Shatabdi Express,12009,Vadodara Jn,Surat,43.4,43.4,Clear,Medium,14.6,Wed,12,21.9
+Tejas Express,22119,Vadodara Jn,Surat,68.8,68.8,Fog,Medium,10.8,Wed,3,31.9
+August Kranti Rajdhani,12953,Surat,Mumbai Central,71.1,71.1,Clear,High,16.7,Wed,14,31.0
+Tejas Express,22119,Surat,Mumbai Central,69.3,69.3,Clear,Low,3.1,Sat,3,0.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,99.9,99.9,Rain,High,4.8,Fri,1,26.1
+Tejas Express,22119,Surat,Mumbai Central,107.4,107.4,Rain,Low,0.9,Fri,6,7.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,85.5,85.5,Clear,Medium,14.6,Fri,21,15.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,59.2,59.2,Clear,Medium,4.4,Mon,17,10.2
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,92.3,92.3,Clear,Low,12.9,Fri,10,5.2
+Tejas Express,22119,Vadodara Jn,Surat,39.4,39.4,Clear,Medium,9.5,Wed,22,18.2
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,138.9,138.9,Clear,High,11.1,Tue,8,21.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,104.1,104.1,Rain,Medium,1.8,Tue,1,21.1
+Shatabdi Express,12009,Vadodara Jn,Surat,107.6,107.6,Fog,High,3.8,Sat,21,39.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,47.2,47.2,Rain,Low,18.2,Tue,23,14.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,138.9,138.9,Fog,Medium,7.9,Wed,9,26.3
+Tejas Express,22119,Vadodara Jn,Surat,89.4,89.4,Clear,Low,10.3,Mon,23,5.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,138.9,138.9,Clear,Low,11.3,Tue,0,2.9
+Shatabdi Express,12009,Surat,Mumbai Central,141.5,141.5,Clear,Low,3.0,Thu,18,0.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,91.6,91.6,Rain,Low,15.3,Sat,20,15.6
+Tejas Express,22119,Vadodara Jn,Surat,41.9,41.9,Fog,Low,14.4,Fri,20,22.1
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,24.4,24.4,Rain,High,13.4,Thu,4,37.3
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,111.9,111.9,Clear,Medium,7.5,Sat,19,14.9
+Tejas Express,22119,Vadodara Jn,Surat,22.0,22.0,Clear,Low,0.3,Fri,9,2.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,125.7,125.7,Fog,Medium,18.2,Mon,16,30.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,45.0,45.0,Clear,Medium,5.3,Wed,12,11.7
+Tejas Express,22119,Surat,Mumbai Central,51.6,51.6,Fog,Low,16.6,Sun,20,19.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,72.7,72.7,Clear,Low,12.7,Mon,15,8.3
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,93.6,93.6,Rain,Low,10.6,Tue,22,8.7
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,26.1,26.1,Clear,High,18.0,Mon,5,29.6
+Shatabdi Express,12009,New Delhi,Kota Jn,145.0,145.0,Clear,Medium,14.3,Mon,9,16.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,51.3,51.3,Rain,Low,17.9,Sun,23,15.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,85.1,85.1,Heavy Rain,Low,8.7,Wed,19,32.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,23.9,23.9,Clear,High,9.8,Thu,13,23.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,105.9,105.9,Clear,Medium,16.0,Mon,8,20.1
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,112.5,112.5,Fog,Medium,6.3,Mon,9,24.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,119.0,119.0,Clear,Low,8.6,Fri,13,4.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,31.7,31.7,Clear,Medium,15.7,Mon,9,21.5
+Tejas Express,22119,Vadodara Jn,Surat,121.3,121.3,Fog,Medium,19.9,Fri,5,32.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,38.0,38.0,Clear,Low,1.3,Thu,9,0.0
+Tejas Express,22119,New Delhi,Kota Jn,66.9,66.9,Rain,Medium,9.9,Thu,3,24.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,20.9,20.9,Clear,Medium,7.6,Thu,10,17.4
+Tejas Express,22119,Surat,Mumbai Central,37.7,37.7,Clear,High,4.0,Thu,10,20.1
+Shatabdi Express,12009,Vadodara Jn,Surat,145.8,145.8,Fog,Low,5.6,Wed,3,20.7
+August Kranti Rajdhani,12953,Surat,Mumbai Central,149.6,149.6,Clear,Medium,0.5,Sat,6,12.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,128.1,128.1,Clear,Medium,15.9,Tue,20,19.6
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,52.8,52.8,Clear,Low,7.5,Fri,15,3.2
+Tejas Express,22119,Surat,Mumbai Central,85.9,85.9,Rain,Medium,10.9,Wed,22,26.3
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,120.0,120.0,Fog,Low,12.9,Sat,21,16.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,145.5,145.5,Clear,Low,5.2,Fri,17,2.7
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,68.6,68.6,Clear,Medium,13.8,Mon,15,13.4
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,74.1,74.1,Heavy Rain,Low,18.8,Wed,10,30.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,87.7,87.7,Clear,Low,14.4,Mon,9,6.7
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,22.9,22.9,Clear,Low,16.0,Sat,7,12.3
+August Kranti Rajdhani,12953,Surat,Mumbai Central,40.8,40.8,Clear,High,4.6,Tue,5,21.4
+Tejas Express,22119,Vadodara Jn,Surat,23.8,23.8,Fog,Low,11.8,Sat,6,19.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,117.8,117.8,Rain,Low,2.0,Tue,11,12.7
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,79.5,79.5,Clear,High,10.6,Fri,12,26.7
+Tejas Express,22119,Surat,Mumbai Central,34.9,34.9,Clear,Low,3.5,Sun,9,3.5
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,60.7,60.7,Clear,Low,7.5,Thu,13,0.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,69.9,69.9,Clear,Medium,13.9,Tue,17,18.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,57.5,57.5,Clear,Medium,12.4,Mon,15,19.9
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,126.0,126.0,Heavy Rain,Medium,9.9,Thu,22,41.8
+Tejas Express,22119,Vadodara Jn,Surat,41.7,41.7,Clear,Medium,4.4,Tue,17,7.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,121.5,121.5,Clear,Medium,9.9,Fri,3,15.0
+Shatabdi Express,12009,Surat,Mumbai Central,127.0,127.0,Clear,Medium,0.8,Fri,6,12.6
+Tejas Express,22119,New Delhi,Kota Jn,115.7,115.7,Fog,Low,17.5,Wed,11,19.1
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,132.5,132.5,Clear,Medium,4.2,Sat,11,14.5
+Tejas Express,22119,Kota Jn,Ratlam Jn,100.1,100.1,Fog,Medium,16.1,Fri,8,33.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,147.3,147.3,Clear,Medium,19.0,Sat,3,19.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,139.4,139.4,Heavy Rain,High,2.5,Tue,4,50.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,119.0,119.0,Fog,Low,11.5,Thu,12,18.4
+Tejas Express,22119,New Delhi,Kota Jn,102.4,102.4,Rain,Low,10.3,Wed,14,10.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,95.7,95.7,Rain,Medium,1.9,Sat,21,23.6
+Shatabdi Express,12009,New Delhi,Kota Jn,123.4,123.4,Clear,High,16.5,Wed,9,28.1
+Shatabdi Express,12009,Surat,Mumbai Central,95.1,95.1,Clear,Low,6.9,Mon,1,5.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,22.1,22.1,Rain,Low,9.1,Thu,6,17.5
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,40.7,40.7,Rain,Low,13.1,Wed,21,12.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,71.5,71.5,Clear,Medium,4.7,Sat,3,13.9
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,82.0,82.0,Clear,Low,13.6,Sat,10,1.9
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,110.2,110.2,Clear,Low,1.8,Mon,10,4.0
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,37.8,37.8,Fog,Medium,2.7,Tue,2,31.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,104.5,104.5,Clear,Medium,12.6,Thu,19,12.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,31.3,31.3,Clear,Medium,11.8,Thu,10,14.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,56.0,56.0,Clear,Medium,12.0,Sun,22,17.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,46.7,46.7,Fog,Low,7.8,Sun,7,20.4
+Tejas Express,22119,Vadodara Jn,Surat,34.7,34.7,Clear,Medium,10.6,Wed,10,20.1
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,131.9,131.9,Clear,Low,13.7,Sun,2,9.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,28.8,28.8,Clear,Low,1.2,Fri,9,3.5
+Tejas Express,22119,Vadodara Jn,Surat,111.2,111.2,Clear,Medium,12.3,Wed,2,13.9
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,89.7,89.7,Clear,Medium,16.7,Mon,9,20.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,27.5,27.5,Clear,Low,9.1,Wed,21,5.7
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,21.6,21.6,Clear,Low,9.9,Fri,23,3.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,68.3,68.3,Fog,High,14.7,Mon,10,38.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,88.1,88.1,Clear,High,12.6,Fri,11,26.3
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,131.7,131.7,Clear,Low,15.5,Sat,23,11.7
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,116.3,116.3,Clear,High,0.2,Wed,12,15.6
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,141.1,141.1,Rain,Medium,18.3,Thu,7,29.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,74.1,74.1,Fog,Low,1.6,Fri,21,14.5
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,49.0,49.0,Clear,Low,8.0,Sun,9,7.8
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,31.2,31.2,Clear,Low,5.8,Sat,19,5.7
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,67.9,67.9,Heavy Rain,High,15.5,Fri,7,55.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,141.2,141.2,Clear,Medium,12.7,Mon,10,18.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,130.4,130.4,Fog,Low,10.6,Thu,1,17.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,32.1,32.1,Rain,High,10.4,Wed,14,35.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,32.4,32.4,Clear,Medium,1.5,Thu,21,11.4
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,57.9,57.9,Rain,High,7.9,Wed,10,35.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,50.4,50.4,Rain,Low,15.4,Mon,5,11.8
+Tejas Express,22119,Vadodara Jn,Surat,60.8,60.8,Clear,Low,15.4,Thu,8,7.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,40.5,40.5,Fog,Medium,13.9,Sun,10,27.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,112.5,112.5,Heavy Rain,Low,1.0,Sun,5,23.5
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,131.1,131.1,Clear,Medium,1.9,Sun,4,6.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,28.0,28.0,Fog,Low,4.0,Sat,20,16.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,96.2,96.2,Rain,Low,19.9,Sat,14,14.9
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,137.7,137.7,Rain,Low,0.9,Tue,18,8.0
+Tejas Express,22119,Vadodara Jn,Surat,84.5,84.5,Clear,Low,7.1,Wed,8,7.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,24.5,24.5,Fog,Low,5.9,Fri,15,17.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,56.4,56.4,Clear,Low,17.7,Sat,17,9.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,121.6,121.6,Clear,Medium,9.7,Fri,10,18.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,43.4,43.4,Clear,Low,17.9,Mon,15,11.8
+Shatabdi Express,12009,Surat,Mumbai Central,149.9,149.9,Heavy Rain,Low,13.1,Sun,23,29.2
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,94.8,94.8,Heavy Rain,Low,18.7,Tue,5,39.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,61.3,61.3,Fog,Low,11.8,Wed,18,22.9
+August Kranti Rajdhani,12953,Surat,Mumbai Central,143.3,143.3,Rain,Medium,19.4,Tue,15,28.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,27.3,27.3,Fog,Low,9.6,Fri,6,18.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,113.2,113.2,Rain,Medium,6.5,Fri,22,16.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,130.0,130.0,Rain,High,7.5,Thu,18,36.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,59.2,59.2,Clear,Low,19.0,Thu,20,12.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,111.9,111.9,Clear,High,12.3,Sat,18,24.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,59.9,59.9,Fog,Low,14.6,Fri,12,26.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,98.3,98.3,Rain,High,4.4,Thu,4,30.9
+Shatabdi Express,12009,New Delhi,Kota Jn,50.9,50.9,Heavy Rain,Low,17.7,Sat,21,29.8
+Shatabdi Express,12009,Vadodara Jn,Surat,21.5,21.5,Clear,Medium,7.0,Sat,0,16.4
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,77.0,77.0,Clear,Low,8.3,Wed,17,8.0
+Tejas Express,22119,New Delhi,Kota Jn,127.7,127.7,Fog,Medium,15.2,Thu,2,29.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,22.6,22.6,Clear,Low,6.8,Tue,23,7.3
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,142.4,142.4,Heavy Rain,Low,19.7,Sat,0,38.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,99.0,99.0,Clear,Low,6.6,Thu,22,8.0
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,58.7,58.7,Clear,Low,11.0,Mon,11,5.4
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,31.4,31.4,Rain,Medium,9.6,Tue,5,18.8
+Shatabdi Express,12009,New Delhi,Kota Jn,81.6,81.6,Clear,Medium,9.4,Wed,2,18.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,68.2,68.2,Clear,Low,0.9,Wed,7,0.0
+Shatabdi Express,12009,Surat,Mumbai Central,28.0,28.0,Fog,Medium,1.7,Fri,13,24.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,27.9,27.9,Clear,Medium,19.3,Thu,18,21.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,58.9,58.9,Clear,High,0.7,Fri,18,21.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,143.4,143.4,Clear,High,3.3,Tue,4,18.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,30.2,30.2,Fog,Low,16.5,Fri,8,19.8
+Shatabdi Express,12009,New Delhi,Kota Jn,31.3,31.3,Clear,Medium,17.1,Sun,0,18.8
+Tejas Express,22119,New Delhi,Kota Jn,73.9,73.9,Clear,Medium,15.2,Mon,18,22.0
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,132.8,132.8,Rain,High,5.3,Fri,19,32.1
+Tejas Express,22119,New Delhi,Kota Jn,42.4,42.4,Clear,Medium,13.6,Thu,10,15.8
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,116.9,116.9,Rain,High,0.4,Wed,9,31.4
+Shatabdi Express,12009,Vadodara Jn,Surat,131.6,131.6,Fog,High,4.6,Sat,14,35.3
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,114.7,114.7,Fog,Low,8.8,Thu,23,23.5
+Tejas Express,22119,Surat,Mumbai Central,132.7,132.7,Rain,Medium,3.2,Fri,12,17.7
+August Kranti Rajdhani,12953,Surat,Mumbai Central,134.3,134.3,Clear,Low,16.7,Tue,1,11.8
+Tejas Express,22119,New Delhi,Kota Jn,139.3,139.3,Fog,Low,16.5,Sat,3,23.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,68.4,68.4,Clear,Low,17.4,Wed,11,9.6
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,117.4,117.4,Fog,Low,7.7,Fri,6,15.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,108.1,108.1,Clear,Low,0.4,Sun,21,3.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,138.5,138.5,Fog,Medium,0.2,Sun,9,22.6
+Shatabdi Express,12009,Vadodara Jn,Surat,136.4,136.4,Rain,Low,4.4,Fri,19,8.2
+Tejas Express,22119,Surat,Mumbai Central,33.3,33.3,Clear,Medium,16.9,Sat,19,17.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,109.0,109.0,Clear,Low,5.5,Wed,8,1.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,39.5,39.5,Fog,High,16.1,Fri,12,46.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,113.8,113.8,Fog,High,5.2,Thu,23,36.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,112.0,112.0,Clear,Low,14.5,Fri,20,4.5
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,86.0,86.0,Rain,Medium,17.5,Mon,15,23.6
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,114.3,114.3,Clear,High,18.9,Sat,2,33.5
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,49.0,49.0,Rain,Low,17.7,Fri,9,15.6
+Tejas Express,22119,New Delhi,Kota Jn,81.2,81.2,Rain,Medium,18.9,Tue,16,23.1
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,88.9,88.9,Clear,High,3.0,Wed,13,26.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,61.1,61.1,Fog,Medium,9.8,Tue,10,31.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,78.8,78.8,Clear,Medium,11.5,Sun,2,12.3
+August Kranti Rajdhani,12953,Surat,Mumbai Central,76.4,76.4,Clear,Low,9.5,Fri,6,0.0
+Shatabdi Express,12009,New Delhi,Kota Jn,136.0,136.0,Fog,Medium,0.4,Sat,7,20.2
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,60.6,60.6,Clear,Medium,6.1,Mon,9,8.8
+Shatabdi Express,12009,Vadodara Jn,Surat,114.6,114.6,Clear,Low,17.8,Wed,15,13.9
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,41.4,41.4,Rain,Medium,0.4,Tue,6,15.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,85.6,85.6,Clear,Medium,15.8,Sat,8,16.7
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,149.3,149.3,Fog,Medium,0.4,Thu,14,27.1
+Tejas Express,22119,New Delhi,Kota Jn,91.1,91.1,Clear,Low,13.9,Wed,13,8.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,55.1,55.1,Fog,Low,16.6,Sat,19,19.3
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,34.8,34.8,Clear,Low,4.0,Fri,6,0.0
+Shatabdi Express,12009,Vadodara Jn,Surat,58.4,58.4,Clear,Low,4.2,Wed,7,6.4
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,107.3,107.3,Rain,Medium,13.4,Mon,16,21.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,137.6,137.6,Fog,Low,19.5,Mon,3,22.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,130.8,130.8,Clear,Medium,8.5,Sun,1,10.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,106.2,106.2,Clear,Low,8.8,Sat,2,5.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,43.8,43.8,Clear,High,5.4,Sun,15,21.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,34.7,34.7,Fog,Low,18.8,Thu,18,21.0
+Tejas Express,22119,Surat,Mumbai Central,108.2,108.2,Clear,Low,7.2,Sat,23,0.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,139.7,139.7,Clear,Low,0.9,Wed,0,0.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,87.5,87.5,Fog,Medium,8.7,Thu,11,31.7
+Tejas Express,22119,Kota Jn,Ratlam Jn,129.1,129.1,Clear,High,1.1,Tue,16,21.9
+Tejas Express,22119,Vadodara Jn,Surat,133.0,133.0,Clear,Low,4.8,Mon,16,7.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,103.6,103.6,Clear,Low,9.2,Thu,2,7.6
+Tejas Express,22119,Vadodara Jn,Surat,61.1,61.1,Heavy Rain,Medium,0.4,Mon,17,34.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,122.9,122.9,Heavy Rain,Medium,17.8,Sat,21,44.5
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,67.2,67.2,Clear,Low,9.1,Fri,19,5.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,113.1,113.1,Clear,Medium,4.4,Sun,20,10.6
+Shatabdi Express,12009,Surat,Mumbai Central,87.9,87.9,Fog,Low,3.3,Sat,23,13.0
+Tejas Express,22119,New Delhi,Kota Jn,53.1,53.1,Clear,Low,17.0,Sun,6,5.7
+Shatabdi Express,12009,New Delhi,Kota Jn,118.4,118.4,Clear,Medium,13.4,Thu,14,12.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,20.6,20.6,Fog,Medium,8.7,Fri,5,30.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,33.5,33.5,Fog,Medium,6.4,Thu,19,32.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,71.7,71.7,Clear,Low,16.1,Fri,22,4.5
+Shatabdi Express,12009,Surat,Mumbai Central,131.9,131.9,Fog,High,12.7,Fri,22,38.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,139.8,139.8,Clear,Medium,19.5,Fri,22,16.6
+Shatabdi Express,12009,New Delhi,Kota Jn,118.9,118.9,Clear,Medium,18.9,Sat,23,21.6
+Shatabdi Express,12009,Vadodara Jn,Surat,125.1,125.1,Clear,Low,2.9,Tue,8,3.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,108.8,108.8,Clear,Low,15.7,Fri,1,4.8
+Shatabdi Express,12009,Vadodara Jn,Surat,33.3,33.3,Rain,Medium,17.3,Fri,12,29.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,122.0,122.0,Fog,Low,13.3,Thu,13,25.9
+Shatabdi Express,12009,Surat,Mumbai Central,27.0,27.0,Fog,Low,17.4,Thu,7,27.3
+Shatabdi Express,12009,Surat,Mumbai Central,91.1,91.1,Fog,Medium,19.3,Tue,21,32.5
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,145.1,145.1,Fog,Low,0.8,Wed,4,13.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,130.0,130.0,Clear,Low,18.7,Wed,19,4.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,129.6,129.6,Clear,Medium,11.0,Sat,10,11.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,87.7,87.7,Fog,Low,10.9,Wed,7,19.4
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,63.0,63.0,Clear,High,12.4,Fri,20,25.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,107.0,107.0,Clear,High,12.3,Mon,21,27.3
+Shatabdi Express,12009,Vadodara Jn,Surat,139.1,139.1,Rain,Low,10.8,Fri,11,11.2
+Tejas Express,22119,Vadodara Jn,Surat,25.7,25.7,Rain,Low,10.3,Tue,17,17.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,47.4,47.4,Fog,Low,13.7,Tue,17,25.2
+Tejas Express,22119,New Delhi,Kota Jn,117.1,117.1,Clear,Low,6.6,Mon,5,0.0
+Shatabdi Express,12009,Surat,Mumbai Central,29.2,29.2,Rain,High,8.2,Thu,13,31.6
+Shatabdi Express,12009,New Delhi,Kota Jn,70.6,70.6,Clear,Low,14.4,Sat,18,2.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,66.5,66.5,Clear,Low,13.7,Wed,14,7.9
+Tejas Express,22119,Vadodara Jn,Surat,126.9,126.9,Clear,Low,4.4,Sun,17,4.7
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,58.7,58.7,Rain,High,17.3,Mon,17,38.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,25.4,25.4,Clear,Low,11.0,Tue,23,1.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,73.6,73.6,Fog,Medium,3.2,Sun,8,23.8
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,43.6,43.6,Fog,High,17.0,Fri,14,47.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,107.3,107.3,Clear,Low,11.6,Wed,4,10.3
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,57.1,57.1,Clear,Low,9.7,Sat,9,3.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,93.7,93.7,Rain,High,3.4,Sun,7,27.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,129.2,129.2,Clear,Medium,17.6,Wed,9,18.4
+Tejas Express,22119,Surat,Mumbai Central,34.1,34.1,Fog,Low,5.6,Fri,6,21.1
+Shatabdi Express,12009,New Delhi,Kota Jn,114.6,114.6,Rain,Medium,12.6,Fri,12,27.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,91.7,91.7,Clear,High,9.4,Wed,12,27.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,115.3,115.3,Clear,Low,10.2,Fri,0,4.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,108.9,108.9,Fog,Low,3.2,Fri,21,17.3
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,142.1,142.1,Clear,Medium,4.6,Tue,1,9.9
+August Kranti Rajdhani,12953,Surat,Mumbai Central,138.0,138.0,Clear,Low,9.1,Sat,10,0.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,102.4,102.4,Clear,Medium,11.6,Thu,20,16.5
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,96.4,96.4,Rain,Low,5.0,Tue,16,15.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,126.2,126.2,Clear,Medium,17.7,Tue,14,14.0
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,30.0,30.0,Fog,Low,3.7,Sat,3,15.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,125.5,125.5,Fog,Low,9.6,Tue,20,16.9
+Tejas Express,22119,New Delhi,Kota Jn,51.7,51.7,Clear,Medium,2.7,Fri,4,11.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,53.6,53.6,Clear,High,12.0,Mon,23,26.6
+Shatabdi Express,12009,New Delhi,Kota Jn,48.2,48.2,Fog,Low,9.6,Thu,19,17.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,126.7,126.7,Clear,Medium,5.3,Wed,14,14.9
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,69.2,69.2,Clear,Low,10.5,Sat,13,9.3
+August Kranti Rajdhani,12953,Surat,Mumbai Central,32.5,32.5,Clear,Medium,0.8,Fri,3,13.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,105.7,105.7,Rain,Medium,0.0,Sat,20,22.4
+Tejas Express,22119,Surat,Mumbai Central,74.7,74.7,Rain,Medium,8.6,Thu,12,26.7
+Shatabdi Express,12009,Surat,Mumbai Central,124.6,124.6,Rain,Medium,11.5,Wed,15,23.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,56.8,56.8,Rain,Low,3.8,Sun,0,12.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,20.9,20.9,Fog,Medium,6.3,Tue,13,26.8
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,131.1,131.1,Clear,Low,5.5,Sun,6,4.5
+Tejas Express,22119,Surat,Mumbai Central,121.9,121.9,Clear,Low,11.1,Wed,18,3.0
+Shatabdi Express,12009,Vadodara Jn,Surat,115.7,115.7,Rain,Medium,15.0,Sat,5,25.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,86.1,86.1,Fog,Medium,12.3,Mon,5,32.9
+Tejas Express,22119,New Delhi,Kota Jn,124.6,124.6,Rain,Low,12.0,Wed,7,9.9
+Shatabdi Express,12009,New Delhi,Kota Jn,99.2,99.2,Fog,High,8.0,Wed,22,40.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,103.2,103.2,Clear,Low,13.1,Wed,6,9.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,86.4,86.4,Fog,Medium,13.5,Sat,0,30.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,149.6,149.6,Fog,Low,7.9,Fri,0,19.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,91.4,91.4,Fog,Medium,11.7,Sun,8,29.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,145.2,145.2,Clear,Low,0.1,Fri,3,0.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,58.3,58.3,Rain,Medium,19.1,Sun,18,31.4
+Shatabdi Express,12009,Vadodara Jn,Surat,145.6,145.6,Clear,Medium,15.1,Thu,21,22.1
+Tejas Express,22119,Surat,Mumbai Central,132.1,132.1,Clear,Low,7.7,Tue,21,6.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,73.6,73.6,Clear,Medium,14.0,Wed,2,14.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,29.9,29.9,Rain,Low,7.1,Wed,5,15.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,115.8,115.8,Clear,Low,5.3,Sun,7,0.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,121.3,121.3,Clear,Low,19.1,Mon,17,9.5
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,68.3,68.3,Clear,High,17.6,Wed,15,29.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,56.4,56.4,Clear,Medium,1.1,Thu,17,13.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,65.1,65.1,Rain,Medium,9.1,Fri,14,18.8
+Shatabdi Express,12009,New Delhi,Kota Jn,21.5,21.5,Clear,Medium,6.5,Wed,5,14.3
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,55.0,55.0,Heavy Rain,Low,3.7,Thu,22,26.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,131.1,131.1,Clear,Low,2.6,Tue,3,2.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,92.2,92.2,Rain,Low,16.0,Thu,0,18.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,84.9,84.9,Heavy Rain,Medium,10.3,Sun,15,42.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,93.1,93.1,Clear,Low,13.8,Sun,8,2.5
+Tejas Express,22119,New Delhi,Kota Jn,78.5,78.5,Clear,Low,11.2,Wed,11,9.9
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,35.8,35.8,Rain,High,4.0,Sat,17,30.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,66.2,66.2,Fog,Low,14.7,Thu,19,26.2
+Shatabdi Express,12009,Vadodara Jn,Surat,102.1,102.1,Clear,Low,16.2,Sat,19,6.5
+Tejas Express,22119,New Delhi,Kota Jn,30.3,30.3,Clear,Low,13.1,Fri,20,8.7
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,135.4,135.4,Fog,High,15.0,Thu,13,42.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,131.0,131.0,Clear,Low,5.0,Sat,2,4.9
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,71.6,71.6,Clear,High,9.5,Sun,12,20.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,54.1,54.1,Clear,Medium,17.7,Tue,23,17.0
+Shatabdi Express,12009,Vadodara Jn,Surat,101.4,101.4,Clear,Medium,0.6,Sun,10,11.9
+Tejas Express,22119,Vadodara Jn,Surat,146.7,146.7,Clear,Low,8.9,Sat,17,9.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,97.7,97.7,Fog,Medium,11.3,Sat,17,30.8
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,82.6,82.6,Clear,Low,6.2,Tue,9,2.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,88.0,88.0,Fog,Low,5.7,Sat,15,18.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,21.2,21.2,Clear,Low,4.6,Wed,6,0.0
+Tejas Express,22119,Surat,Mumbai Central,76.8,76.8,Clear,Medium,12.9,Tue,8,19.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,101.3,101.3,Clear,Medium,12.3,Wed,9,18.0
+Shatabdi Express,12009,Vadodara Jn,Surat,44.4,44.4,Clear,Low,2.2,Thu,8,0.7
+Tejas Express,22119,Kota Jn,Ratlam Jn,61.7,61.7,Clear,High,0.4,Wed,8,24.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,114.5,114.5,Clear,Low,9.9,Wed,15,3.4
+Shatabdi Express,12009,Vadodara Jn,Surat,110.6,110.6,Clear,Low,15.0,Wed,12,4.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,81.1,81.1,Clear,Medium,16.3,Mon,22,21.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,120.3,120.3,Clear,Medium,0.7,Sun,3,9.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,70.6,70.6,Heavy Rain,High,3.2,Sat,17,48.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,82.6,82.6,Clear,Low,1.0,Mon,7,2.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,22.0,22.0,Fog,Medium,7.9,Mon,18,26.3
+Tejas Express,22119,Surat,Mumbai Central,40.1,40.1,Fog,Low,10.0,Wed,20,21.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,66.2,66.2,Clear,Medium,2.1,Wed,17,11.0
+Shatabdi Express,12009,Vadodara Jn,Surat,115.3,115.3,Clear,Low,14.5,Mon,15,4.8
+Tejas Express,22119,Surat,Mumbai Central,58.3,58.3,Fog,Low,3.7,Sat,14,15.4
+Shatabdi Express,12009,Surat,Mumbai Central,138.9,138.9,Clear,Low,3.1,Wed,17,0.0
+Shatabdi Express,12009,Vadodara Jn,Surat,20.1,20.1,Fog,Low,3.7,Sun,11,12.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,113.7,113.7,Fog,Medium,7.7,Thu,17,29.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,56.8,56.8,Clear,Low,1.9,Mon,4,2.5
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,46.3,46.3,Clear,Low,11.4,Sat,15,9.1
+Shatabdi Express,12009,New Delhi,Kota Jn,67.6,67.6,Fog,Low,18.6,Thu,2,21.4
+Tejas Express,22119,New Delhi,Kota Jn,66.9,66.9,Fog,High,16.4,Mon,19,46.1
+Shatabdi Express,12009,Surat,Mumbai Central,25.3,25.3,Clear,Low,18.9,Mon,3,14.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,70.1,70.1,Clear,Medium,11.4,Fri,23,20.2
+Tejas Express,22119,New Delhi,Kota Jn,119.6,119.6,Clear,Medium,14.1,Mon,5,16.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,72.2,72.2,Clear,Low,20.0,Wed,10,9.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,73.6,73.6,Fog,Medium,6.5,Fri,6,25.6
+Tejas Express,22119,Surat,Mumbai Central,140.4,140.4,Clear,High,8.9,Sat,1,23.4
+Shatabdi Express,12009,Surat,Mumbai Central,22.1,22.1,Clear,High,0.1,Tue,10,24.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,139.5,139.5,Clear,Medium,11.4,Thu,11,11.6
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,54.4,54.4,Rain,Low,5.1,Fri,12,8.6
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,114.1,114.1,Fog,Low,16.5,Fri,3,25.1
+Shatabdi Express,12009,New Delhi,Kota Jn,115.0,115.0,Clear,Low,1.1,Wed,13,3.2
+Tejas Express,22119,New Delhi,Kota Jn,133.1,133.1,Clear,Medium,12.0,Sun,20,11.1
+Tejas Express,22119,New Delhi,Kota Jn,59.6,59.6,Clear,Medium,3.0,Tue,4,11.5
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,146.2,146.2,Fog,Medium,1.8,Sun,12,25.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,63.7,63.7,Clear,Medium,11.0,Thu,16,13.1
+Tejas Express,22119,Kota Jn,Ratlam Jn,119.1,119.1,Clear,Low,7.9,Fri,19,4.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,29.3,29.3,Fog,Low,18.5,Sat,13,20.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,65.3,65.3,Clear,Medium,0.5,Wed,19,8.2
+Tejas Express,22119,Surat,Mumbai Central,39.0,39.0,Clear,Medium,4.0,Sun,23,10.7
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,116.1,116.1,Clear,Medium,3.0,Wed,0,14.8
+Shatabdi Express,12009,New Delhi,Kota Jn,59.7,59.7,Clear,Low,14.8,Fri,16,4.5
+Shatabdi Express,12009,Surat,Mumbai Central,82.8,82.8,Fog,Low,14.0,Fri,21,17.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,42.1,42.1,Clear,Medium,12.4,Sat,0,11.7
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,105.8,105.8,Fog,High,7.2,Wed,20,34.7
+Tejas Express,22119,Kota Jn,Ratlam Jn,147.4,147.4,Clear,Medium,18.1,Fri,17,18.9
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,45.9,45.9,Heavy Rain,Medium,14.2,Fri,9,37.5
+Shatabdi Express,12009,Vadodara Jn,Surat,71.1,71.1,Clear,Low,7.0,Tue,16,4.8
+Shatabdi Express,12009,New Delhi,Kota Jn,101.4,101.4,Rain,High,16.3,Fri,8,31.4
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,64.4,64.4,Clear,Low,14.6,Sat,19,7.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,51.2,51.2,Clear,High,18.2,Fri,4,27.4
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,95.5,95.5,Fog,Low,2.8,Fri,4,18.3
+Tejas Express,22119,Kota Jn,Ratlam Jn,105.3,105.3,Clear,Low,1.4,Sat,3,1.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,129.1,129.1,Clear,Low,6.4,Thu,9,7.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,39.8,39.8,Clear,Low,0.5,Fri,8,5.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,50.2,50.2,Fog,Low,13.8,Fri,19,21.7
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,43.9,43.9,Clear,Low,3.3,Thu,0,0.0
+Shatabdi Express,12009,Vadodara Jn,Surat,48.9,48.9,Fog,Low,4.1,Thu,19,13.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,132.7,132.7,Rain,Low,15.5,Sun,12,16.9
+Shatabdi Express,12009,Vadodara Jn,Surat,99.5,99.5,Fog,Medium,10.5,Sun,1,34.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,79.4,79.4,Rain,High,4.9,Sat,1,30.8
+Tejas Express,22119,Surat,Mumbai Central,119.5,119.5,Heavy Rain,Low,8.8,Sun,9,33.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,74.9,74.9,Fog,Low,10.3,Sun,20,16.5
+Tejas Express,22119,New Delhi,Kota Jn,113.9,113.9,Clear,Medium,18.8,Tue,12,21.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,78.6,78.6,Clear,Medium,14.3,Thu,2,14.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,109.9,109.9,Rain,Medium,14.4,Mon,22,21.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,31.1,31.1,Fog,Medium,19.5,Tue,12,35.9
+Tejas Express,22119,New Delhi,Kota Jn,119.9,119.9,Rain,Medium,13.2,Sun,4,21.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,74.5,74.5,Clear,Medium,8.9,Mon,4,15.8
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,100.9,100.9,Clear,Low,17.1,Mon,19,9.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,48.2,48.2,Fog,Low,8.8,Mon,7,20.4
+Shatabdi Express,12009,Surat,Mumbai Central,101.7,101.7,Rain,Low,3.7,Wed,1,5.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,106.7,106.7,Rain,Low,18.4,Thu,5,12.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,99.4,99.4,Fog,Medium,15.7,Thu,23,29.7
+Shatabdi Express,12009,New Delhi,Kota Jn,32.1,32.1,Clear,Low,7.6,Thu,17,0.0
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,81.2,81.2,Clear,High,6.6,Tue,22,22.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,27.6,27.6,Clear,High,10.6,Sat,22,21.2
+Shatabdi Express,12009,Vadodara Jn,Surat,99.1,99.1,Clear,Medium,19.9,Tue,19,18.4
+Tejas Express,22119,Surat,Mumbai Central,114.8,114.8,Clear,Medium,17.7,Wed,6,16.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,23.1,23.1,Fog,Low,17.0,Thu,13,26.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,65.5,65.5,Rain,Low,12.8,Wed,2,16.3
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,85.9,85.9,Clear,Low,13.7,Sat,18,5.2
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,45.2,45.2,Rain,High,9.6,Mon,20,32.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,40.2,40.2,Clear,High,17.9,Sun,13,28.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,58.9,58.9,Fog,Low,10.7,Sat,10,17.5
+Shatabdi Express,12009,New Delhi,Kota Jn,146.0,146.0,Clear,Low,19.7,Sun,5,11.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,97.4,97.4,Rain,Medium,14.1,Mon,8,23.2
+Tejas Express,22119,New Delhi,Kota Jn,84.6,84.6,Clear,Low,19.0,Wed,5,6.7
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,122.0,122.0,Fog,High,8.9,Thu,16,34.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,64.2,64.2,Clear,High,6.2,Sun,3,21.4
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,114.2,114.2,Clear,Medium,10.4,Mon,21,10.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,80.7,80.7,Clear,Medium,13.2,Fri,9,14.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,46.1,46.1,Clear,Medium,15.5,Wed,4,19.4
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,34.9,34.9,Heavy Rain,Medium,2.0,Fri,10,36.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,142.6,142.6,Rain,Medium,3.4,Wed,17,17.8
+Tejas Express,22119,New Delhi,Kota Jn,36.9,36.9,Clear,Medium,2.1,Thu,12,6.6
+August Kranti Rajdhani,12953,Surat,Mumbai Central,135.9,135.9,Fog,Medium,8.9,Wed,6,28.1
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,93.8,93.8,Clear,Medium,14.0,Wed,21,13.0
+Tejas Express,22119,Vadodara Jn,Surat,50.1,50.1,Clear,High,12.3,Thu,5,30.2
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,78.9,78.9,Clear,Low,7.0,Tue,9,3.1
+Shatabdi Express,12009,Surat,Mumbai Central,94.7,94.7,Clear,Low,14.3,Fri,20,3.3
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,89.3,89.3,Clear,Low,12.4,Thu,12,6.7
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,47.1,47.1,Fog,Low,19.6,Wed,17,25.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,106.1,106.1,Clear,High,11.5,Fri,19,25.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,92.2,92.2,Rain,Low,19.1,Mon,21,13.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,84.3,84.3,Fog,Low,16.3,Sun,20,27.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,105.9,105.9,Clear,Low,12.3,Tue,21,5.7
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,94.1,94.1,Rain,Low,18.9,Wed,2,16.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,148.2,148.2,Clear,Low,5.9,Fri,1,1.7
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,126.7,126.7,Clear,High,17.3,Sat,18,26.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,112.5,112.5,Clear,Low,4.2,Tue,6,0.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,129.2,129.2,Clear,High,13.4,Mon,20,23.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,113.8,113.8,Clear,Low,19.8,Sat,13,5.7
+Tejas Express,22119,Surat,Mumbai Central,140.9,140.9,Fog,Low,8.5,Thu,11,22.4
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,75.2,75.2,Clear,Low,14.6,Wed,13,9.4
+Shatabdi Express,12009,New Delhi,Kota Jn,147.2,147.2,Clear,Medium,2.3,Sat,2,11.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,147.9,147.9,Heavy Rain,Medium,9.3,Fri,2,35.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,102.0,102.0,Fog,Medium,13.7,Fri,9,32.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,89.6,89.6,Clear,Low,18.1,Wed,13,9.8
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,57.6,57.6,Clear,High,15.0,Fri,8,29.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,95.2,95.2,Clear,Medium,5.8,Mon,9,15.3
+Tejas Express,22119,New Delhi,Kota Jn,36.5,36.5,Clear,Medium,5.0,Wed,8,13.7
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,98.5,98.5,Rain,Medium,13.2,Tue,8,23.3
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,43.5,43.5,Clear,Low,19.7,Fri,4,14.6
+Tejas Express,22119,Vadodara Jn,Surat,120.1,120.1,Clear,Low,12.8,Sat,11,3.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,118.2,118.2,Clear,Low,8.0,Sat,17,2.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,108.9,108.9,Clear,Low,10.6,Wed,14,4.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,145.0,145.0,Fog,Low,18.4,Sun,13,25.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,55.1,55.1,Rain,Low,11.7,Sat,23,13.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,120.2,120.2,Clear,Medium,19.9,Mon,21,18.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,21.6,21.6,Clear,Low,8.9,Wed,8,1.7
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,23.1,23.1,Clear,High,13.1,Fri,20,29.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,31.2,31.2,Fog,Low,15.3,Sun,5,24.1
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,52.9,52.9,Clear,High,12.8,Wed,13,30.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,41.1,41.1,Clear,Medium,7.7,Mon,8,12.2
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,77.3,77.3,Clear,High,12.2,Thu,3,22.9
+August Kranti Rajdhani,12953,Surat,Mumbai Central,119.9,119.9,Clear,Medium,18.3,Mon,1,21.3
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,94.3,94.3,Clear,Low,17.9,Sat,0,5.4
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,54.6,54.6,Fog,High,11.5,Sun,15,41.0
+Tejas Express,22119,Vadodara Jn,Surat,72.5,72.5,Fog,Medium,1.4,Thu,22,23.0
+Tejas Express,22119,New Delhi,Kota Jn,93.7,93.7,Rain,Low,13.6,Sat,20,13.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,89.5,89.5,Heavy Rain,Low,9.2,Sat,6,32.3
+August Kranti Rajdhani,12953,Surat,Mumbai Central,25.1,25.1,Clear,Low,13.9,Sat,22,10.9
+Shatabdi Express,12009,Vadodara Jn,Surat,31.0,31.0,Fog,Medium,2.8,Sat,18,23.3
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,70.5,70.5,Fog,Medium,10.0,Sun,14,34.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,64.1,64.1,Clear,Medium,8.1,Sat,21,11.2
+Tejas Express,22119,Surat,Mumbai Central,39.4,39.4,Clear,High,0.7,Sat,0,16.8
+Tejas Express,22119,Surat,Mumbai Central,26.0,26.0,Fog,Low,3.4,Wed,3,12.2
+Tejas Express,22119,Surat,Mumbai Central,42.2,42.2,Clear,Medium,2.1,Sun,19,11.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,124.6,124.6,Clear,Medium,19.6,Wed,3,21.6
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,128.7,128.7,Fog,Medium,11.9,Mon,8,29.3
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,41.8,41.8,Clear,Low,4.9,Tue,3,3.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,22.0,22.0,Clear,Low,3.6,Sat,18,0.0
+Shatabdi Express,12009,Vadodara Jn,Surat,110.2,110.2,Fog,Low,2.5,Wed,16,12.7
+Tejas Express,22119,Vadodara Jn,Surat,51.1,51.1,Clear,Medium,11.9,Fri,2,18.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,74.4,74.4,Clear,Low,19.7,Fri,11,14.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,120.1,120.1,Fog,Low,3.9,Sat,15,19.9
+Tejas Express,22119,Kota Jn,Ratlam Jn,40.8,40.8,Rain,Low,7.3,Wed,10,8.8
+Tejas Express,22119,New Delhi,Kota Jn,33.6,33.6,Clear,Medium,3.2,Fri,3,6.9
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,113.8,113.8,Clear,Low,4.0,Wed,7,3.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,49.6,49.6,Clear,Low,4.0,Mon,15,5.9
+Tejas Express,22119,New Delhi,Kota Jn,135.8,135.8,Clear,High,9.1,Tue,14,23.4
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,146.8,146.8,Clear,Low,13.8,Tue,3,2.5
+Tejas Express,22119,Vadodara Jn,Surat,74.4,74.4,Fog,Low,5.9,Sun,20,14.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,146.1,146.1,Rain,Low,17.1,Tue,18,16.4
+Tejas Express,22119,Vadodara Jn,Surat,56.3,56.3,Fog,Medium,4.9,Fri,7,25.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,136.8,136.8,Clear,Low,19.8,Fri,1,12.2
+Tejas Express,22119,Surat,Mumbai Central,71.3,71.3,Rain,Medium,2.0,Mon,17,19.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,143.5,143.5,Clear,Low,13.0,Thu,21,2.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,111.4,111.4,Rain,Medium,0.5,Sun,4,17.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,122.7,122.7,Clear,Low,12.7,Mon,12,9.9
+Shatabdi Express,12009,Surat,Mumbai Central,24.3,24.3,Clear,Low,18.9,Sun,6,9.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,134.5,134.5,Fog,Low,18.9,Mon,3,26.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,80.5,80.5,Clear,Low,13.0,Fri,22,8.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,147.6,147.6,Clear,Low,9.6,Fri,22,9.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,61.7,61.7,Rain,Medium,8.5,Wed,11,17.8
+Tejas Express,22119,Vadodara Jn,Surat,85.2,85.2,Rain,Low,10.6,Wed,14,16.6
+Shatabdi Express,12009,New Delhi,Kota Jn,44.5,44.5,Rain,Low,7.8,Mon,3,8.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,34.6,34.6,Clear,Low,4.1,Mon,9,6.5
+Tejas Express,22119,Surat,Mumbai Central,141.1,141.1,Clear,Low,14.8,Tue,2,2.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,128.5,128.5,Clear,Low,11.6,Sun,10,7.4
+Tejas Express,22119,Surat,Mumbai Central,106.6,106.6,Clear,Medium,9.2,Sun,9,15.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,49.5,49.5,Clear,Low,16.9,Wed,14,4.9
+August Kranti Rajdhani,12953,Surat,Mumbai Central,140.1,140.1,Fog,Low,19.5,Sat,21,28.1
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,50.9,50.9,Clear,Low,2.5,Tue,6,0.0
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,147.1,147.1,Clear,Low,19.5,Mon,0,10.1
+Tejas Express,22119,Vadodara Jn,Surat,119.9,119.9,Rain,High,3.1,Fri,16,34.2
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,81.6,81.6,Clear,High,19.6,Tue,18,30.5
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,109.6,109.6,Fog,High,2.8,Wed,0,36.9
+Tejas Express,22119,Surat,Mumbai Central,129.3,129.3,Clear,Low,1.1,Fri,16,1.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,45.4,45.4,Clear,Medium,13.5,Fri,12,21.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,61.3,61.3,Fog,High,18.2,Tue,22,42.7
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,70.2,70.2,Clear,Low,6.2,Fri,2,2.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,116.4,116.4,Clear,Low,3.3,Thu,23,3.9
+Tejas Express,22119,Kota Jn,Ratlam Jn,128.6,128.6,Clear,Low,6.1,Fri,10,8.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,118.3,118.3,Clear,Low,18.3,Fri,14,8.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,44.2,44.2,Clear,Medium,0.8,Sun,18,13.7
+Shatabdi Express,12009,Vadodara Jn,Surat,92.7,92.7,Clear,Low,0.0,Sat,20,0.0
+Tejas Express,22119,New Delhi,Kota Jn,105.0,105.0,Rain,Low,9.8,Tue,0,14.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,84.1,84.1,Heavy Rain,Medium,7.2,Thu,8,38.4
+Tejas Express,22119,New Delhi,Kota Jn,68.5,68.5,Fog,Low,5.2,Tue,10,18.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,66.5,66.5,Clear,Low,12.7,Mon,9,10.9
+Shatabdi Express,12009,Surat,Mumbai Central,103.1,103.1,Clear,Low,12.6,Fri,5,8.9
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,127.5,127.5,Fog,Low,13.7,Mon,17,23.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,21.7,21.7,Clear,Low,9.7,Tue,3,3.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,85.4,85.4,Rain,Medium,11.2,Fri,17,25.5
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,79.9,79.9,Clear,Medium,18.5,Wed,22,19.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,126.2,126.2,Rain,Medium,15.3,Sat,9,24.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,48.9,48.9,Rain,Low,4.5,Tue,2,6.5
+Tejas Express,22119,New Delhi,Kota Jn,30.1,30.1,Fog,Medium,0.9,Sun,21,21.6
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,35.5,35.5,Clear,Low,13.4,Sun,3,9.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,137.2,137.2,Clear,Low,1.8,Wed,18,4.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,40.9,40.9,Clear,Medium,4.8,Mon,18,13.1
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,48.2,48.2,Clear,Low,18.0,Sat,3,9.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,130.7,130.7,Clear,Medium,3.7,Mon,5,13.5
+Shatabdi Express,12009,Vadodara Jn,Surat,75.1,75.1,Clear,Low,15.2,Thu,3,5.7
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,119.1,119.1,Fog,Medium,0.8,Mon,12,23.7
+Shatabdi Express,12009,Vadodara Jn,Surat,98.1,98.1,Clear,High,8.9,Wed,13,24.9
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,136.3,136.3,Rain,High,7.3,Sat,15,26.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,76.9,76.9,Fog,Low,2.9,Fri,3,15.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,67.3,67.3,Clear,Low,16.9,Tue,13,7.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,119.4,119.4,Fog,Medium,15.1,Thu,11,35.5
+Tejas Express,22119,Surat,Mumbai Central,143.5,143.5,Heavy Rain,Medium,2.9,Mon,8,36.0
+Tejas Express,22119,Vadodara Jn,Surat,50.0,50.0,Rain,Low,14.8,Thu,21,18.7
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,69.7,69.7,Fog,Low,12.4,Mon,21,17.2
+Tejas Express,22119,Vadodara Jn,Surat,46.3,46.3,Fog,Low,5.2,Sun,17,16.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,148.8,148.8,Rain,Low,9.0,Thu,14,16.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,43.0,43.0,Fog,Medium,17.7,Thu,4,30.5
+Shatabdi Express,12009,Vadodara Jn,Surat,83.4,83.4,Clear,Medium,13.2,Fri,15,18.5
+Tejas Express,22119,Surat,Mumbai Central,131.1,131.1,Clear,Low,9.9,Fri,21,9.7
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,61.7,61.7,Clear,Low,16.7,Sat,18,6.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,69.5,69.5,Clear,High,8.2,Tue,7,19.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,97.0,97.0,Rain,Low,6.1,Mon,17,9.5
+Shatabdi Express,12009,New Delhi,Kota Jn,79.9,79.9,Rain,Medium,18.0,Sat,15,24.7
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,69.1,69.1,Clear,Medium,16.2,Sat,6,14.1
+Shatabdi Express,12009,Vadodara Jn,Surat,85.4,85.4,Fog,Low,12.3,Thu,6,19.8
+Tejas Express,22119,New Delhi,Kota Jn,129.2,129.2,Clear,Low,1.0,Thu,7,5.5
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,32.3,32.3,Clear,Low,16.0,Tue,11,7.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,85.6,85.6,Clear,Medium,6.3,Wed,19,12.2
+Tejas Express,22119,Surat,Mumbai Central,43.5,43.5,Clear,Medium,17.3,Tue,21,19.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,141.8,141.8,Clear,Medium,15.4,Fri,23,17.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,46.1,46.1,Clear,Low,14.9,Sun,13,10.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,131.8,131.8,Rain,Medium,16.9,Wed,20,24.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,109.3,109.3,Clear,Low,3.0,Sun,9,0.0
+Tejas Express,22119,Vadodara Jn,Surat,92.8,92.8,Clear,Medium,0.7,Tue,0,6.9
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,105.6,105.6,Clear,High,19.3,Mon,1,29.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,98.2,98.2,Rain,High,8.1,Sat,2,30.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,50.7,50.7,Clear,Medium,2.4,Fri,16,12.8
+Shatabdi Express,12009,Vadodara Jn,Surat,135.0,135.0,Clear,Low,16.1,Fri,23,6.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,141.6,141.6,Clear,Low,4.3,Thu,8,0.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,89.4,89.4,Fog,Low,10.9,Tue,8,20.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,81.8,81.8,Clear,Low,12.9,Mon,23,10.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,52.9,52.9,Clear,Medium,14.0,Sat,3,21.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,70.5,70.5,Rain,Low,19.6,Mon,7,15.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,131.7,131.7,Clear,Low,6.3,Sat,13,6.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,132.6,132.6,Rain,High,9.4,Sun,10,31.8
+Tejas Express,22119,New Delhi,Kota Jn,127.2,127.2,Fog,Medium,7.0,Sun,17,29.5
+Shatabdi Express,12009,Vadodara Jn,Surat,110.4,110.4,Fog,Medium,3.7,Sat,4,26.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,46.0,46.0,Clear,Medium,2.2,Sat,20,8.6
+August Kranti Rajdhani,12953,Surat,Mumbai Central,109.1,109.1,Fog,Low,9.6,Wed,5,22.2
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,45.8,45.8,Clear,Low,17.5,Fri,7,13.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,140.0,140.0,Fog,Medium,18.1,Tue,8,38.8
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,72.1,72.1,Clear,Low,1.8,Fri,3,0.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,76.6,76.6,Rain,Low,13.5,Sat,6,10.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,57.4,57.4,Clear,Low,17.1,Sun,9,9.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,43.4,43.4,Fog,Low,19.5,Thu,7,22.1
+Shatabdi Express,12009,Surat,Mumbai Central,109.0,109.0,Clear,Low,2.7,Sat,12,0.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,112.1,112.1,Fog,Low,1.9,Wed,7,11.5
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,149.6,149.6,Rain,High,12.0,Mon,0,36.5
+Shatabdi Express,12009,Surat,Mumbai Central,100.6,100.6,Clear,Low,7.4,Fri,1,8.4
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,42.1,42.1,Clear,Low,9.4,Sat,16,0.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,53.9,53.9,Clear,High,10.0,Wed,23,29.7
+Shatabdi Express,12009,Vadodara Jn,Surat,56.8,56.8,Rain,Medium,15.2,Wed,13,23.2
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,115.8,115.8,Clear,High,11.1,Sat,14,29.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,39.3,39.3,Clear,Low,5.2,Thu,3,4.7
+Tejas Express,22119,New Delhi,Kota Jn,77.4,77.4,Heavy Rain,Medium,9.2,Sat,4,35.7
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,32.2,32.2,Rain,Low,3.4,Wed,18,9.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,149.7,149.7,Clear,Medium,3.6,Tue,15,16.0
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,23.4,23.4,Fog,Medium,7.9,Mon,10,29.8
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,30.5,30.5,Rain,Medium,9.1,Fri,21,27.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,146.1,146.1,Fog,High,6.5,Sat,18,40.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,132.2,132.2,Rain,Low,16.0,Fri,19,18.4
+Tejas Express,22119,New Delhi,Kota Jn,71.9,71.9,Clear,High,17.3,Sun,6,24.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,121.3,121.3,Clear,Medium,13.1,Thu,13,12.8
+Shatabdi Express,12009,Surat,Mumbai Central,37.1,37.1,Fog,Medium,10.3,Thu,15,30.0
+Shatabdi Express,12009,Surat,Mumbai Central,98.0,98.0,Clear,Low,7.4,Sat,13,0.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,86.7,86.7,Heavy Rain,Medium,13.0,Thu,16,43.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,80.9,80.9,Clear,Medium,6.0,Sat,9,17.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,75.6,75.6,Clear,Medium,18.3,Fri,13,19.2
+Tejas Express,22119,New Delhi,Kota Jn,80.4,80.4,Fog,Medium,7.1,Sun,16,29.4
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,116.3,116.3,Clear,Medium,16.9,Thu,22,13.9
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,96.3,96.3,Clear,Medium,12.5,Sun,5,13.9
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,30.2,30.2,Heavy Rain,Low,13.5,Mon,0,31.1
+Tejas Express,22119,New Delhi,Kota Jn,21.7,21.7,Fog,Low,8.1,Sat,19,20.7
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,100.4,100.4,Heavy Rain,Low,13.5,Thu,9,33.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,37.6,37.6,Clear,Medium,13.9,Mon,6,13.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,104.5,104.5,Clear,Medium,15.8,Wed,14,14.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,74.8,74.8,Clear,High,14.8,Thu,15,26.9
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,96.1,96.1,Clear,Medium,16.7,Mon,3,13.9
+Tejas Express,22119,Vadodara Jn,Surat,130.3,130.3,Fog,Medium,11.1,Thu,12,28.4
+Tejas Express,22119,Surat,Mumbai Central,96.8,96.8,Fog,Medium,16.3,Sat,1,33.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,94.9,94.9,Clear,Low,13.0,Mon,15,10.4
+Shatabdi Express,12009,Vadodara Jn,Surat,110.7,110.7,Clear,Low,3.8,Tue,16,0.3
+August Kranti Rajdhani,12953,Surat,Mumbai Central,138.2,138.2,Clear,Medium,16.8,Tue,9,20.0
+Tejas Express,22119,Vadodara Jn,Surat,128.3,128.3,Fog,Medium,15.9,Sun,5,36.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,109.8,109.8,Clear,Low,3.5,Thu,3,0.0
+Tejas Express,22119,Vadodara Jn,Surat,59.5,59.5,Clear,Low,0.4,Wed,21,4.0
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,127.6,127.6,Rain,Low,1.3,Fri,7,8.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,49.1,49.1,Clear,Low,7.1,Fri,8,0.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,98.6,98.6,Clear,Low,18.9,Sun,3,12.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,99.3,99.3,Rain,Low,11.2,Tue,20,13.7
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,138.4,138.4,Clear,Low,8.8,Sat,3,4.5
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,63.5,63.5,Clear,Medium,8.8,Sun,0,13.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,64.4,64.4,Clear,Low,7.4,Wed,20,6.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,117.9,117.9,Clear,Medium,2.8,Thu,14,10.7
+Shatabdi Express,12009,New Delhi,Kota Jn,77.5,77.5,Fog,Medium,10.3,Wed,10,25.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,76.4,76.4,Clear,Low,18.5,Fri,1,5.8
+Shatabdi Express,12009,Vadodara Jn,Surat,72.3,72.3,Fog,Medium,6.1,Wed,0,30.4
+Shatabdi Express,12009,Surat,Mumbai Central,99.4,99.4,Clear,Low,12.9,Fri,19,10.3
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,135.4,135.4,Fog,Low,3.9,Mon,17,14.9
+Shatabdi Express,12009,Vadodara Jn,Surat,114.3,114.3,Fog,Low,19.8,Mon,16,22.7
+Shatabdi Express,12009,Surat,Mumbai Central,64.3,64.3,Fog,Low,17.8,Wed,7,24.3
+Shatabdi Express,12009,Vadodara Jn,Surat,148.3,148.3,Clear,Low,7.5,Wed,3,5.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,78.3,78.3,Clear,Low,6.8,Sat,18,0.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,58.9,58.9,Fog,Medium,11.5,Thu,16,27.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,62.6,62.6,Clear,Medium,7.2,Sat,13,9.6
+Tejas Express,22119,New Delhi,Kota Jn,32.0,32.0,Clear,Low,4.3,Sat,16,0.0
+Tejas Express,22119,Surat,Mumbai Central,92.7,92.7,Fog,High,11.7,Thu,22,42.2
+Tejas Express,22119,Vadodara Jn,Surat,127.1,127.1,Clear,Low,14.2,Sat,16,3.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,79.2,79.2,Clear,Low,11.2,Mon,19,9.8
+Tejas Express,22119,New Delhi,Kota Jn,35.7,35.7,Clear,Low,3.1,Wed,9,0.2
+Shatabdi Express,12009,Vadodara Jn,Surat,23.6,23.6,Clear,Medium,8.4,Wed,9,18.6
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,126.5,126.5,Clear,Low,7.0,Thu,15,7.2
+Shatabdi Express,12009,Surat,Mumbai Central,78.8,78.8,Clear,Low,16.7,Tue,4,11.6
+Tejas Express,22119,Vadodara Jn,Surat,106.7,106.7,Clear,Medium,1.8,Fri,13,12.1
+Tejas Express,22119,Kota Jn,Ratlam Jn,137.0,137.0,Clear,Low,13.4,Wed,20,6.1
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,111.9,111.9,Clear,Medium,14.1,Mon,20,17.7
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,144.2,144.2,Clear,Medium,19.1,Sun,15,19.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,105.6,105.6,Clear,High,5.5,Sun,22,19.9
+Tejas Express,22119,New Delhi,Kota Jn,124.9,124.9,Fog,Low,0.9,Mon,10,19.1
+Tejas Express,22119,Kota Jn,Ratlam Jn,73.9,73.9,Rain,Low,5.1,Mon,17,6.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,38.7,38.7,Clear,Low,6.1,Tue,1,2.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,23.5,23.5,Clear,Low,6.4,Wed,8,2.3
+Tejas Express,22119,New Delhi,Kota Jn,26.7,26.7,Clear,Medium,4.7,Fri,12,12.4
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,27.9,27.9,Clear,Low,9.7,Tue,0,3.9
+Shatabdi Express,12009,Surat,Mumbai Central,145.3,145.3,Fog,Low,11.1,Wed,18,23.4
+Tejas Express,22119,Vadodara Jn,Surat,30.9,30.9,Fog,Low,19.4,Tue,7,23.4
+Tejas Express,22119,Surat,Mumbai Central,78.7,78.7,Clear,Low,16.6,Tue,0,6.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,55.5,55.5,Clear,Medium,20.0,Tue,18,23.4
+Shatabdi Express,12009,New Delhi,Kota Jn,41.0,41.0,Clear,Low,1.8,Sun,4,2.9
+Shatabdi Express,12009,Vadodara Jn,Surat,47.4,47.4,Clear,Medium,17.7,Sat,8,23.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,52.0,52.0,Heavy Rain,Low,9.2,Mon,22,30.6
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,99.1,99.1,Clear,Low,3.5,Sat,22,2.4
+Tejas Express,22119,Vadodara Jn,Surat,90.0,90.0,Fog,Medium,1.6,Sun,21,21.1
+Tejas Express,22119,New Delhi,Kota Jn,65.9,65.9,Rain,Medium,7.2,Sun,22,18.4
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,80.2,80.2,Rain,Low,4.4,Wed,21,5.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,31.7,31.7,Fog,Low,14.4,Thu,11,19.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,84.1,84.1,Fog,Medium,0.1,Sat,12,29.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,94.0,94.0,Clear,Medium,13.2,Sat,19,17.3
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,96.5,96.5,Fog,Low,18.7,Fri,23,28.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,130.2,130.2,Clear,High,13.6,Sat,17,27.9
+Tejas Express,22119,New Delhi,Kota Jn,141.9,141.9,Fog,High,1.0,Thu,13,39.9
+Shatabdi Express,12009,New Delhi,Kota Jn,108.4,108.4,Clear,Low,15.2,Tue,1,11.4
+Shatabdi Express,12009,Vadodara Jn,Surat,89.2,89.2,Clear,Low,6.7,Sun,0,7.2
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,144.5,144.5,Rain,Low,6.6,Sat,3,6.9
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,76.2,76.2,Clear,Medium,18.7,Tue,3,22.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,144.6,144.6,Rain,Medium,10.4,Mon,19,20.6
+Tejas Express,22119,New Delhi,Kota Jn,101.3,101.3,Clear,Low,1.2,Wed,22,0.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,28.1,28.1,Rain,Low,12.2,Mon,21,13.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,26.8,26.8,Rain,Low,12.3,Sun,19,13.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,69.9,69.9,Fog,High,12.4,Sat,0,39.6
+Tejas Express,22119,Surat,Mumbai Central,62.7,62.7,Clear,Low,11.9,Sun,6,1.7
+August Kranti Rajdhani,12953,Surat,Mumbai Central,53.3,53.3,Clear,Medium,8.9,Sun,1,11.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,60.5,60.5,Clear,High,15.1,Fri,4,25.7
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,60.1,60.1,Clear,Low,0.2,Sat,4,1.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,85.9,85.9,Rain,High,8.4,Tue,20,29.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,64.4,64.4,Fog,Medium,19.6,Wed,18,35.8
+Shatabdi Express,12009,Surat,Mumbai Central,59.0,59.0,Clear,Low,17.5,Thu,7,12.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,110.1,110.1,Clear,Low,9.6,Sun,10,7.5
+Tejas Express,22119,Kota Jn,Ratlam Jn,72.0,72.0,Rain,Low,0.2,Fri,3,6.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,77.3,77.3,Fog,High,7.2,Tue,6,43.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,48.5,48.5,Clear,Low,17.0,Tue,0,6.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,138.4,138.4,Clear,Medium,7.6,Mon,10,16.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,79.3,79.3,Clear,Low,3.4,Sun,19,2.0
+Tejas Express,22119,New Delhi,Kota Jn,35.4,35.4,Rain,Low,3.8,Sat,11,10.2
+Shatabdi Express,12009,Surat,Mumbai Central,75.8,75.8,Fog,High,15.3,Sun,17,43.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,62.6,62.6,Clear,Medium,17.5,Fri,15,22.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,122.0,122.0,Fog,Medium,3.3,Sat,16,25.5
+Shatabdi Express,12009,Vadodara Jn,Surat,87.5,87.5,Clear,Medium,10.5,Thu,15,15.1
+Shatabdi Express,12009,Surat,Mumbai Central,72.1,72.1,Rain,Medium,0.7,Tue,14,15.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,48.4,48.4,Clear,Low,3.1,Wed,17,5.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,117.7,117.7,Clear,Medium,4.6,Fri,19,7.7
+Shatabdi Express,12009,Vadodara Jn,Surat,78.6,78.6,Clear,Low,10.0,Mon,5,2.7
+Tejas Express,22119,Kota Jn,Ratlam Jn,54.5,54.5,Clear,High,5.9,Fri,20,22.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,140.5,140.5,Clear,Low,0.8,Tue,21,0.0
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,59.4,59.4,Rain,Medium,5.5,Tue,22,22.9
+Shatabdi Express,12009,New Delhi,Kota Jn,120.1,120.1,Clear,Low,19.9,Sun,18,14.4
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,105.0,105.0,Heavy Rain,High,17.3,Sat,23,50.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,50.4,50.4,Clear,Medium,9.4,Wed,2,17.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,75.7,75.7,Rain,Low,8.8,Mon,11,15.9
+August Kranti Rajdhani,12953,Surat,Mumbai Central,133.6,133.6,Clear,Medium,10.0,Wed,10,16.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,75.3,75.3,Fog,Medium,13.8,Fri,0,29.9
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,40.0,40.0,Heavy Rain,Low,12.6,Fri,18,32.3
+Tejas Express,22119,Vadodara Jn,Surat,46.5,46.5,Clear,Medium,3.8,Fri,14,8.0
+Shatabdi Express,12009,New Delhi,Kota Jn,42.3,42.3,Fog,Low,16.5,Mon,5,24.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,138.5,138.5,Clear,Low,5.8,Thu,1,3.1
+Shatabdi Express,12009,Surat,Mumbai Central,21.4,21.4,Clear,High,7.8,Tue,17,28.8
+Tejas Express,22119,Vadodara Jn,Surat,116.6,116.6,Clear,High,4.1,Wed,13,25.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,98.5,98.5,Rain,Medium,10.0,Wed,6,24.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,77.9,77.9,Rain,Medium,4.9,Fri,15,18.8
+Tejas Express,22119,Vadodara Jn,Surat,94.9,94.9,Fog,Low,17.6,Sat,22,23.4
+Shatabdi Express,12009,Vadodara Jn,Surat,99.7,99.7,Rain,Low,5.0,Sat,13,14.5
+Tejas Express,22119,Vadodara Jn,Surat,138.4,138.4,Clear,Medium,7.9,Tue,5,18.4
+Shatabdi Express,12009,Surat,Mumbai Central,57.9,57.9,Rain,Medium,14.4,Thu,13,22.4
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,29.9,29.9,Clear,Medium,6.5,Wed,6,12.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,23.5,23.5,Fog,Medium,9.2,Thu,6,28.0
+Tejas Express,22119,New Delhi,Kota Jn,21.4,21.4,Clear,High,6.5,Thu,14,25.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,91.3,91.3,Clear,High,2.8,Sun,5,24.6
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,98.9,98.9,Clear,Low,14.8,Sat,0,4.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,77.3,77.3,Clear,Medium,17.9,Thu,22,19.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,103.3,103.3,Fog,High,7.8,Mon,19,37.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,120.4,120.4,Fog,High,7.5,Mon,0,36.1
+Tejas Express,22119,New Delhi,Kota Jn,148.6,148.6,Clear,Low,13.4,Mon,21,3.9
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,25.7,25.7,Clear,Medium,6.5,Fri,6,14.6
+Tejas Express,22119,Vadodara Jn,Surat,35.7,35.7,Clear,Low,3.5,Wed,0,0.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,79.6,79.6,Clear,Medium,13.0,Mon,6,15.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,119.8,119.8,Clear,High,14.3,Sun,18,30.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,144.7,144.7,Clear,High,13.9,Sun,22,28.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,42.8,42.8,Fog,Medium,19.6,Mon,10,36.5
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,138.6,138.6,Clear,Medium,14.8,Sat,0,17.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,100.1,100.1,Rain,Low,14.8,Fri,2,18.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,68.7,68.7,Clear,Low,4.1,Sat,19,0.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,37.5,37.5,Clear,Medium,0.8,Thu,20,13.3
+Shatabdi Express,12009,New Delhi,Kota Jn,49.8,49.8,Fog,Low,4.1,Sat,7,12.6
+August Kranti Rajdhani,12953,Surat,Mumbai Central,133.5,133.5,Clear,Low,12.6,Thu,2,1.9
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,102.5,102.5,Clear,Low,1.8,Sun,6,1.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,30.2,30.2,Fog,Low,14.4,Tue,19,19.6
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,57.1,57.1,Clear,Medium,5.4,Mon,11,15.5
+Tejas Express,22119,Vadodara Jn,Surat,41.8,41.8,Clear,Medium,14.7,Sun,15,20.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,75.6,75.6,Clear,High,6.0,Fri,23,23.4
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,69.5,69.5,Clear,Low,11.2,Wed,4,5.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,40.1,40.1,Clear,Low,10.0,Thu,12,7.3
+Tejas Express,22119,Vadodara Jn,Surat,146.2,146.2,Clear,Low,12.8,Thu,1,7.3
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,141.2,141.2,Clear,Medium,19.1,Sun,23,22.2
+Shatabdi Express,12009,Surat,Mumbai Central,112.2,112.2,Fog,Low,1.2,Thu,23,14.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,82.1,82.1,Rain,Low,14.1,Sat,20,10.4
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,98.7,98.7,Rain,Low,4.9,Sat,5,11.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,120.2,120.2,Fog,High,8.0,Mon,16,39.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,41.6,41.6,Clear,Medium,10.0,Thu,18,15.3
+Shatabdi Express,12009,Vadodara Jn,Surat,117.8,117.8,Rain,High,2.2,Sun,11,29.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,117.3,117.3,Rain,Low,6.2,Sun,15,16.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,29.1,29.1,Fog,Medium,13.1,Tue,5,33.9
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,111.5,111.5,Clear,Low,19.0,Sun,6,9.0
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,27.7,27.7,Clear,Medium,5.2,Thu,14,16.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,30.4,30.4,Clear,Low,1.3,Tue,15,0.0
+Tejas Express,22119,New Delhi,Kota Jn,21.2,21.2,Clear,High,13.3,Mon,3,29.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,122.9,122.9,Clear,Medium,19.2,Thu,15,17.3
+Shatabdi Express,12009,Surat,Mumbai Central,75.8,75.8,Clear,High,20.0,Wed,21,33.2
+Tejas Express,22119,Vadodara Jn,Surat,99.4,99.4,Heavy Rain,High,16.1,Sun,22,48.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,23.3,23.3,Clear,Medium,19.0,Tue,11,22.0
+Tejas Express,22119,Surat,Mumbai Central,109.2,109.2,Rain,Medium,13.2,Sat,10,19.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,133.5,133.5,Heavy Rain,Medium,13.6,Thu,12,39.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,75.6,75.6,Rain,High,19.7,Mon,23,41.5
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,98.9,98.9,Fog,High,17.5,Sat,16,46.5
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,84.7,84.7,Clear,Medium,19.9,Thu,5,24.9
+Tejas Express,22119,New Delhi,Kota Jn,82.7,82.7,Clear,Low,3.4,Sat,2,6.1
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,149.1,149.1,Clear,High,6.5,Wed,7,22.1
+Shatabdi Express,12009,Vadodara Jn,Surat,143.7,143.7,Fog,Medium,18.5,Thu,2,35.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,141.1,141.1,Fog,Medium,12.9,Sat,23,30.2
+Tejas Express,22119,Surat,Mumbai Central,145.6,145.6,Clear,Low,5.2,Mon,2,0.5
+Shatabdi Express,12009,Surat,Mumbai Central,141.8,141.8,Fog,Low,7.4,Thu,18,22.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,28.0,28.0,Clear,Medium,19.6,Wed,21,18.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,106.3,106.3,Clear,Low,0.2,Wed,4,3.6
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,85.0,85.0,Clear,Medium,2.9,Sun,22,13.1
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,61.6,61.6,Clear,Medium,5.5,Fri,15,16.2
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,57.9,57.9,Heavy Rain,Low,16.2,Sat,6,29.6
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,140.0,140.0,Fog,High,14.5,Sun,21,40.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,91.2,91.2,Clear,Medium,19.8,Thu,2,22.5
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,110.5,110.5,Clear,High,7.9,Sun,18,20.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,79.5,79.5,Clear,Low,13.9,Tue,6,4.8
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,115.6,115.6,Clear,Medium,11.5,Sun,4,17.6
+Tejas Express,22119,Vadodara Jn,Surat,108.3,108.3,Clear,Low,7.1,Mon,3,3.2
+Shatabdi Express,12009,Surat,Mumbai Central,76.4,76.4,Clear,Medium,4.9,Thu,15,8.6
+Shatabdi Express,12009,Surat,Mumbai Central,144.1,144.1,Fog,Low,13.8,Sat,2,24.9
+Tejas Express,22119,Vadodara Jn,Surat,55.8,55.8,Fog,Low,2.4,Thu,20,12.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,96.3,96.3,Heavy Rain,Low,13.9,Fri,5,27.9
+Tejas Express,22119,Vadodara Jn,Surat,150.0,150.0,Fog,Low,2.5,Sat,17,14.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,125.7,125.7,Clear,Medium,10.7,Thu,2,18.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,145.5,145.5,Rain,Low,12.0,Fri,14,10.8
+Shatabdi Express,12009,New Delhi,Kota Jn,25.1,25.1,Clear,Medium,1.8,Sun,1,8.5
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,85.8,85.8,Clear,Medium,8.5,Mon,7,18.8
+Shatabdi Express,12009,New Delhi,Kota Jn,143.0,143.0,Clear,Medium,13.2,Fri,15,16.0
+Shatabdi Express,12009,Surat,Mumbai Central,138.4,138.4,Heavy Rain,Medium,10.2,Sat,1,42.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,44.4,44.4,Clear,Medium,19.1,Tue,18,20.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,36.7,36.7,Fog,Low,5.1,Tue,12,16.4
+Tejas Express,22119,New Delhi,Kota Jn,142.8,142.8,Fog,High,2.9,Sat,23,33.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,112.9,112.9,Clear,Medium,10.2,Sun,4,11.7
+Shatabdi Express,12009,Vadodara Jn,Surat,69.3,69.3,Heavy Rain,Low,5.4,Sat,17,28.0
+Tejas Express,22119,New Delhi,Kota Jn,62.8,62.8,Clear,High,15.6,Sun,7,24.3
+Shatabdi Express,12009,New Delhi,Kota Jn,32.7,32.7,Heavy Rain,Low,19.0,Mon,5,37.3
+Shatabdi Express,12009,Surat,Mumbai Central,126.8,126.8,Clear,Medium,14.0,Fri,8,20.7
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,42.2,42.2,Rain,Low,6.9,Sun,17,13.8
+Tejas Express,22119,Vadodara Jn,Surat,97.0,97.0,Clear,Medium,14.3,Tue,12,18.8
+Shatabdi Express,12009,New Delhi,Kota Jn,139.4,139.4,Fog,Low,15.6,Thu,22,24.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,77.1,77.1,Clear,Low,5.7,Fri,22,7.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,102.6,102.6,Clear,Low,15.4,Sat,2,11.2
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,142.8,142.8,Clear,Low,14.9,Thu,0,8.0
+Tejas Express,22119,Surat,Mumbai Central,141.2,141.2,Clear,Low,13.7,Fri,22,8.7
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,21.8,21.8,Clear,Medium,0.1,Fri,23,9.2
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,149.2,149.2,Fog,High,20.0,Sat,19,49.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,78.3,78.3,Clear,High,15.3,Tue,2,31.6
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,86.8,86.8,Heavy Rain,Low,7.6,Mon,10,27.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,130.6,130.6,Rain,Low,9.7,Mon,23,10.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,140.0,140.0,Rain,High,10.3,Thu,19,37.0
+Tejas Express,22119,New Delhi,Kota Jn,66.2,66.2,Fog,Low,7.1,Sat,5,13.7
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,21.2,21.2,Clear,Low,10.6,Thu,3,9.3
+Tejas Express,22119,New Delhi,Kota Jn,40.2,40.2,Fog,Low,7.9,Thu,5,16.9
+Shatabdi Express,12009,New Delhi,Kota Jn,148.6,148.6,Fog,Low,2.8,Mon,11,18.9
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,44.6,44.6,Clear,Low,14.9,Tue,21,11.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,144.8,144.8,Heavy Rain,Low,9.8,Sat,22,29.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,117.6,117.6,Fog,Low,14.5,Sun,12,24.6
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,144.5,144.5,Fog,Low,6.9,Sat,7,13.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,75.9,75.9,Clear,Low,9.6,Mon,13,2.6
+August Kranti Rajdhani,12953,Surat,Mumbai Central,39.8,39.8,Clear,Low,15.3,Sat,7,11.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,81.6,81.6,Fog,Low,14.6,Tue,18,23.4
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,35.7,35.7,Clear,Low,3.8,Mon,19,0.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,132.4,132.4,Clear,Medium,14.0,Tue,10,21.8
+Tejas Express,22119,Vadodara Jn,Surat,28.0,28.0,Clear,Low,2.2,Wed,22,0.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,61.6,61.6,Clear,Low,1.0,Tue,9,2.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,138.1,138.1,Clear,Low,19.0,Wed,3,8.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,108.8,108.8,Fog,Low,7.2,Sat,18,21.7
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,104.5,104.5,Clear,Low,17.7,Sat,19,5.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,96.3,96.3,Rain,Medium,3.8,Mon,2,21.9
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,114.3,114.3,Heavy Rain,Low,14.4,Tue,13,27.6
+Shatabdi Express,12009,Surat,Mumbai Central,146.8,146.8,Rain,Low,14.3,Mon,15,19.2
+Tejas Express,22119,Surat,Mumbai Central,141.1,141.1,Clear,Low,12.0,Tue,9,8.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,27.9,27.9,Heavy Rain,Low,16.3,Fri,16,33.1
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,76.9,76.9,Clear,Medium,7.8,Tue,5,15.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,94.3,94.3,Clear,Low,18.6,Fri,22,9.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,130.8,130.8,Clear,Low,2.4,Fri,7,0.0
+Shatabdi Express,12009,New Delhi,Kota Jn,103.1,103.1,Rain,Low,2.7,Mon,20,13.1
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,89.5,89.5,Clear,Low,12.1,Mon,22,4.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,73.1,73.1,Fog,Low,1.1,Sun,11,18.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,43.0,43.0,Heavy Rain,Medium,19.6,Sun,18,47.6
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,142.9,142.9,Clear,Medium,12.1,Thu,7,13.2
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,46.5,46.5,Fog,High,7.9,Sat,23,38.5
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,39.3,39.3,Clear,Low,9.2,Tue,6,7.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,104.2,104.2,Clear,Low,3.6,Fri,6,0.7
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,29.4,29.4,Clear,High,19.4,Fri,4,25.7
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,33.0,33.0,Clear,Low,0.3,Mon,4,3.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,54.8,54.8,Rain,Medium,15.8,Sun,3,21.0
+Shatabdi Express,12009,New Delhi,Kota Jn,46.3,46.3,Clear,Medium,8.9,Wed,15,11.0
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,27.3,27.3,Fog,Medium,2.5,Mon,17,29.4
+Shatabdi Express,12009,New Delhi,Kota Jn,86.5,86.5,Rain,Low,18.2,Thu,12,12.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,105.2,105.2,Clear,High,7.7,Sun,3,27.7
+Tejas Express,22119,Kota Jn,Ratlam Jn,148.8,148.8,Clear,High,5.6,Wed,3,18.6
+Shatabdi Express,12009,New Delhi,Kota Jn,136.4,136.4,Fog,Low,10.6,Sat,13,21.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,101.2,101.2,Clear,High,5.4,Wed,8,22.7
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,132.0,132.0,Heavy Rain,Medium,2.9,Thu,23,33.0
+Tejas Express,22119,New Delhi,Kota Jn,34.7,34.7,Clear,Medium,2.9,Tue,5,9.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,61.5,61.5,Clear,Medium,8.3,Wed,4,17.1
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,74.4,74.4,Clear,Medium,10.6,Thu,2,18.5
+Tejas Express,22119,Surat,Mumbai Central,95.1,95.1,Fog,Medium,14.1,Mon,6,29.4
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,92.6,92.6,Heavy Rain,High,1.2,Sun,4,44.1
+Shatabdi Express,12009,Vadodara Jn,Surat,38.7,38.7,Rain,High,18.3,Sun,7,34.5
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,35.2,35.2,Fog,Low,14.7,Thu,11,24.4
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,106.2,106.2,Clear,Medium,17.4,Wed,4,14.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,30.0,30.0,Clear,Medium,3.0,Sat,4,8.3
+Shatabdi Express,12009,Vadodara Jn,Surat,73.5,73.5,Clear,Medium,13.9,Tue,1,14.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,117.6,117.6,Clear,Low,16.7,Thu,17,10.2
+Shatabdi Express,12009,Surat,Mumbai Central,85.2,85.2,Fog,Low,3.1,Fri,12,21.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,72.1,72.1,Clear,Low,16.5,Fri,2,13.1
+Tejas Express,22119,Vadodara Jn,Surat,60.7,60.7,Fog,Medium,3.3,Sat,13,29.6
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,34.1,34.1,Clear,Medium,16.9,Wed,5,13.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,47.5,47.5,Clear,High,3.8,Mon,7,18.9
+Shatabdi Express,12009,New Delhi,Kota Jn,147.0,147.0,Clear,Medium,15.8,Wed,2,13.4
+Shatabdi Express,12009,New Delhi,Kota Jn,147.5,147.5,Fog,High,10.0,Thu,23,38.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,111.3,111.3,Clear,Low,14.8,Sun,4,3.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,123.5,123.5,Clear,High,0.7,Sat,14,17.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,143.9,143.9,Clear,Low,13.6,Sat,5,3.2
+Shatabdi Express,12009,Vadodara Jn,Surat,122.1,122.1,Clear,Low,17.1,Sat,21,7.9
+Tejas Express,22119,Kota Jn,Ratlam Jn,47.1,47.1,Fog,Low,3.0,Thu,3,17.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,119.6,119.6,Clear,High,15.9,Thu,3,31.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,42.1,42.1,Clear,Low,11.5,Mon,5,4.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,148.2,148.2,Heavy Rain,Medium,8.8,Mon,18,43.6
+Tejas Express,22119,New Delhi,Kota Jn,67.3,67.3,Clear,Low,12.4,Thu,11,8.0
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,30.9,30.9,Clear,Low,17.5,Mon,19,13.7
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,111.0,111.0,Clear,Low,2.1,Fri,12,0.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,70.5,70.5,Clear,Low,9.3,Sun,14,6.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,43.4,43.4,Clear,High,7.9,Thu,10,23.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,64.5,64.5,Fog,Low,14.8,Thu,1,18.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,38.9,38.9,Clear,Medium,19.8,Mon,11,22.6
+Tejas Express,22119,Vadodara Jn,Surat,47.7,47.7,Clear,Low,15.2,Wed,20,6.8
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,38.4,38.4,Clear,Low,17.5,Thu,16,8.2
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,43.9,43.9,Clear,High,8.6,Wed,5,28.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,142.5,142.5,Clear,Medium,15.7,Thu,11,22.6
+Tejas Express,22119,New Delhi,Kota Jn,92.9,92.9,Rain,Low,14.5,Tue,10,16.1
+Shatabdi Express,12009,New Delhi,Kota Jn,39.6,39.6,Clear,Low,17.3,Sat,13,4.8
+Shatabdi Express,12009,Surat,Mumbai Central,113.9,113.9,Heavy Rain,High,17.1,Sat,18,54.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,48.4,48.4,Heavy Rain,Low,10.9,Thu,6,27.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,143.8,143.8,Heavy Rain,Medium,0.3,Mon,9,38.2
+Shatabdi Express,12009,Surat,Mumbai Central,126.5,126.5,Clear,Low,20.0,Wed,11,9.1
+Tejas Express,22119,Surat,Mumbai Central,146.6,146.6,Clear,High,9.2,Fri,19,23.3
+August Kranti Rajdhani,12953,Surat,Mumbai Central,76.7,76.7,Clear,Medium,13.6,Sat,19,18.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,124.8,124.8,Clear,Medium,12.3,Thu,23,15.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,85.4,85.4,Rain,Medium,17.0,Sun,14,23.6
+Tejas Express,22119,New Delhi,Kota Jn,45.4,45.4,Clear,Low,19.4,Thu,20,13.8
+Tejas Express,22119,New Delhi,Kota Jn,142.2,142.2,Fog,Medium,5.4,Wed,13,29.3
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,137.0,137.0,Clear,Low,3.1,Sun,16,0.2
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,42.2,42.2,Clear,Low,11.1,Fri,20,4.4
+Tejas Express,22119,New Delhi,Kota Jn,124.2,124.2,Clear,Low,12.7,Tue,12,11.1
+Shatabdi Express,12009,Surat,Mumbai Central,40.6,40.6,Clear,Medium,2.5,Fri,12,7.5
+Shatabdi Express,12009,Surat,Mumbai Central,40.7,40.7,Clear,Low,0.5,Sun,18,0.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,100.4,100.4,Clear,High,11.4,Sat,4,21.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,44.3,44.3,Fog,Low,3.9,Sat,12,20.3
+Shatabdi Express,12009,New Delhi,Kota Jn,55.7,55.7,Rain,Medium,12.8,Mon,3,25.2
+Tejas Express,22119,Surat,Mumbai Central,35.9,35.9,Clear,Low,3.6,Sun,11,0.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,33.1,33.1,Fog,Low,9.7,Tue,21,21.2
+Tejas Express,22119,Vadodara Jn,Surat,135.7,135.7,Fog,Low,3.2,Tue,21,14.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,146.9,146.9,Heavy Rain,Low,12.3,Tue,16,31.6
+Shatabdi Express,12009,New Delhi,Kota Jn,45.1,45.1,Clear,Low,10.2,Sun,11,1.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,23.8,23.8,Clear,Low,13.8,Wed,15,3.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,65.3,65.3,Clear,Low,14.9,Fri,12,7.5
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,42.5,42.5,Fog,High,5.6,Fri,18,36.7
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,123.2,123.2,Heavy Rain,Low,17.7,Sat,8,33.1
+Shatabdi Express,12009,Surat,Mumbai Central,34.0,34.0,Clear,Low,7.1,Sun,2,7.5
+Tejas Express,22119,Kota Jn,Ratlam Jn,135.6,135.6,Heavy Rain,Low,8.2,Sat,16,30.1
+Shatabdi Express,12009,Vadodara Jn,Surat,23.9,23.9,Clear,Low,15.8,Mon,6,6.5
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,38.9,38.9,Clear,Low,13.8,Tue,14,9.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,93.0,93.0,Clear,Medium,10.5,Wed,22,11.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,136.0,136.0,Clear,Medium,6.4,Tue,1,11.4
+Tejas Express,22119,Vadodara Jn,Surat,26.1,26.1,Clear,Low,9.1,Fri,12,5.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,22.8,22.8,Clear,Medium,11.5,Thu,9,10.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,24.8,24.8,Clear,Medium,6.7,Thu,3,8.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,55.7,55.7,Fog,Low,11.1,Fri,1,18.7
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,110.5,110.5,Clear,Medium,19.3,Wed,19,15.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,49.1,49.1,Rain,Low,19.9,Sat,13,21.6
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,31.4,31.4,Fog,Medium,16.3,Mon,22,33.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,134.8,134.8,Clear,Low,6.1,Sat,19,0.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,110.8,110.8,Rain,Medium,2.4,Tue,18,17.4
+Tejas Express,22119,Vadodara Jn,Surat,106.9,106.9,Clear,Low,9.6,Wed,10,4.7
+Tejas Express,22119,Kota Jn,Ratlam Jn,31.9,31.9,Fog,Medium,7.1,Tue,21,31.9
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,29.8,29.8,Clear,Low,13.4,Thu,6,6.4
+Tejas Express,22119,New Delhi,Kota Jn,64.3,64.3,Rain,Medium,10.3,Wed,22,21.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,130.2,130.2,Clear,Low,18.3,Thu,19,8.1
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,44.4,44.4,Clear,Low,6.1,Sat,3,6.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,133.9,133.9,Fog,Low,17.9,Mon,15,20.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,54.5,54.5,Rain,Low,8.6,Fri,13,8.8
+Shatabdi Express,12009,New Delhi,Kota Jn,77.4,77.4,Clear,Low,7.7,Tue,9,8.2
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,43.0,43.0,Clear,Medium,10.4,Mon,20,11.3
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,48.5,48.5,Clear,Low,5.3,Mon,8,0.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,110.9,110.9,Clear,Low,4.4,Sat,8,5.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,42.2,42.2,Clear,Medium,14.1,Mon,3,15.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,138.0,138.0,Fog,Medium,17.1,Tue,10,35.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,44.4,44.4,Rain,Low,0.3,Wed,0,7.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,134.6,134.6,Clear,Medium,0.2,Thu,18,8.6
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,133.5,133.5,Clear,Low,0.3,Wed,7,1.9
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,120.8,120.8,Clear,Medium,6.7,Wed,17,13.2
+Shatabdi Express,12009,Vadodara Jn,Surat,53.0,53.0,Clear,Medium,6.0,Fri,21,11.3
+Tejas Express,22119,New Delhi,Kota Jn,55.1,55.1,Clear,Medium,3.0,Tue,21,10.6
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,84.7,84.7,Clear,Medium,19.5,Sat,2,18.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,103.0,103.0,Heavy Rain,High,13.6,Thu,16,55.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,138.3,138.3,Clear,Low,11.8,Wed,9,10.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,95.3,95.3,Fog,Medium,2.5,Fri,11,29.2
+Shatabdi Express,12009,New Delhi,Kota Jn,146.0,146.0,Clear,Medium,9.3,Wed,19,11.2
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,83.3,83.3,Clear,Low,9.1,Sun,18,1.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,83.5,83.5,Clear,Low,16.7,Tue,11,3.8
+Shatabdi Express,12009,Surat,Mumbai Central,106.5,106.5,Fog,Low,1.7,Sat,6,13.6
+Tejas Express,22119,Surat,Mumbai Central,139.4,139.4,Clear,Low,18.7,Sat,20,6.8
+Tejas Express,22119,Vadodara Jn,Surat,71.9,71.9,Rain,High,18.4,Tue,18,38.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,124.6,124.6,Clear,Medium,5.0,Tue,9,11.7
+Shatabdi Express,12009,New Delhi,Kota Jn,58.7,58.7,Rain,Low,3.7,Sun,13,12.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,88.5,88.5,Fog,Medium,13.7,Wed,13,30.5
+Tejas Express,22119,Vadodara Jn,Surat,145.0,145.0,Clear,High,0.5,Mon,4,22.9
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,95.4,95.4,Clear,Medium,18.0,Mon,12,22.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,107.1,107.1,Clear,Medium,10.4,Mon,1,18.6
+Shatabdi Express,12009,New Delhi,Kota Jn,63.4,63.4,Clear,Low,9.6,Mon,3,3.1
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,87.1,87.1,Clear,High,2.7,Sat,4,25.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,113.5,113.5,Rain,Medium,12.5,Mon,0,21.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,134.4,134.4,Clear,Low,2.1,Fri,14,0.0
+Tejas Express,22119,New Delhi,Kota Jn,140.4,140.4,Clear,Low,3.7,Sun,17,0.0
+Shatabdi Express,12009,Surat,Mumbai Central,108.6,108.6,Rain,Medium,8.6,Tue,4,23.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,86.5,86.5,Fog,Low,9.6,Mon,18,17.7
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,106.8,106.8,Clear,Medium,2.1,Thu,4,10.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,79.4,79.4,Clear,Low,6.1,Sat,19,4.5
+Tejas Express,22119,New Delhi,Kota Jn,138.1,138.1,Clear,Low,17.6,Mon,5,8.4
+Shatabdi Express,12009,Surat,Mumbai Central,131.3,131.3,Clear,Low,14.1,Mon,5,5.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,105.3,105.3,Clear,Low,17.2,Sun,21,5.0
+Shatabdi Express,12009,Vadodara Jn,Surat,28.9,28.9,Rain,Low,19.3,Tue,18,18.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,110.7,110.7,Clear,Medium,11.7,Mon,1,19.1
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,50.1,50.1,Fog,Low,13.6,Tue,23,20.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,137.0,137.0,Clear,High,15.1,Mon,1,26.8
+Shatabdi Express,12009,New Delhi,Kota Jn,24.9,24.9,Fog,Low,7.5,Mon,5,20.1
+Shatabdi Express,12009,New Delhi,Kota Jn,110.8,110.8,Clear,High,11.5,Wed,15,22.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,49.3,49.3,Fog,Low,10.6,Mon,18,23.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,46.5,46.5,Rain,High,7.2,Fri,2,30.7
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,108.7,108.7,Heavy Rain,Medium,10.6,Tue,18,37.2
+Tejas Express,22119,Surat,Mumbai Central,65.8,65.8,Fog,Medium,2.8,Thu,20,22.1
+Tejas Express,22119,New Delhi,Kota Jn,94.0,94.0,Clear,Medium,2.0,Mon,19,11.0
+Shatabdi Express,12009,New Delhi,Kota Jn,49.1,49.1,Rain,High,5.0,Mon,5,32.5
+Shatabdi Express,12009,New Delhi,Kota Jn,89.5,89.5,Clear,Medium,12.2,Fri,1,14.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,81.2,81.2,Rain,Low,0.6,Wed,6,6.7
+Shatabdi Express,12009,New Delhi,Kota Jn,38.1,38.1,Clear,Medium,18.5,Mon,7,20.9
+Tejas Express,22119,New Delhi,Kota Jn,124.7,124.7,Clear,Medium,16.7,Wed,2,21.5
+Tejas Express,22119,Surat,Mumbai Central,116.1,116.1,Rain,High,9.6,Sat,1,29.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,84.6,84.6,Clear,Low,9.6,Tue,0,7.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,120.6,120.6,Rain,Medium,17.2,Sat,0,28.4
+Tejas Express,22119,New Delhi,Kota Jn,70.3,70.3,Clear,Low,14.0,Mon,14,7.5
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,147.7,147.7,Clear,Low,8.7,Tue,2,0.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,73.7,73.7,Fog,Medium,10.7,Sun,0,25.9
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,30.0,30.0,Clear,Low,0.9,Sat,7,0.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,98.8,98.8,Clear,Low,1.5,Fri,6,0.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,136.7,136.7,Rain,Low,6.1,Fri,9,9.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,136.1,136.1,Clear,Medium,2.1,Thu,22,9.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,30.2,30.2,Rain,Medium,10.4,Fri,6,21.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,114.2,114.2,Fog,Low,4.7,Sun,14,16.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,84.9,84.9,Clear,Low,7.7,Mon,1,7.2
+Shatabdi Express,12009,Surat,Mumbai Central,69.9,69.9,Clear,Low,8.9,Thu,5,1.7
+Tejas Express,22119,Surat,Mumbai Central,26.8,26.8,Clear,Medium,7.0,Fri,10,8.8
+Shatabdi Express,12009,Surat,Mumbai Central,48.2,48.2,Clear,Medium,12.4,Sun,23,19.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,91.9,91.9,Heavy Rain,High,5.7,Fri,14,52.8
+Tejas Express,22119,Surat,Mumbai Central,113.5,113.5,Fog,Low,19.2,Tue,4,24.3
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,123.9,123.9,Heavy Rain,Low,5.0,Wed,18,27.9
+Tejas Express,22119,New Delhi,Kota Jn,100.0,100.0,Clear,Medium,15.6,Fri,0,20.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,93.9,93.9,Clear,Low,3.6,Thu,0,1.4
+Tejas Express,22119,New Delhi,Kota Jn,145.6,145.6,Clear,Medium,4.4,Mon,8,7.8
+Shatabdi Express,12009,New Delhi,Kota Jn,77.3,77.3,Clear,Medium,5.2,Tue,20,12.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,133.3,133.3,Fog,Low,13.1,Fri,14,18.4
+Shatabdi Express,12009,New Delhi,Kota Jn,91.9,91.9,Clear,High,19.8,Mon,21,34.7
+Shatabdi Express,12009,Surat,Mumbai Central,113.4,113.4,Fog,Low,1.5,Fri,2,15.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,62.4,62.4,Clear,Medium,8.3,Wed,4,15.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,98.9,98.9,Clear,High,17.9,Wed,19,27.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,67.9,67.9,Clear,Low,11.8,Tue,10,2.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,69.2,69.2,Clear,Medium,3.0,Sat,2,14.1
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,93.5,93.5,Heavy Rain,Medium,14.7,Mon,16,42.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,81.4,81.4,Clear,Low,5.4,Wed,7,6.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,123.9,123.9,Heavy Rain,Low,6.3,Sat,7,32.9
+Tejas Express,22119,Vadodara Jn,Surat,67.0,67.0,Clear,Medium,18.3,Fri,7,20.6
+Tejas Express,22119,Vadodara Jn,Surat,49.9,49.9,Rain,High,18.5,Thu,21,34.6
+August Kranti Rajdhani,12953,Surat,Mumbai Central,53.8,53.8,Clear,Low,1.6,Tue,18,0.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,137.0,137.0,Rain,Low,2.4,Fri,22,6.8
+Tejas Express,22119,New Delhi,Kota Jn,36.4,36.4,Clear,Low,13.8,Tue,16,11.8
+Tejas Express,22119,Vadodara Jn,Surat,66.1,66.1,Clear,Medium,14.2,Sun,10,13.3
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,29.6,29.6,Rain,High,18.2,Sat,13,38.4
+Shatabdi Express,12009,Vadodara Jn,Surat,111.0,111.0,Fog,Medium,11.8,Fri,2,34.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,97.2,97.2,Clear,Medium,7.6,Fri,23,13.2
+Shatabdi Express,12009,New Delhi,Kota Jn,50.2,50.2,Clear,Low,10.4,Fri,13,5.5
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,69.9,69.9,Fog,High,0.8,Sat,6,39.9
+Tejas Express,22119,Surat,Mumbai Central,56.2,56.2,Rain,Low,6.9,Wed,8,8.1
+Tejas Express,22119,Vadodara Jn,Surat,49.1,49.1,Clear,High,5.2,Mon,7,23.7
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,32.5,32.5,Clear,Medium,3.4,Mon,17,12.7
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,83.5,83.5,Rain,Low,5.6,Thu,23,15.3
+Tejas Express,22119,Surat,Mumbai Central,36.4,36.4,Clear,High,14.3,Mon,14,31.3
+Tejas Express,22119,Vadodara Jn,Surat,54.2,54.2,Rain,High,14.6,Wed,2,31.5
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,62.5,62.5,Clear,Low,12.6,Sun,2,6.4
+Shatabdi Express,12009,New Delhi,Kota Jn,76.3,76.3,Rain,Medium,6.4,Sat,20,24.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,52.0,52.0,Clear,High,4.4,Thu,4,19.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,115.4,115.4,Clear,Low,17.5,Sun,23,13.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,76.5,76.5,Clear,Medium,14.2,Sat,8,12.5
+Tejas Express,22119,Surat,Mumbai Central,50.5,50.5,Clear,Medium,19.1,Sun,7,23.4
+Shatabdi Express,12009,Vadodara Jn,Surat,83.7,83.7,Fog,Medium,10.9,Tue,3,28.4
+Shatabdi Express,12009,Vadodara Jn,Surat,146.0,146.0,Clear,Medium,2.3,Wed,21,10.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,110.6,110.6,Fog,Medium,9.7,Thu,19,32.9
+Tejas Express,22119,Kota Jn,Ratlam Jn,23.8,23.8,Clear,Low,17.0,Fri,10,7.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,73.5,73.5,Rain,Low,5.2,Thu,23,6.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,102.7,102.7,Clear,Low,4.4,Fri,6,6.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,99.4,99.4,Clear,Medium,19.0,Thu,2,14.7
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,119.7,119.7,Clear,Medium,10.4,Tue,5,13.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,57.7,57.7,Clear,Low,8.3,Tue,0,4.7
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,118.2,118.2,Clear,Medium,15.8,Wed,9,13.3
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,102.1,102.1,Fog,Low,15.0,Thu,20,25.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,126.4,126.4,Rain,High,1.5,Sat,23,28.8
+Tejas Express,22119,New Delhi,Kota Jn,21.9,21.9,Rain,Medium,3.0,Sun,12,21.9
+August Kranti Rajdhani,12953,Surat,Mumbai Central,131.7,131.7,Fog,Low,14.9,Thu,6,20.4
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,146.0,146.0,Clear,Low,8.6,Thu,17,1.5
+Shatabdi Express,12009,Vadodara Jn,Surat,57.0,57.0,Fog,Medium,7.6,Sat,12,33.7
+Shatabdi Express,12009,Surat,Mumbai Central,112.9,112.9,Clear,Medium,0.5,Thu,11,12.9
+Tejas Express,22119,Surat,Mumbai Central,34.2,34.2,Clear,Low,12.6,Fri,5,2.1
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,97.1,97.1,Clear,Low,16.8,Sun,18,8.6
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,119.8,119.8,Clear,Low,6.8,Wed,22,0.0
+Tejas Express,22119,New Delhi,Kota Jn,54.9,54.9,Clear,Medium,9.8,Sat,7,14.9
+Shatabdi Express,12009,Vadodara Jn,Surat,112.2,112.2,Clear,High,19.9,Mon,13,25.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,36.5,36.5,Clear,Medium,2.4,Sun,3,8.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,84.4,84.4,Fog,Medium,2.8,Thu,12,30.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,35.3,35.3,Heavy Rain,Medium,17.6,Wed,19,41.5
+Shatabdi Express,12009,Surat,Mumbai Central,104.5,104.5,Clear,Medium,4.1,Sat,11,13.2
+Shatabdi Express,12009,Vadodara Jn,Surat,80.2,80.2,Rain,High,14.4,Tue,5,38.7
+Tejas Express,22119,New Delhi,Kota Jn,61.3,61.3,Clear,Low,19.9,Sat,6,5.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,89.9,89.9,Clear,Low,9.4,Wed,20,1.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,101.7,101.7,Rain,Low,16.4,Fri,23,19.9
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,101.2,101.2,Clear,Low,10.8,Mon,18,7.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,115.0,115.0,Clear,Low,2.0,Fri,20,4.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,94.8,94.8,Rain,Medium,19.3,Fri,21,30.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,41.9,41.9,Fog,High,1.8,Tue,4,38.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,133.7,133.7,Clear,High,1.0,Thu,13,20.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,59.3,59.3,Fog,Low,7.9,Sat,15,21.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,129.0,129.0,Clear,Low,12.1,Tue,20,3.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,129.2,129.2,Clear,Low,15.8,Fri,13,9.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,23.3,23.3,Clear,Low,13.4,Tue,19,9.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,68.6,68.6,Rain,High,3.9,Tue,0,28.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,32.2,32.2,Clear,Low,18.4,Mon,20,10.3
+Shatabdi Express,12009,Vadodara Jn,Surat,71.8,71.8,Heavy Rain,Medium,5.5,Fri,0,33.4
+Tejas Express,22119,Surat,Mumbai Central,102.2,102.2,Clear,Low,17.5,Sun,3,11.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,23.7,23.7,Rain,Low,14.7,Tue,2,19.1
+Tejas Express,22119,New Delhi,Kota Jn,27.3,27.3,Fog,Low,1.9,Sun,6,16.3
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,128.8,128.8,Rain,Low,14.2,Fri,23,19.2
+Shatabdi Express,12009,Surat,Mumbai Central,21.8,21.8,Fog,Low,13.4,Tue,16,17.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,30.9,30.9,Clear,Low,4.0,Tue,20,2.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,55.6,55.6,Clear,Low,11.4,Fri,14,7.7
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,139.3,139.3,Clear,Low,6.4,Mon,5,4.5
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,102.9,102.9,Clear,High,18.9,Sat,20,27.6
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,60.4,60.4,Clear,Low,5.6,Thu,7,3.5
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,134.9,134.9,Clear,Low,14.0,Thu,11,4.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,120.4,120.4,Clear,Medium,13.7,Sun,18,13.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,89.9,89.9,Clear,Medium,6.9,Sun,9,16.6
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,111.0,111.0,Clear,Medium,15.9,Sun,6,13.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,80.8,80.8,Clear,Low,13.2,Tue,14,3.5
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,93.3,93.3,Fog,High,6.4,Wed,0,34.2
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,81.8,81.8,Clear,High,3.7,Tue,14,20.5
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,77.1,77.1,Fog,Medium,13.9,Thu,7,34.2
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,98.1,98.1,Clear,Low,0.8,Tue,16,4.7
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,75.4,75.4,Clear,Medium,11.9,Tue,9,12.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,117.7,117.7,Clear,Low,19.2,Wed,4,14.3
+Shatabdi Express,12009,Vadodara Jn,Surat,71.5,71.5,Clear,Medium,4.0,Wed,2,8.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,131.5,131.5,Clear,Medium,3.1,Sun,11,12.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,40.7,40.7,Clear,Medium,7.9,Thu,21,11.0
+Tejas Express,22119,Vadodara Jn,Surat,111.8,111.8,Fog,Low,2.6,Tue,12,18.9
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,126.6,126.6,Fog,Low,7.9,Thu,21,14.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,135.1,135.1,Clear,Low,7.2,Mon,19,3.6
+Tejas Express,22119,New Delhi,Kota Jn,103.9,103.9,Clear,Low,4.2,Wed,12,1.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,39.6,39.6,Clear,Medium,9.6,Thu,5,12.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,108.7,108.7,Rain,Low,1.7,Mon,20,10.8
+Tejas Express,22119,New Delhi,Kota Jn,40.9,40.9,Clear,Medium,13.7,Sat,21,12.0
+Tejas Express,22119,Vadodara Jn,Surat,120.3,120.3,Clear,Low,12.7,Sun,14,7.3
+Shatabdi Express,12009,Vadodara Jn,Surat,112.6,112.6,Rain,High,2.2,Thu,17,25.9
+Tejas Express,22119,New Delhi,Kota Jn,39.6,39.6,Clear,High,11.8,Sun,19,22.9
+Tejas Express,22119,Vadodara Jn,Surat,26.3,26.3,Clear,Low,9.8,Fri,21,3.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,75.3,75.3,Fog,Medium,0.5,Wed,11,22.9
+Tejas Express,22119,New Delhi,Kota Jn,78.1,78.1,Clear,Low,2.2,Fri,23,3.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,42.8,42.8,Clear,Low,2.9,Wed,11,1.3
+Tejas Express,22119,Surat,Mumbai Central,51.7,51.7,Rain,Medium,14.7,Thu,1,25.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,68.5,68.5,Clear,High,12.8,Thu,16,30.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,140.6,140.6,Fog,Low,0.4,Wed,23,19.7
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,145.5,145.5,Fog,Medium,19.9,Fri,7,36.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,94.5,94.5,Clear,High,5.5,Tue,8,24.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,71.8,71.8,Clear,Low,0.1,Sun,13,0.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,54.7,54.7,Clear,High,6.4,Mon,22,20.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,28.3,28.3,Clear,Medium,16.5,Sat,19,19.1
+Shatabdi Express,12009,Surat,Mumbai Central,70.6,70.6,Rain,Low,6.8,Thu,4,9.9
+Tejas Express,22119,Vadodara Jn,Surat,47.4,47.4,Fog,Medium,5.1,Sun,18,22.9
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,93.0,93.0,Clear,Low,19.7,Wed,10,8.5
+Tejas Express,22119,Vadodara Jn,Surat,23.8,23.8,Fog,Low,7.0,Sun,0,17.8
+Shatabdi Express,12009,Surat,Mumbai Central,116.7,116.7,Heavy Rain,Low,10.8,Sun,3,29.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,48.4,48.4,Heavy Rain,Medium,3.6,Sun,23,33.4
+Tejas Express,22119,Surat,Mumbai Central,73.1,73.1,Fog,Low,12.0,Wed,20,19.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,85.3,85.3,Clear,Low,8.1,Wed,14,6.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,72.0,72.0,Clear,Medium,15.3,Sat,3,19.2
+Tejas Express,22119,Surat,Mumbai Central,104.9,104.9,Heavy Rain,Low,12.7,Tue,19,32.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,94.2,94.2,Clear,Low,12.2,Sat,15,2.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,23.0,23.0,Fog,Medium,7.8,Tue,5,29.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,114.0,114.0,Clear,Low,14.3,Tue,9,4.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,46.9,46.9,Clear,Low,12.1,Sun,5,10.9
+Tejas Express,22119,Surat,Mumbai Central,103.4,103.4,Rain,Medium,17.4,Tue,14,30.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,117.3,117.3,Fog,Low,10.4,Thu,2,19.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,134.8,134.8,Clear,Medium,12.1,Sat,0,21.0
+Tejas Express,22119,Vadodara Jn,Surat,127.6,127.6,Clear,Medium,16.6,Mon,11,20.6
+Tejas Express,22119,Surat,Mumbai Central,101.8,101.8,Clear,Medium,2.1,Sun,18,14.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,67.6,67.6,Fog,Low,4.9,Wed,3,17.2
+Shatabdi Express,12009,New Delhi,Kota Jn,79.6,79.6,Fog,Medium,15.1,Sat,14,30.9
+Shatabdi Express,12009,Vadodara Jn,Surat,110.9,110.9,Clear,Medium,15.2,Wed,0,14.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,93.3,93.3,Fog,Low,14.3,Wed,15,22.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,40.1,40.1,Rain,Low,12.1,Wed,20,17.7
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,130.6,130.6,Clear,Low,0.2,Fri,23,0.0
+Tejas Express,22119,Vadodara Jn,Surat,100.4,100.4,Clear,Low,3.1,Wed,16,5.0
+Shatabdi Express,12009,Vadodara Jn,Surat,132.5,132.5,Clear,Low,10.5,Thu,0,2.0
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,49.2,49.2,Clear,Low,12.2,Mon,20,8.4
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,84.8,84.8,Clear,Medium,0.2,Sun,16,12.6
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,67.3,67.3,Clear,Medium,19.0,Wed,17,19.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,78.1,78.1,Clear,Low,15.9,Sat,7,4.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,43.1,43.1,Heavy Rain,Low,5.5,Sat,2,30.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,59.4,59.4,Clear,Low,15.2,Mon,17,7.4
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,122.7,122.7,Clear,Low,8.8,Mon,17,4.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,83.3,83.3,Clear,Medium,17.2,Thu,20,14.7
+August Kranti Rajdhani,12953,Surat,Mumbai Central,124.7,124.7,Fog,Low,0.0,Fri,8,17.5
+Tejas Express,22119,Kota Jn,Ratlam Jn,62.7,62.7,Clear,Low,12.9,Fri,7,4.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,108.1,108.1,Clear,Medium,2.2,Tue,15,13.7
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,136.1,136.1,Clear,Low,3.6,Sat,9,4.4
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,64.5,64.5,Fog,Medium,3.9,Tue,6,23.1
+Shatabdi Express,12009,Surat,Mumbai Central,59.7,59.7,Fog,Low,13.7,Tue,18,26.2
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,40.3,40.3,Fog,Medium,17.0,Tue,10,34.6
+Tejas Express,22119,Surat,Mumbai Central,122.5,122.5,Fog,Low,18.7,Sun,9,24.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,59.8,59.8,Fog,Medium,6.3,Fri,12,26.2
+Tejas Express,22119,New Delhi,Kota Jn,119.1,119.1,Clear,High,7.1,Thu,8,26.7
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,47.1,47.1,Fog,Low,7.5,Sun,12,16.9
+Shatabdi Express,12009,Surat,Mumbai Central,92.8,92.8,Clear,Low,10.1,Mon,2,8.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,62.3,62.3,Clear,Medium,9.4,Mon,21,19.4
+Tejas Express,22119,Vadodara Jn,Surat,52.5,52.5,Heavy Rain,Medium,1.2,Wed,8,31.2
+Shatabdi Express,12009,Vadodara Jn,Surat,140.1,140.1,Clear,Low,15.0,Sun,23,5.7
+Tejas Express,22119,Kota Jn,Ratlam Jn,133.6,133.6,Clear,Medium,11.2,Wed,18,15.0
+Shatabdi Express,12009,Surat,Mumbai Central,89.0,89.0,Clear,Low,15.4,Sun,22,3.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,137.7,137.7,Clear,High,3.7,Thu,11,21.6
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,108.1,108.1,Fog,Low,15.0,Mon,20,17.7
+Tejas Express,22119,Vadodara Jn,Surat,71.5,71.5,Clear,Low,10.6,Fri,11,9.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,76.8,76.8,Clear,Medium,16.0,Thu,9,20.9
+Shatabdi Express,12009,New Delhi,Kota Jn,115.5,115.5,Clear,High,15.6,Sun,16,28.1
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,139.9,139.9,Fog,High,15.0,Thu,8,45.2
+Tejas Express,22119,Vadodara Jn,Surat,135.6,135.6,Heavy Rain,Low,6.6,Fri,10,25.1
+Tejas Express,22119,Surat,Mumbai Central,121.5,121.5,Fog,High,17.8,Wed,0,42.9
+Tejas Express,22119,New Delhi,Kota Jn,21.1,21.1,Clear,Low,17.1,Sun,10,9.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,120.1,120.1,Clear,Low,17.6,Tue,6,12.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,60.1,60.1,Clear,Medium,18.9,Tue,17,14.8
+Shatabdi Express,12009,New Delhi,Kota Jn,62.6,62.6,Clear,Low,4.2,Thu,8,0.1
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,120.4,120.4,Clear,High,18.9,Thu,0,25.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,69.5,69.5,Clear,Low,4.1,Sun,3,0.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,85.9,85.9,Clear,Medium,3.3,Thu,23,8.8
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,74.0,74.0,Clear,Low,10.1,Fri,3,4.8
+Tejas Express,22119,New Delhi,Kota Jn,20.9,20.9,Rain,Low,17.1,Wed,2,15.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,49.8,49.8,Fog,Medium,16.2,Mon,8,36.9
+Shatabdi Express,12009,New Delhi,Kota Jn,38.3,38.3,Clear,Medium,2.6,Sat,15,7.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,97.5,97.5,Clear,Medium,5.9,Sun,5,14.1
+Tejas Express,22119,Kota Jn,Ratlam Jn,42.7,42.7,Clear,Low,16.2,Wed,3,9.8
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,84.7,84.7,Clear,Medium,18.2,Wed,0,16.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,23.7,23.7,Clear,Medium,2.9,Fri,12,10.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,33.0,33.0,Clear,Low,8.4,Thu,14,0.0
+Tejas Express,22119,Surat,Mumbai Central,77.3,77.3,Rain,Medium,0.0,Wed,4,17.8
+Shatabdi Express,12009,Surat,Mumbai Central,67.5,67.5,Fog,Medium,9.6,Sun,18,32.3
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,48.5,48.5,Clear,High,4.5,Mon,22,18.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,135.3,135.3,Clear,Low,3.7,Wed,22,3.5
+Tejas Express,22119,Surat,Mumbai Central,87.6,87.6,Clear,High,15.2,Thu,11,23.9
+August Kranti Rajdhani,12953,Surat,Mumbai Central,115.7,115.7,Rain,Medium,16.0,Sun,6,27.3
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,38.6,38.6,Clear,Medium,3.2,Fri,15,9.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,44.4,44.4,Rain,High,8.1,Thu,19,36.9
+Shatabdi Express,12009,Surat,Mumbai Central,77.2,77.2,Fog,Medium,10.3,Tue,8,28.5
+Shatabdi Express,12009,Vadodara Jn,Surat,120.4,120.4,Clear,Low,17.1,Wed,2,11.2
+Shatabdi Express,12009,Vadodara Jn,Surat,103.5,103.5,Heavy Rain,Low,4.5,Mon,3,26.9
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,133.5,133.5,Clear,Low,19.7,Sun,16,5.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,126.6,126.6,Rain,Medium,2.8,Sun,0,21.2
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,88.3,88.3,Fog,Medium,10.6,Fri,11,25.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,41.7,41.7,Clear,Medium,12.7,Tue,22,20.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,142.5,142.5,Fog,High,5.6,Thu,9,42.4
+Tejas Express,22119,Surat,Mumbai Central,146.4,146.4,Rain,Low,2.7,Mon,2,13.8
+Shatabdi Express,12009,Surat,Mumbai Central,106.9,106.9,Clear,Medium,11.9,Sun,13,11.6
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,82.5,82.5,Clear,High,19.5,Thu,5,34.5
+Tejas Express,22119,Vadodara Jn,Surat,96.9,96.9,Clear,Low,4.5,Tue,12,6.8
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,142.8,142.8,Clear,Low,13.4,Mon,20,9.3
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,60.5,60.5,Clear,Medium,9.4,Wed,3,16.3
+Tejas Express,22119,Kota Jn,Ratlam Jn,29.2,29.2,Heavy Rain,High,6.8,Mon,12,46.1
+Shatabdi Express,12009,New Delhi,Kota Jn,101.5,101.5,Clear,Low,14.2,Thu,9,10.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,33.4,33.4,Heavy Rain,Medium,12.0,Sun,21,39.6
+Tejas Express,22119,Vadodara Jn,Surat,74.8,74.8,Fog,High,5.6,Wed,8,40.0
+Shatabdi Express,12009,Vadodara Jn,Surat,106.7,106.7,Clear,Low,0.3,Thu,7,2.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,96.8,96.8,Fog,Low,15.6,Fri,19,24.9
+Tejas Express,22119,Surat,Mumbai Central,87.5,87.5,Rain,Low,12.0,Sun,20,14.9
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,32.3,32.3,Heavy Rain,Low,11.6,Fri,13,32.9
+Tejas Express,22119,New Delhi,Kota Jn,65.1,65.1,Fog,High,11.5,Thu,20,41.0
+Tejas Express,22119,New Delhi,Kota Jn,48.1,48.1,Clear,Medium,6.6,Thu,0,11.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,66.6,66.6,Fog,Low,19.3,Sun,1,22.4
+Shatabdi Express,12009,Vadodara Jn,Surat,110.9,110.9,Fog,Medium,3.2,Sun,17,27.2
+Shatabdi Express,12009,Vadodara Jn,Surat,117.9,117.9,Fog,Low,10.0,Wed,19,15.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,127.7,127.7,Clear,Medium,12.8,Thu,20,14.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,46.3,46.3,Rain,Low,6.7,Wed,5,10.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,22.1,22.1,Clear,Low,10.1,Wed,17,6.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,100.4,100.4,Clear,Low,14.2,Sat,12,11.2
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,113.1,113.1,Clear,Low,18.4,Sat,9,5.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,149.9,149.9,Clear,Low,11.0,Wed,0,7.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,128.3,128.3,Heavy Rain,Low,4.5,Tue,4,28.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,51.7,51.7,Clear,Medium,16.8,Fri,18,17.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,44.2,44.2,Clear,Low,11.5,Thu,23,9.8
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,124.4,124.4,Clear,Low,18.0,Wed,17,13.4
+Shatabdi Express,12009,New Delhi,Kota Jn,144.6,144.6,Clear,High,19.7,Fri,18,27.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,147.5,147.5,Fog,Medium,9.5,Sun,19,27.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,113.3,113.3,Fog,Medium,19.7,Fri,1,34.6
+Tejas Express,22119,Surat,Mumbai Central,76.9,76.9,Clear,Low,19.9,Thu,17,5.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,82.0,82.0,Fog,Low,7.1,Wed,18,23.1
+Shatabdi Express,12009,New Delhi,Kota Jn,112.8,112.8,Clear,Medium,18.9,Tue,21,24.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,90.0,90.0,Fog,Low,11.4,Thu,4,24.5
+Shatabdi Express,12009,New Delhi,Kota Jn,146.2,146.2,Clear,Medium,11.7,Mon,19,18.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,73.8,73.8,Clear,Low,19.6,Tue,5,12.5
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,114.7,114.7,Clear,Low,8.1,Sat,12,6.0
+Tejas Express,22119,Vadodara Jn,Surat,110.5,110.5,Clear,Low,1.9,Sat,13,0.0
+Shatabdi Express,12009,Vadodara Jn,Surat,31.8,31.8,Clear,Low,7.0,Mon,10,5.0
+Tejas Express,22119,New Delhi,Kota Jn,88.1,88.1,Clear,Medium,19.6,Wed,3,15.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,145.3,145.3,Clear,Low,7.7,Fri,18,0.0
+Shatabdi Express,12009,New Delhi,Kota Jn,144.2,144.2,Clear,Medium,3.6,Wed,3,9.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,68.6,68.6,Clear,Low,16.9,Fri,4,11.1
+Tejas Express,22119,New Delhi,Kota Jn,100.9,100.9,Rain,High,15.9,Wed,9,32.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,108.8,108.8,Clear,Low,2.0,Tue,19,0.0
+Shatabdi Express,12009,Vadodara Jn,Surat,140.7,140.7,Clear,Low,9.0,Fri,2,0.7
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,67.5,67.5,Clear,Medium,3.8,Wed,1,10.9
+Tejas Express,22119,Surat,Mumbai Central,32.8,32.8,Clear,Medium,6.4,Fri,22,13.5
+Tejas Express,22119,Surat,Mumbai Central,103.6,103.6,Clear,Low,15.3,Sat,13,5.6
+Tejas Express,22119,Vadodara Jn,Surat,69.0,69.0,Clear,Low,6.4,Thu,9,3.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,120.2,120.2,Fog,Medium,0.8,Wed,18,29.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,116.1,116.1,Clear,Low,6.1,Fri,1,0.0
+Tejas Express,22119,Surat,Mumbai Central,88.1,88.1,Clear,Low,14.0,Mon,14,11.1
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,112.6,112.6,Clear,Low,4.1,Mon,1,3.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,137.0,137.0,Clear,Low,18.1,Sun,10,10.7
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,127.5,127.5,Clear,Medium,0.9,Tue,19,6.8
+Shatabdi Express,12009,Vadodara Jn,Surat,108.5,108.5,Fog,High,6.2,Sat,23,42.5
+Shatabdi Express,12009,Vadodara Jn,Surat,109.7,109.7,Clear,Low,5.6,Sun,15,6.8
+Shatabdi Express,12009,Surat,Mumbai Central,21.4,21.4,Fog,Low,15.3,Sat,7,18.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,35.0,35.0,Rain,Low,3.7,Sat,8,8.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,89.7,89.7,Clear,Medium,2.2,Sun,6,7.3
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,130.0,130.0,Clear,Medium,0.7,Mon,7,10.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,44.0,44.0,Fog,Medium,4.8,Thu,23,28.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,97.6,97.6,Clear,High,15.3,Tue,23,24.5
+Shatabdi Express,12009,New Delhi,Kota Jn,93.9,93.9,Rain,Low,19.0,Wed,14,21.7
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,70.9,70.9,Clear,Low,1.3,Tue,10,0.0
+Tejas Express,22119,New Delhi,Kota Jn,133.3,133.3,Clear,Low,10.6,Tue,17,5.9
+Shatabdi Express,12009,New Delhi,Kota Jn,34.5,34.5,Clear,Medium,0.3,Sat,10,12.4
+Shatabdi Express,12009,New Delhi,Kota Jn,38.7,38.7,Clear,Low,7.6,Sun,12,4.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,119.1,119.1,Clear,Medium,0.4,Thu,18,13.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,109.1,109.1,Clear,High,4.8,Wed,11,22.3
+Tejas Express,22119,Vadodara Jn,Surat,139.5,139.5,Clear,Medium,7.2,Sat,23,10.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,149.9,149.9,Rain,Low,0.4,Tue,1,11.3
+Tejas Express,22119,Vadodara Jn,Surat,112.4,112.4,Clear,Low,8.0,Wed,6,7.4
+Tejas Express,22119,Vadodara Jn,Surat,134.9,134.9,Clear,Low,19.0,Wed,10,9.1
+Tejas Express,22119,Kota Jn,Ratlam Jn,114.0,114.0,Clear,Low,3.8,Sun,23,0.0
+Shatabdi Express,12009,Vadodara Jn,Surat,91.3,91.3,Fog,Low,12.9,Tue,15,18.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,104.8,104.8,Clear,Medium,15.5,Mon,6,18.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,91.7,91.7,Clear,Low,10.4,Thu,0,2.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,93.8,93.8,Clear,High,13.6,Sat,12,29.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,73.5,73.5,Clear,High,2.6,Wed,19,25.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,122.3,122.3,Clear,Low,17.2,Sun,2,4.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,46.4,46.4,Clear,Low,16.8,Wed,18,7.0
+Tejas Express,22119,Vadodara Jn,Surat,64.0,64.0,Clear,Low,16.0,Tue,5,4.6
+Tejas Express,22119,New Delhi,Kota Jn,89.2,89.2,Fog,Low,11.0,Wed,22,20.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,106.3,106.3,Clear,Low,15.1,Thu,15,3.9
+Tejas Express,22119,Vadodara Jn,Surat,42.2,42.2,Clear,Medium,16.4,Fri,18,22.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,136.2,136.2,Heavy Rain,High,11.3,Mon,11,54.5
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,37.5,37.5,Clear,Low,3.0,Sun,21,6.4
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,58.0,58.0,Fog,Medium,7.1,Thu,0,33.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,67.5,67.5,Clear,Medium,19.6,Mon,15,23.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,26.8,26.8,Clear,Low,9.0,Mon,8,3.8
+Tejas Express,22119,New Delhi,Kota Jn,63.3,63.3,Clear,High,18.5,Fri,0,24.4
+Shatabdi Express,12009,Vadodara Jn,Surat,46.0,46.0,Clear,Low,13.9,Thu,10,4.7
+Shatabdi Express,12009,Surat,Mumbai Central,131.0,131.0,Fog,Low,6.8,Sat,8,22.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,56.6,56.6,Clear,Low,13.4,Wed,16,9.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,125.4,125.4,Rain,Low,1.5,Tue,18,7.5
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,132.3,132.3,Clear,Low,16.1,Fri,2,11.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,101.4,101.4,Rain,Low,17.5,Mon,19,19.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,111.5,111.5,Clear,Medium,1.6,Mon,0,6.7
+Tejas Express,22119,Kota Jn,Ratlam Jn,47.3,47.3,Fog,Low,12.5,Sun,6,18.1
+Tejas Express,22119,Surat,Mumbai Central,111.8,111.8,Clear,Medium,11.8,Thu,5,19.5
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,42.9,42.9,Clear,Low,10.8,Sat,3,10.1
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,44.3,44.3,Clear,High,3.2,Fri,9,23.0
+Tejas Express,22119,Surat,Mumbai Central,103.3,103.3,Clear,Low,6.9,Mon,20,0.9
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,118.1,118.1,Clear,Low,6.9,Fri,13,5.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,21.6,21.6,Fog,Low,11.8,Wed,22,25.1
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,54.1,54.1,Rain,Low,14.8,Thu,9,15.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,91.0,91.0,Fog,Low,3.4,Thu,14,18.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,140.0,140.0,Rain,High,9.3,Thu,4,36.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,74.5,74.5,Clear,Low,6.3,Sat,4,8.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,21.8,21.8,Fog,Medium,3.5,Tue,6,27.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,70.9,70.9,Clear,Low,0.4,Wed,17,0.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,44.7,44.7,Fog,Low,8.7,Thu,21,22.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,145.0,145.0,Clear,Low,9.5,Tue,16,2.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,74.1,74.1,Clear,Low,3.2,Sat,19,2.9
+Tejas Express,22119,Surat,Mumbai Central,35.8,35.8,Clear,Low,14.5,Sun,4,10.3
+Shatabdi Express,12009,Surat,Mumbai Central,146.2,146.2,Clear,Low,8.3,Wed,22,1.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,102.4,102.4,Rain,Low,5.6,Sun,10,9.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,145.5,145.5,Fog,Medium,18.2,Fri,7,36.2
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,93.2,93.2,Rain,Low,17.6,Tue,19,15.6
+Shatabdi Express,12009,New Delhi,Kota Jn,88.8,88.8,Clear,High,18.9,Mon,14,31.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,122.9,122.9,Clear,Low,17.0,Tue,7,4.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,66.3,66.3,Fog,Medium,15.7,Thu,10,37.5
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,144.5,144.5,Clear,Low,14.7,Tue,16,9.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,122.8,122.8,Clear,Medium,0.2,Tue,9,7.7
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,104.7,104.7,Fog,Low,9.3,Tue,14,23.8
+Tejas Express,22119,Surat,Mumbai Central,40.4,40.4,Clear,Low,18.7,Tue,22,8.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,41.2,41.2,Clear,High,2.5,Fri,15,24.9
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,61.0,61.0,Fog,Medium,12.6,Thu,5,32.8
+Shatabdi Express,12009,Surat,Mumbai Central,128.7,128.7,Clear,Low,11.3,Fri,1,6.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,28.3,28.3,Clear,Low,10.5,Tue,2,9.7
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,64.0,64.0,Clear,Medium,9.8,Fri,13,15.4
+Tejas Express,22119,Kota Jn,Ratlam Jn,91.3,91.3,Clear,Low,3.2,Sun,8,4.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,27.3,27.3,Fog,Low,12.9,Thu,1,23.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,118.6,118.6,Rain,High,2.8,Thu,20,27.6
+Tejas Express,22119,New Delhi,Kota Jn,86.3,86.3,Clear,Low,14.3,Mon,1,6.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,24.7,24.7,Clear,Low,7.0,Wed,16,0.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,47.7,47.7,Clear,High,14.9,Fri,11,25.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,128.5,128.5,Fog,Low,3.9,Thu,3,20.9
+Shatabdi Express,12009,Vadodara Jn,Surat,23.7,23.7,Fog,Medium,10.2,Tue,3,29.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,124.6,124.6,Fog,High,4.0,Sat,9,37.7
+August Kranti Rajdhani,12953,Surat,Mumbai Central,126.3,126.3,Clear,Low,12.5,Sun,8,7.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,23.1,23.1,Clear,Medium,17.2,Sat,12,15.7
+Shatabdi Express,12009,Vadodara Jn,Surat,147.9,147.9,Fog,Low,9.8,Wed,21,20.5
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,100.1,100.1,Rain,High,12.4,Wed,0,37.8
+Shatabdi Express,12009,Vadodara Jn,Surat,69.6,69.6,Clear,Low,1.1,Tue,13,0.0
+Shatabdi Express,12009,New Delhi,Kota Jn,56.4,56.4,Fog,Low,0.7,Tue,8,11.6
+Tejas Express,22119,Kota Jn,Ratlam Jn,35.6,35.6,Fog,High,15.9,Thu,5,46.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,31.2,31.2,Clear,High,11.6,Wed,0,26.4
+Tejas Express,22119,New Delhi,Kota Jn,115.1,115.1,Clear,Low,13.6,Thu,13,2.1
+Tejas Express,22119,Vadodara Jn,Surat,42.8,42.8,Clear,High,13.1,Wed,22,31.1
+Shatabdi Express,12009,Vadodara Jn,Surat,46.4,46.4,Clear,Medium,19.3,Sat,14,16.5
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,133.6,133.6,Rain,Low,19.0,Tue,22,17.4
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,67.3,67.3,Clear,Low,9.4,Sat,11,1.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,115.6,115.6,Clear,Low,8.0,Wed,9,3.7
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,107.8,107.8,Clear,High,1.7,Tue,10,18.4
+Shatabdi Express,12009,Vadodara Jn,Surat,78.6,78.6,Clear,Medium,17.8,Sun,20,17.3
+August Kranti Rajdhani,12953,Surat,Mumbai Central,64.4,64.4,Fog,Medium,17.0,Sun,6,34.2
+Tejas Express,22119,New Delhi,Kota Jn,127.0,127.0,Rain,High,10.9,Fri,0,33.7
+Shatabdi Express,12009,Surat,Mumbai Central,106.4,106.4,Clear,Low,14.2,Mon,10,5.4
+Shatabdi Express,12009,Surat,Mumbai Central,141.8,141.8,Clear,Medium,4.4,Thu,22,10.7
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,103.3,103.3,Clear,Medium,17.9,Mon,16,15.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,38.8,38.8,Clear,High,4.8,Sun,6,21.5
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,23.1,23.1,Clear,Low,3.7,Mon,2,4.7
+Shatabdi Express,12009,Vadodara Jn,Surat,143.6,143.6,Clear,Low,8.1,Wed,10,6.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,47.1,47.1,Clear,Medium,9.6,Mon,21,15.9
+Tejas Express,22119,New Delhi,Kota Jn,85.0,85.0,Clear,Low,9.5,Sun,17,7.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,109.5,109.5,Fog,Low,19.4,Mon,12,24.6
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,118.7,118.7,Clear,Low,1.8,Sun,22,0.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,69.4,69.4,Clear,Medium,9.4,Fri,22,12.9
+Tejas Express,22119,Kota Jn,Ratlam Jn,99.8,99.8,Clear,Medium,11.9,Mon,16,17.8
+Tejas Express,22119,New Delhi,Kota Jn,85.3,85.3,Clear,Medium,7.8,Sat,23,18.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,96.1,96.1,Fog,Low,18.0,Tue,1,21.9
+Shatabdi Express,12009,Surat,Mumbai Central,63.1,63.1,Clear,Low,16.7,Thu,7,5.3
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,120.8,120.8,Rain,High,15.4,Tue,7,31.1
+Shatabdi Express,12009,Surat,Mumbai Central,129.9,129.9,Clear,Low,14.0,Mon,5,11.1
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,116.2,116.2,Rain,Medium,8.8,Sat,13,21.1
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,136.7,136.7,Clear,Medium,8.4,Thu,17,9.5
+Tejas Express,22119,New Delhi,Kota Jn,28.5,28.5,Clear,High,7.2,Tue,4,22.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,41.1,41.1,Clear,Medium,8.9,Wed,17,19.4
+Shatabdi Express,12009,Vadodara Jn,Surat,28.7,28.7,Fog,Low,8.3,Tue,6,19.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,37.3,37.3,Fog,Low,1.2,Mon,16,18.5
+Shatabdi Express,12009,Surat,Mumbai Central,89.0,89.0,Clear,Medium,6.4,Thu,6,10.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,82.2,82.2,Clear,Low,11.1,Sun,2,6.8
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,131.5,131.5,Clear,Medium,9.6,Mon,18,19.7
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,101.5,101.5,Clear,Medium,18.8,Thu,1,22.7
+Tejas Express,22119,New Delhi,Kota Jn,133.2,133.2,Fog,Low,13.4,Thu,14,26.0
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,82.3,82.3,Rain,Medium,8.1,Sat,5,25.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,87.8,87.8,Clear,Low,12.0,Fri,2,5.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,68.0,68.0,Clear,Low,16.1,Wed,17,12.2
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,131.2,131.2,Clear,Low,15.1,Fri,22,10.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,63.8,63.8,Fog,High,10.7,Mon,8,41.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,133.7,133.7,Clear,Low,18.5,Tue,18,7.5
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,146.4,146.4,Clear,Low,13.5,Fri,13,4.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,135.8,135.8,Clear,Medium,5.9,Wed,22,14.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,123.7,123.7,Clear,Low,14.5,Sat,7,11.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,122.7,122.7,Rain,Low,12.9,Tue,12,14.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,141.2,141.2,Clear,Low,5.1,Mon,12,0.0
+Tejas Express,22119,New Delhi,Kota Jn,28.7,28.7,Rain,Low,9.9,Fri,18,17.2
+Shatabdi Express,12009,Surat,Mumbai Central,93.8,93.8,Clear,Low,8.6,Fri,3,9.1
+Tejas Express,22119,Vadodara Jn,Surat,70.3,70.3,Clear,Low,7.2,Mon,1,6.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,34.0,34.0,Clear,Low,1.9,Thu,6,3.3
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,27.8,27.8,Clear,High,14.4,Tue,7,25.0
+August Kranti Rajdhani,12953,Surat,Mumbai Central,98.5,98.5,Fog,High,7.1,Mon,17,35.9
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,42.3,42.3,Heavy Rain,Low,10.8,Tue,2,25.6
+Shatabdi Express,12009,Vadodara Jn,Surat,36.2,36.2,Clear,Low,4.8,Tue,7,3.5
+Shatabdi Express,12009,New Delhi,Kota Jn,20.4,20.4,Fog,Low,17.2,Thu,6,27.1
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,130.1,130.1,Clear,Low,3.0,Sun,19,5.4
+Tejas Express,22119,New Delhi,Kota Jn,90.4,90.4,Clear,High,9.8,Fri,10,27.8
+Shatabdi Express,12009,New Delhi,Kota Jn,84.9,84.9,Fog,Medium,12.1,Sat,2,29.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,122.4,122.4,Clear,Low,8.1,Wed,7,1.5
+Tejas Express,22119,Surat,Mumbai Central,134.1,134.1,Heavy Rain,Medium,11.3,Mon,14,42.1
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,94.3,94.3,Clear,Low,8.7,Thu,2,3.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,65.3,65.3,Clear,High,5.2,Tue,18,19.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,147.3,147.3,Clear,Medium,1.8,Mon,19,15.1
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,30.3,30.3,Rain,Low,5.9,Wed,5,14.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,60.5,60.5,Clear,Low,1.8,Sat,23,0.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,91.2,91.2,Rain,High,4.7,Tue,19,33.5
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,120.5,120.5,Clear,Medium,10.7,Fri,11,18.1
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,89.4,89.4,Clear,Medium,6.5,Wed,16,9.9
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,85.6,85.6,Clear,Low,1.0,Tue,7,0.0
+Shatabdi Express,12009,Surat,Mumbai Central,121.8,121.8,Clear,Low,14.2,Tue,20,9.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,147.8,147.8,Clear,Low,10.6,Sun,12,5.2
+Tejas Express,22119,Surat,Mumbai Central,80.7,80.7,Fog,Medium,15.7,Sun,23,33.6
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,88.1,88.1,Clear,Medium,10.0,Tue,2,18.0
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,35.0,35.0,Rain,Low,6.0,Thu,6,6.2
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,76.6,76.6,Fog,Low,17.3,Sat,4,26.5
+Shatabdi Express,12009,Vadodara Jn,Surat,51.8,51.8,Clear,Low,8.8,Thu,22,4.3
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,134.7,134.7,Clear,Low,1.0,Sat,3,5.0
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,26.9,26.9,Clear,Low,13.1,Fri,9,5.8
+Shatabdi Express,12009,Surat,Mumbai Central,91.7,91.7,Clear,High,16.9,Wed,6,24.1
+Shatabdi Express,12009,Surat,Mumbai Central,41.6,41.6,Heavy Rain,Low,14.2,Mon,16,29.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,68.3,68.3,Clear,Low,12.3,Wed,9,4.7
+Shatabdi Express,12009,New Delhi,Kota Jn,124.2,124.2,Clear,High,15.2,Fri,1,26.9
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,141.3,141.3,Clear,Medium,8.8,Wed,4,16.6
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,32.1,32.1,Clear,Low,0.8,Tue,6,0.0
+Tejas Express,22119,Surat,Mumbai Central,45.2,45.2,Fog,High,8.5,Tue,0,40.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,131.6,131.6,Clear,Low,1.3,Tue,21,0.4
+Tejas Express,22119,New Delhi,Kota Jn,30.4,30.4,Clear,High,12.3,Sun,15,30.9
+Shatabdi Express,12009,Surat,Mumbai Central,92.6,92.6,Rain,Medium,6.6,Fri,4,22.9
+Shatabdi Express,12009,Surat,Mumbai Central,121.2,121.2,Clear,Medium,8.7,Fri,9,12.1
+Tejas Express,22119,Vadodara Jn,Surat,26.7,26.7,Clear,Medium,5.2,Fri,7,15.8
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,80.4,80.4,Clear,Low,10.8,Sat,12,4.0
+Tejas Express,22119,Surat,Mumbai Central,63.1,63.1,Clear,Low,9.6,Mon,10,9.1
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,72.8,72.8,Clear,Low,19.6,Wed,3,8.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,83.2,83.2,Heavy Rain,High,7.9,Thu,7,46.1
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,99.4,99.4,Clear,Low,6.5,Mon,3,2.0
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,123.5,123.5,Clear,Medium,9.9,Sun,22,10.8
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,20.3,20.3,Clear,Low,19.7,Sat,22,8.5
+Shatabdi Express,12009,Surat,Mumbai Central,31.4,31.4,Clear,Low,2.0,Mon,1,6.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,122.6,122.6,Rain,Medium,9.8,Wed,19,20.6
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,57.0,57.0,Clear,Medium,5.2,Sat,16,14.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,98.8,98.8,Fog,Low,17.0,Sat,15,25.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,143.7,143.7,Clear,Medium,16.3,Tue,9,17.3
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,51.3,51.3,Clear,Low,1.6,Mon,4,1.7
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,36.4,36.4,Fog,Low,6.7,Tue,22,16.6
+Tejas Express,22119,Vadodara Jn,Surat,73.3,73.3,Rain,Medium,13.4,Wed,22,27.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,105.3,105.3,Clear,Low,6.9,Sun,8,0.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,125.6,125.6,Clear,High,15.7,Thu,4,31.5
+Shatabdi Express,12009,Vadodara Jn,Surat,105.6,105.6,Heavy Rain,Medium,17.4,Sun,5,40.5
+Shatabdi Express,12009,Vadodara Jn,Surat,32.1,32.1,Rain,Low,0.8,Fri,19,4.8
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,137.9,137.9,Fog,Low,15.4,Sat,10,24.0
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,20.4,20.4,Clear,Medium,10.0,Wed,21,12.1
+Shatabdi Express,12009,Surat,Mumbai Central,70.8,70.8,Clear,Medium,18.5,Sun,23,16.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,145.3,145.3,Clear,Low,19.9,Wed,10,9.5
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,96.6,96.6,Heavy Rain,Low,16.6,Thu,19,32.5
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,128.5,128.5,Clear,Low,17.8,Sun,7,12.4
+Shatabdi Express,12009,Vadodara Jn,Surat,54.5,54.5,Clear,Low,19.0,Thu,0,9.0
+Tejas Express,22119,New Delhi,Kota Jn,144.6,144.6,Rain,Low,16.3,Thu,0,16.6
+Shatabdi Express,12009,Surat,Mumbai Central,106.2,106.2,Clear,Medium,10.7,Sun,3,15.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,92.9,92.9,Clear,Medium,4.0,Mon,10,13.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,22.7,22.7,Clear,Medium,5.2,Sat,8,14.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,137.8,137.8,Clear,Low,2.0,Wed,17,5.3
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,147.8,147.8,Rain,High,0.1,Sun,8,25.4
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,119.4,119.4,Clear,Medium,16.7,Fri,3,18.7
+Tejas Express,22119,Surat,Mumbai Central,56.2,56.2,Clear,Medium,7.1,Tue,17,12.5
+Shatabdi Express,12009,New Delhi,Kota Jn,138.4,138.4,Fog,High,15.3,Tue,4,47.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,87.9,87.9,Fog,Low,19.8,Wed,0,27.5
+Shatabdi Express,12009,Vadodara Jn,Surat,123.0,123.0,Clear,Medium,15.5,Tue,6,16.8
+Tejas Express,22119,Surat,Mumbai Central,117.2,117.2,Clear,High,4.5,Sun,15,23.9
+Tejas Express,22119,Vadodara Jn,Surat,61.9,61.9,Clear,High,0.7,Fri,11,17.2
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,104.3,104.3,Clear,Medium,19.4,Mon,4,23.3
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,87.7,87.7,Fog,Medium,9.5,Fri,23,30.2
+Shatabdi Express,12009,New Delhi,Kota Jn,101.2,101.2,Clear,Medium,6.3,Sun,13,11.2
+Shatabdi Express,12009,New Delhi,Kota Jn,131.6,131.6,Clear,Low,19.3,Wed,12,6.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,64.2,64.2,Clear,Low,10.6,Wed,23,1.1
+Shatabdi Express,12009,Vadodara Jn,Surat,23.0,23.0,Heavy Rain,Low,14.2,Fri,19,35.8
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,34.7,34.7,Heavy Rain,Medium,6.4,Fri,6,34.4
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,26.4,26.4,Clear,Medium,15.1,Mon,22,21.6
+Shatabdi Express,12009,Surat,Mumbai Central,105.5,105.5,Clear,Low,18.6,Thu,2,7.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,116.3,116.3,Clear,Low,18.9,Thu,1,4.4
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,72.8,72.8,Clear,Low,18.8,Tue,2,13.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,44.1,44.1,Rain,Medium,2.1,Thu,6,22.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,115.9,115.9,Rain,Medium,4.8,Sat,16,19.5
+Shatabdi Express,12009,Surat,Mumbai Central,123.3,123.3,Fog,Low,11.0,Tue,19,16.1
+Tejas Express,22119,Kota Jn,Ratlam Jn,127.3,127.3,Clear,Low,19.5,Fri,9,8.8
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,100.1,100.1,Rain,Medium,5.1,Mon,3,21.7
+Tejas Express,22119,Surat,Mumbai Central,44.9,44.9,Clear,Low,3.7,Mon,21,3.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,112.4,112.4,Clear,Low,0.9,Thu,4,0.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,144.7,144.7,Clear,Medium,14.3,Mon,13,20.4
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,46.8,46.8,Clear,Medium,15.7,Wed,13,21.6
+Tejas Express,22119,Surat,Mumbai Central,108.4,108.4,Clear,Low,12.7,Wed,6,3.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,83.6,83.6,Clear,Low,0.1,Mon,1,0.0
+Tejas Express,22119,Surat,Mumbai Central,57.6,57.6,Clear,High,2.8,Thu,0,19.2
+Tejas Express,22119,Surat,Mumbai Central,28.5,28.5,Clear,Low,4.5,Sun,8,0.0
+Tejas Express,22119,Vadodara Jn,Surat,55.1,55.1,Clear,Low,2.7,Sat,15,4.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,148.2,148.2,Clear,Medium,2.9,Wed,16,9.1
+Shatabdi Express,12009,New Delhi,Kota Jn,55.3,55.3,Fog,Medium,14.9,Fri,3,27.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,52.8,52.8,Clear,High,18.6,Fri,16,32.9
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,147.1,147.1,Clear,High,6.5,Fri,13,25.1
+Shatabdi Express,12009,New Delhi,Kota Jn,82.5,82.5,Clear,Medium,14.4,Sat,8,16.4
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,107.1,107.1,Heavy Rain,Medium,7.1,Fri,6,37.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,26.0,26.0,Clear,Low,4.8,Tue,13,0.7
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,33.4,33.4,Rain,Low,17.3,Thu,17,13.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,108.5,108.5,Heavy Rain,Low,2.7,Tue,11,28.8
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,53.3,53.3,Rain,Low,19.8,Thu,6,19.3
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,140.1,140.1,Fog,Low,5.0,Sat,20,18.5
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,81.9,81.9,Clear,Low,15.1,Sun,15,9.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,135.4,135.4,Clear,Medium,4.6,Mon,13,13.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,117.9,117.9,Clear,Low,14.8,Fri,0,12.2
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,42.4,42.4,Clear,Medium,14.6,Tue,6,14.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,79.9,79.9,Fog,Low,2.7,Sat,6,12.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,128.5,128.5,Clear,Medium,16.7,Thu,0,15.0
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,24.6,24.6,Clear,Medium,8.4,Tue,6,10.0
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,74.0,74.0,Clear,Medium,3.3,Sat,17,13.8
+Shatabdi Express,12009,Vadodara Jn,Surat,40.5,40.5,Heavy Rain,Medium,11.3,Thu,5,45.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,61.0,61.0,Fog,High,16.0,Tue,12,46.4
+Shatabdi Express,12009,Vadodara Jn,Surat,120.4,120.4,Clear,Low,11.6,Tue,1,8.8
+August Kranti Rajdhani,12953,Surat,Mumbai Central,143.4,143.4,Clear,Low,18.2,Sat,4,9.9
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,43.4,43.4,Rain,Medium,4.8,Sun,19,15.9
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,90.1,90.1,Clear,Medium,1.9,Fri,4,8.5
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,75.6,75.6,Rain,Low,16.1,Sat,2,13.2
+August Kranti Rajdhani,12953,Surat,Mumbai Central,77.5,77.5,Clear,Medium,1.6,Thu,5,13.4
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,23.9,23.9,Fog,Medium,15.5,Sun,23,34.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,61.9,61.9,Fog,Medium,11.7,Tue,15,26.7
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,121.9,121.9,Clear,Low,15.7,Fri,0,10.3
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,60.7,60.7,Fog,Medium,10.1,Wed,8,27.9
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,91.0,91.0,Clear,Medium,10.8,Fri,2,13.3
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,127.2,127.2,Clear,Medium,0.8,Mon,16,9.2
+Tejas Express,22119,Vadodara Jn,Surat,23.4,23.4,Clear,Low,5.2,Wed,20,0.1
+Shatabdi Express,12009,New Delhi,Kota Jn,67.0,67.0,Clear,Medium,8.1,Tue,13,14.7
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,86.5,86.5,Heavy Rain,Low,1.0,Tue,18,23.6
+Tejas Express,22119,New Delhi,Kota Jn,91.8,91.8,Clear,Low,8.1,Fri,19,1.4
+Tejas Express,22119,Surat,Mumbai Central,66.2,66.2,Heavy Rain,Medium,15.6,Sun,16,47.3
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,28.4,28.4,Clear,Low,2.4,Sun,16,0.1
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,139.0,139.0,Fog,Low,14.7,Sat,5,27.0
+Tejas Express,22119,Vadodara Jn,Surat,134.5,134.5,Clear,Low,14.4,Sat,2,4.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,51.5,51.5,Fog,Low,8.0,Sat,5,20.8
+Shatabdi Express,12009,Vadodara Jn,Surat,58.7,58.7,Clear,High,15.1,Sat,23,23.9
+Tejas Express,22119,Kota Jn,Ratlam Jn,33.5,33.5,Heavy Rain,Low,9.2,Thu,9,25.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,66.1,66.1,Fog,Medium,17.3,Thu,7,29.0
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,90.7,90.7,Clear,Low,17.3,Sat,2,10.9
+Tejas Express,22119,Vadodara Jn,Surat,60.0,60.0,Fog,High,10.3,Fri,16,44.8
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,115.0,115.0,Clear,Medium,10.0,Wed,10,11.8
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,99.3,99.3,Fog,Medium,6.8,Sat,1,26.3
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,46.6,46.6,Clear,High,16.5,Fri,8,25.1
+Shatabdi Express,12009,New Delhi,Kota Jn,71.3,71.3,Clear,Low,2.0,Fri,14,0.0
+Tejas Express,22119,New Delhi,Kota Jn,90.8,90.8,Fog,Low,11.9,Tue,15,22.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,72.6,72.6,Clear,Low,17.6,Sat,2,12.3
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,119.0,119.0,Clear,High,19.8,Fri,13,25.9
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,138.5,138.5,Clear,Low,16.2,Wed,13,9.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,36.6,36.6,Clear,High,4.9,Thu,20,21.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,114.8,114.8,Rain,Medium,19.2,Mon,19,31.7
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,67.8,67.8,Fog,Low,1.2,Mon,3,13.7
+Shatabdi Express,12009,New Delhi,Kota Jn,90.1,90.1,Clear,Low,9.5,Fri,4,8.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,42.2,42.2,Fog,High,12.1,Mon,7,41.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,63.6,63.6,Clear,Low,18.7,Sun,23,11.3
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,87.6,87.6,Clear,Medium,16.6,Sun,10,19.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,141.6,141.6,Clear,High,14.9,Mon,3,27.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,121.4,121.4,Clear,Low,3.9,Fri,6,6.9
+Shatabdi Express,12009,Vadodara Jn,Surat,71.7,71.7,Fog,Medium,15.3,Sat,14,31.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,142.2,142.2,Clear,High,15.4,Wed,11,25.2
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,86.2,86.2,Clear,Medium,9.7,Thu,17,18.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,47.4,47.4,Clear,Low,15.0,Tue,9,2.9
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,148.1,148.1,Fog,Low,4.7,Fri,23,21.0
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,26.0,26.0,Clear,Low,14.5,Sat,11,2.8
+Tejas Express,22119,New Delhi,Kota Jn,98.7,98.7,Clear,Low,11.3,Sun,9,7.8
+Shatabdi Express,12009,Surat,Mumbai Central,43.6,43.6,Clear,High,19.8,Tue,12,30.7
+Tejas Express,22119,Surat,Mumbai Central,94.5,94.5,Clear,Medium,5.9,Fri,19,13.4
+Tejas Express,22119,New Delhi,Kota Jn,135.6,135.6,Clear,Medium,7.3,Fri,7,12.5
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,93.5,93.5,Clear,Medium,17.7,Sun,6,19.6
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,34.1,34.1,Rain,Medium,4.5,Sun,13,23.1
+Tejas Express,22119,Surat,Mumbai Central,92.8,92.8,Rain,Low,14.0,Thu,4,19.9
+Tejas Express,22119,New Delhi,Kota Jn,79.4,79.4,Clear,High,12.8,Tue,9,23.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,98.9,98.9,Clear,Medium,18.2,Fri,4,20.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,127.6,127.6,Rain,High,17.7,Tue,22,33.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,23.9,23.9,Rain,Medium,8.1,Fri,21,24.7
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,105.9,105.9,Clear,Medium,11.5,Sat,2,14.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,93.0,93.0,Rain,Low,16.6,Sun,6,20.1
+Shatabdi Express,12009,Surat,Mumbai Central,63.8,63.8,Rain,Low,16.9,Thu,17,19.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,96.4,96.4,Fog,Medium,5.4,Sun,0,31.7
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,117.8,117.8,Clear,Medium,10.3,Thu,2,16.1
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,128.4,128.4,Fog,Medium,1.5,Sun,19,27.4
+Shatabdi Express,12009,New Delhi,Kota Jn,26.2,26.2,Clear,Medium,12.2,Wed,20,13.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,27.1,27.1,Clear,Low,12.6,Fri,14,3.3
+Tejas Express,22119,Kota Jn,Ratlam Jn,26.5,26.5,Clear,Medium,5.4,Thu,14,16.7
+Shatabdi Express,12009,Vadodara Jn,Surat,41.1,41.1,Fog,Low,2.8,Sun,13,15.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,37.8,37.8,Clear,Medium,14.9,Sat,15,17.3
+Tejas Express,22119,New Delhi,Kota Jn,147.7,147.7,Clear,High,1.3,Mon,12,23.4
+Shatabdi Express,12009,New Delhi,Kota Jn,146.1,146.1,Clear,Low,1.8,Wed,11,0.0
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,64.8,64.8,Heavy Rain,Low,10.9,Mon,6,26.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,30.2,30.2,Clear,Low,4.4,Sun,16,1.4
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,80.8,80.8,Clear,High,7.5,Thu,2,20.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,54.4,54.4,Clear,High,17.3,Tue,12,26.8
+Shatabdi Express,12009,Surat,Mumbai Central,25.6,25.6,Rain,Low,5.7,Thu,6,6.3
+Shatabdi Express,12009,New Delhi,Kota Jn,71.8,71.8,Clear,High,18.1,Thu,21,31.4
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,29.8,29.8,Rain,Medium,17.6,Fri,17,30.7
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,101.7,101.7,Clear,High,8.4,Wed,23,24.9
+Tejas Express,22119,Surat,Mumbai Central,76.9,76.9,Fog,High,4.6,Tue,3,40.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,108.6,108.6,Clear,Low,4.6,Sat,0,4.8
+Tejas Express,22119,Surat,Mumbai Central,90.8,90.8,Fog,Low,18.5,Thu,22,20.4
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,131.9,131.9,Clear,High,10.4,Sun,0,28.3
+Shatabdi Express,12009,New Delhi,Kota Jn,68.9,68.9,Clear,Medium,3.4,Wed,10,8.9
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,149.0,149.0,Fog,Medium,0.3,Thu,3,23.5
+Shatabdi Express,12009,Vadodara Jn,Surat,94.0,94.0,Fog,Medium,15.4,Fri,4,29.4
+Shatabdi Express,12009,Surat,Mumbai Central,71.7,71.7,Clear,Medium,0.8,Sun,21,11.3
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,75.9,75.9,Fog,Low,10.9,Tue,4,15.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,123.8,123.8,Heavy Rain,Medium,4.6,Thu,23,40.7
+Shatabdi Express,12009,Surat,Mumbai Central,146.0,146.0,Fog,Low,12.1,Fri,16,24.6
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,56.9,56.9,Clear,Medium,9.2,Mon,22,17.7
+Tejas Express,22119,New Delhi,Kota Jn,66.4,66.4,Clear,High,8.0,Tue,17,22.9
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,141.4,141.4,Clear,Low,1.6,Sat,20,1.9
+Tejas Express,22119,Vadodara Jn,Surat,99.4,99.4,Clear,Medium,17.1,Thu,16,19.2
+Tejas Express,22119,Kota Jn,Ratlam Jn,128.8,128.8,Clear,Medium,3.9,Mon,20,16.9
+Shatabdi Express,12009,Surat,Mumbai Central,20.1,20.1,Fog,Medium,15.8,Sat,8,31.6
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,118.2,118.2,Clear,Medium,6.6,Mon,0,12.9
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,56.3,56.3,Clear,Medium,6.9,Wed,5,12.1
+Tejas Express,22119,Vadodara Jn,Surat,97.2,97.2,Clear,Low,16.3,Sat,7,6.1
+August Kranti Rajdhani,12953,Surat,Mumbai Central,116.1,116.1,Rain,Medium,16.6,Tue,17,23.5
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,72.6,72.6,Clear,Medium,18.3,Sun,10,16.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,138.8,138.8,Clear,Low,11.5,Fri,7,4.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,88.9,88.9,Fog,Low,4.5,Fri,3,22.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,67.6,67.6,Heavy Rain,Low,5.3,Sun,17,26.5
+Shatabdi Express,12009,New Delhi,Kota Jn,99.3,99.3,Fog,Medium,5.7,Mon,6,25.5
+Shatabdi Express,12009,Surat,Mumbai Central,35.6,35.6,Fog,Medium,11.5,Mon,15,35.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,26.1,26.1,Clear,Medium,11.6,Mon,2,13.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,71.3,71.3,Clear,Low,2.2,Tue,3,4.4
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,67.6,67.6,Rain,Medium,9.5,Fri,3,26.2
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,78.2,78.2,Clear,Low,12.4,Tue,22,10.7
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,143.6,143.6,Fog,Low,7.1,Fri,16,18.2
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,88.1,88.1,Clear,Medium,16.7,Mon,8,21.0
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,50.6,50.6,Clear,Medium,15.3,Tue,10,16.6
+Tejas Express,22119,Vadodara Jn,Surat,27.6,27.6,Clear,Medium,10.1,Thu,17,17.9
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,58.8,58.8,Clear,Low,6.8,Sat,21,1.8
+Shatabdi Express,12009,Surat,Mumbai Central,102.2,102.2,Fog,Low,7.3,Sun,22,22.3
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,85.3,85.3,Clear,Medium,2.4,Sat,13,7.0
+Shatabdi Express,12009,New Delhi,Kota Jn,37.7,37.7,Rain,High,0.9,Wed,20,31.4
+August Kranti Rajdhani,12953,Surat,Mumbai Central,104.2,104.2,Clear,High,2.6,Sun,3,25.1
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,29.0,29.0,Clear,Low,0.7,Sat,13,0.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,56.9,56.9,Clear,Medium,12.3,Fri,22,15.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,84.9,84.9,Rain,High,4.4,Sat,14,29.7
+Shatabdi Express,12009,Vadodara Jn,Surat,39.5,39.5,Clear,Low,10.3,Tue,11,7.6
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,143.5,143.5,Clear,Low,16.3,Sun,3,10.2
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,128.7,128.7,Clear,Medium,17.6,Sat,9,20.3
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,69.0,69.0,Clear,Low,4.9,Tue,6,0.1
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,23.1,23.1,Clear,Low,10.4,Thu,5,1.1
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,82.4,82.4,Clear,Medium,7.3,Thu,4,15.0
+Tejas Express,22119,Kota Jn,Ratlam Jn,132.2,132.2,Rain,Low,12.4,Sun,21,14.3
+Tejas Express,22119,Vadodara Jn,Surat,137.0,137.0,Clear,Medium,7.8,Tue,22,14.4
+Tejas Express,22119,New Delhi,Kota Jn,103.9,103.9,Clear,Low,4.3,Sat,23,1.5
+August Kranti Rajdhani,12953,Surat,Mumbai Central,105.2,105.2,Heavy Rain,High,18.5,Tue,4,52.5
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,134.6,134.6,Heavy Rain,Medium,16.0,Fri,2,44.6
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,91.9,91.9,Clear,High,6.5,Tue,18,21.9
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,92.3,92.3,Clear,Low,9.8,Sat,23,6.3
+Tejas Express,22119,Kota Jn,Ratlam Jn,41.0,41.0,Clear,Low,0.4,Sun,8,0.0
+Tejas Express,22119,Surat,Mumbai Central,113.0,113.0,Clear,High,12.1,Fri,14,29.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,94.2,94.2,Clear,Low,6.6,Fri,14,5.0
+Tejas Express,22119,New Delhi,Kota Jn,47.9,47.9,Fog,Medium,2.8,Fri,7,30.9
+August Kranti Rajdhani,12953,Kota Jn,Ratlam Jn,23.7,23.7,Fog,High,2.7,Sat,23,35.0
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,44.5,44.5,Clear,Low,15.2,Sun,21,7.5
+Tejas Express,22119,Surat,Mumbai Central,85.4,85.4,Rain,Low,13.7,Sat,22,16.8
+Shatabdi Express,12009,Surat,Mumbai Central,66.5,66.5,Clear,Medium,18.5,Sun,1,22.2
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,56.2,56.2,Clear,High,12.9,Sun,18,29.6
+Shatabdi Express,12009,New Delhi,Kota Jn,79.8,79.8,Clear,High,19.1,Fri,2,33.2
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,103.6,103.6,Clear,High,18.8,Sat,0,31.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,45.8,45.8,Clear,High,10.2,Sun,6,20.7
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,74.0,74.0,Clear,Low,11.9,Mon,4,1.9
+Tejas Express,22119,New Delhi,Kota Jn,102.3,102.3,Fog,Low,3.1,Sat,14,20.2
+Tejas Express,22119,Vadodara Jn,Surat,117.8,117.8,Clear,Low,15.4,Mon,3,9.4
+Tejas Express,22119,Vadodara Jn,Surat,33.6,33.6,Rain,Low,12.4,Tue,23,9.5
+Shatabdi Express,12009,Surat,Mumbai Central,118.8,118.8,Rain,Low,12.5,Mon,9,16.6
+August Kranti Rajdhani,12953,Vadodara Jn,Surat,69.4,69.4,Clear,Low,3.6,Sat,9,3.3
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,119.4,119.4,Clear,Low,5.7,Sat,12,5.8
+August Kranti Rajdhani,12953,Ratlam Jn,Vadodara Jn,131.8,131.8,Clear,Low,2.7,Thu,4,2.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,45.2,45.2,Rain,High,7.0,Sun,2,30.3
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,113.0,113.0,Clear,Low,15.6,Sun,0,8.6
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,146.0,146.0,Clear,Low,8.5,Wed,17,2.9
+Shatabdi Express,12009,Vadodara Jn,Surat,59.9,59.9,Rain,Low,0.5,Sat,4,12.7
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,148.7,148.7,Rain,Low,7.2,Tue,17,8.2
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,27.8,27.8,Clear,Low,14.4,Thu,13,11.8
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,49.7,49.7,Clear,Low,13.0,Wed,10,10.5
+Shatabdi Express,12009,Kota Jn,Ratlam Jn,127.6,127.6,Fog,Medium,4.4,Wed,1,29.3
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,36.2,36.2,Fog,High,8.1,Sun,20,39.0
+Tejas Express,22119,Ratlam Jn,Vadodara Jn,75.0,75.0,Fog,Medium,7.4,Sun,11,29.6
+Shatabdi Express,12009,Ratlam Jn,Vadodara Jn,75.3,75.3,Clear,Low,9.6,Sun,8,0.9
+Tejas Express,22119,Vadodara Jn,Surat,20.4,20.4,Clear,Low,2.4,Mon,1,4.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,124.8,124.8,Fog,Low,4.6,Wed,2,16.8
+Tejas Express,22119,Kota Jn,Ratlam Jn,75.1,75.1,Clear,Low,1.9,Wed,14,3.2
+Mumbai Rajdhani Express,12951,Kota Jn,Ratlam Jn,97.1,97.1,Rain,Low,6.9,Mon,6,7.0
+Mumbai Rajdhani Express,12951,Vadodara Jn,Surat,78.9,78.9,Clear,Low,4.6,Mon,9,0.0
+Shatabdi Express,12009,Surat,Mumbai Central,144.0,144.0,Clear,Low,8.0,Tue,0,0.1
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,76.6,76.6,Clear,High,13.5,Sat,13,26.2
+Shatabdi Express,12009,Vadodara Jn,Surat,23.9,23.9,Clear,Low,4.0,Sun,6,3.7
+Tejas Express,22119,Kota Jn,Ratlam Jn,126.9,126.9,Rain,Low,5.1,Thu,13,10.0
+August Kranti Rajdhani,12953,New Delhi,Kota Jn,65.9,65.9,Clear,Low,2.8,Mon,1,4.9
+Mumbai Rajdhani Express,12951,Ratlam Jn,Vadodara Jn,72.4,72.4,Clear,Low,6.6,Sun,2,4.2
+Mumbai Rajdhani Express,12951,New Delhi,Kota Jn,78.1,78.1,Clear,Low,18.3,Sat,20,4.6
+Shatabdi Express,12009,Surat,Mumbai Central,50.7,50.7,Fog,Medium,16.4,Sat,22,33.8
+Shatabdi Express,12009,Surat,Mumbai Central,20.4,20.4,Clear,High,1.3,Mon,8,23.4
+Mumbai Rajdhani Express,12951,Surat,Mumbai Central,58.7,58.7,Rain,Medium,18.6,Fri,16,26.3
+Tejas Express,22119,Kota Jn,Ratlam Jn,104.2,104.2,Clear,Medium,13.7,Thu,19,20.0
