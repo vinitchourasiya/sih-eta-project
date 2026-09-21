@@ -6,6 +6,7 @@ import numpy as np
 import random
 import requests
 import os
+from datetime import datetime, timedelta
 
 app = Flask(__name__)
 CORS(app)
@@ -30,7 +31,7 @@ train_names = {
 }
 
 WEATHER_API_KEY = "4cb82387c8921a4d532d86ffb457b953"
-RAILRADAR_API_KEY = os.environ.get("RAILRADAR_API_KEY", "")
+RAILRADAR_API_KEY = "rg_9fd8037ff204491c9b2294d56a805b33"
 
 STATION_COORDS = {
     "New Delhi": (28.6139, 77.2090),
@@ -40,6 +41,36 @@ STATION_COORDS = {
     "Surat": (21.1702, 72.8311),
     "Mumbai Central": (19.0760, 72.8777),
 }
+
+SCHEDULED_TIMES = {
+    "New Delhi": "10:00 AM", "Kota Jn": "2:00 PM", "Ratlam Jn": "5:30 PM",
+    "Vadodara Jn": "8:00 PM", "Surat": "9:30 PM", "Mumbai Central": "11:45 PM",
+}
+
+def parse_time_str(iso_str):
+    try:
+        dt = datetime.fromisoformat(iso_str)
+        return dt.strftime("%I:%M %p").lstrip("0")
+    except Exception:
+        return "N/A"
+
+def add_minutes_to_iso(iso_str, minutes):
+    try:
+        dt = datetime.fromisoformat(iso_str)
+        dt = dt + timedelta(minutes=minutes)
+        return dt.strftime("%I:%M %p").lstrip("0")
+    except Exception:
+        return "N/A"
+
+def get_actual_time_fallback(scheduled_str, delay_min):
+    if not scheduled_str:
+        return "N/A"
+    try:
+        dt = datetime.strptime(scheduled_str, "%I:%M %p")
+        dt = dt + timedelta(minutes=delay_min)
+        return dt.strftime("%I:%M %p").lstrip("0")
+    except Exception:
+        return "N/A"
 
 def get_weather_by_coords(lat, lon):
     try:
@@ -131,15 +162,18 @@ def try_railradar(train_number):
         url = f"https://api.railradar.in/v1/trains/{train_number}/live"
         params = {"haltsOnly": "true", "includeCoordinates": "true"}
         headers = {"Authorization": f"Bearer {RAILRADAR_API_KEY}"}
-        resp = requests.get(url, params=params, headers=headers, timeout=6)
+        resp = requests.get(url, params=params, headers=headers, timeout=8)
+        print(f"RailRadar status code: {resp.status_code}")
         if resp.status_code != 200:
+            print(f"RailRadar response body: {resp.text[:300]}")
             return None
         payload = resp.json()
         if not payload.get("success"):
+            print(f"RailRadar success=false: {payload}")
             return None
         return payload["data"]
     except Exception as e:
-        print(f"RailRadar API error: {e}")
+        print(f"RailRadar API exception: {e}")
         return None
 
 @app.route("/")
@@ -164,11 +198,9 @@ def predict():
         route = []
         current_idx = 0
         for i, stop in enumerate(route_raw):
-            status = "upcoming"
-            if stop["stationCode"] == current_code:
-                status = "current"
-                current_idx = i
             route.append({"code": stop["stationCode"], "name": stop["stationName"]})
+            if stop["stationCode"] == current_code:
+                current_idx = i
 
         for i, stop in enumerate(route):
             if i < current_idx:
@@ -179,8 +211,12 @@ def predict():
                 stop["status"] = "upcoming"
 
         current_station_name = route[current_idx]["name"] if route else "Unknown"
-        next_stop = route[current_idx + 1] if current_idx + 1 < len(route) else route[current_idx] if route else {"name": "Destination"}
+        next_stop = route[current_idx + 1] if current_idx + 1 < len(route) else (route[current_idx] if route else {"name": "Destination"})
         next_station_name = next_stop["name"]
+
+        next_raw = route_raw[current_idx + 1] if current_idx + 1 < len(route_raw) else (route_raw[current_idx] if route_raw else {})
+        scheduled_iso = next_raw.get("scheduledArrival") or next_raw.get("scheduledDeparture")
+        scheduled_arrival_time = parse_time_str(scheduled_iso) if scheduled_iso else "N/A"
 
         lat = route_raw[current_idx].get("lat") if current_idx < len(route_raw) else None
         lng = route_raw[current_idx].get("lng") if current_idx < len(route_raw) else None
@@ -213,6 +249,9 @@ def predict():
             "predictedDelayMin": predicted_delay,
             "etaRangeMin": lower_bound,
             "etaRangeMax": upper_bound,
+            "scheduledArrivalTime": scheduled_arrival_time,
+            "predictedArrivalMin": add_minutes_to_iso(scheduled_iso, lower_bound) if scheduled_iso else "N/A",
+            "predictedArrivalMax": add_minutes_to_iso(scheduled_iso, upper_bound) if scheduled_iso else "N/A",
             "confidencePercent": confidence_percent_value,
             "weather": weather,
             "congestion": congestion,
@@ -226,7 +265,7 @@ def predict():
         }
         return jsonify(response)
 
-    # ---------- FALLBACK DEMO MODE (no internet / train not found / no key) ----------
+    # ---------- FALLBACK DEMO MODE ----------
     train_name = train_names.get(str(train_number), f"Train {train_number}")
 
     if station_index is not None and 0 <= station_index < len(stations) - 1:
@@ -276,6 +315,8 @@ def predict():
 
     route = [{"code": s[:3].upper(), "name": s, "status": ("departed" if i < station_position else "current" if i == station_position else "upcoming")} for i, s in enumerate(stations)]
 
+    scheduled_str = SCHEDULED_TIMES.get(next_station)
+
     response = {
         "trainName": train_name,
         "trainNumber": train_number,
@@ -287,6 +328,9 @@ def predict():
         "predictedDelayMin": predicted_delay,
         "etaRangeMin": lower_bound,
         "etaRangeMax": upper_bound,
+        "scheduledArrivalTime": scheduled_str or "N/A",
+        "predictedArrivalMin": get_actual_time_fallback(scheduled_str, lower_bound),
+        "predictedArrivalMax": get_actual_time_fallback(scheduled_str, upper_bound),
         "confidencePercent": confidence_percent_value,
         "weather": weather,
         "congestion": congestion,

@@ -162,19 +162,20 @@ function EtaComparison({ data }) {
         <div className="rounded-xl border border-border bg-secondary/50 p-4">
           <div className="flex items-center gap-2 text-muted-foreground">
             <CalendarClock className="h-4 w-4" />
-            <span className="text-xs font-medium uppercase tracking-wide">Current Conditions</span>
+            <span className="text-xs font-medium uppercase tracking-wide">Scheduled Arrival</span>
           </div>
-          <p className="mt-2 text-lg font-semibold text-foreground">{data.weather} · {data.congestion}</p>
-          <p className="mt-1 text-xs text-muted-foreground">at {data.currentStation}</p>
+          <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">{data.scheduledArrivalTime}</p>
+          <p className="mt-1 text-xs text-muted-foreground">{data.weather} · {data.congestion}</p>
         </div>
         <div className="rounded-xl border border-rail-orange/30 bg-rail-orange/5 p-4">
           <div className="flex items-center gap-2 text-rail-orange">
             <Sparkles className="h-4 w-4" />
-            <span className="text-xs font-medium uppercase tracking-wide">Predicted Delay Range</span>
+            <span className="text-xs font-medium uppercase tracking-wide">Predicted Arrival</span>
           </div>
           <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">
-            {Math.round(data.etaRangeMin * 10) / 10}<span className="mx-1 text-muted-foreground">–</span>{Math.round(data.etaRangeMax * 10) / 10} min
+            {data.predictedArrivalMin}<span className="mx-1 text-muted-foreground">–</span>{data.predictedArrivalMax}
           </p>
+          <p className="mt-0.5 text-xs text-muted-foreground">(+{Math.round(data.predictedDelayMin)} min delay)</p>
           <p className="mt-1 inline-flex items-center gap-1 text-xs font-medium text-rail-orange">
             <ShieldCheck className="h-3.5 w-3.5" />
             {data.confidencePercent}% confidence
