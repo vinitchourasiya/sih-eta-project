@@ -114,7 +114,9 @@ function DashboardHeader({ query, setQuery, onSubmit }) {
   );
 }
 
-function RouteTimeline({ route }) {
+function RouteTimeLine({ route }) {
+  const [selectedStation, setSelectedStation] = useState(null);
+
   if (!route || route.length === 0) return null;
   return (
     <section className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
@@ -124,63 +126,200 @@ function RouteTimeline({ route }) {
           const isCurrent = station.status === "current";
           const isDeparted = station.status === "departed";
           return (
-            <li key={station.code + i} className="relative flex flex-1 min-w-[60px] flex-col items-center last:flex-none">
-              {i < route.length - 1 && (
-                <span className={`absolute left-1/2 top-4 h-0.5 w-full ${isDeparted ? "bg-rail-blue" : "bg-border"}`} />
-              )}
-              <span className={`relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 ${
-                isCurrent ? "border-rail-orange bg-rail-orange text-rail-orange-foreground shadow-md ring-4 ring-rail-orange/20"
-                : isDeparted ? "border-rail-blue bg-rail-blue text-rail-blue-foreground"
-                : "border-border bg-card text-muted-foreground"
-              }`}>
-                {isCurrent ? <TrainFront className="h-4 w-4" /> : isDeparted ? <Check className="h-4 w-4" /> : <span className="h-2 w-2 rounded-full bg-muted-foreground/50" />}
-              </span>
-              <div className="mt-2 flex flex-col items-center px-1 text-center">
-                <span className={`text-[11px] font-semibold ${isCurrent ? "text-rail-orange" : "text-foreground"}`}>{station.code}</span>
-                <span className="mt-0.5 hidden text-[11px] leading-tight text-muted-foreground sm:block">{station.name}</span>
-              </div>
-            </li>
+            <li
+  key={station.code + i}
+  onClick={() => setSelectedStation(station)}
+  className="relative flex flex-1 min-w-[60px] flex-col items-center last:flex-none cursor-pointer"
+>
+  {i < route.length - 1 && (
+    <span
+      className={`absolute left-1/2 top-4 h-0.5 w-full ${
+        isDeparted ? "bg-rail-blue" : "bg-border"
+      }`}
+    />
+  )}
+
+  <span
+    className={`relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 ${
+      isCurrent
+        ? "border-rail-orange bg-rail-orange text-rail-orange-foreground shadow-md ring-4 ring-rail-orange/20"
+        : isDeparted
+        ? "border-rail-blue bg-rail-blue text-rail-blue-foreground"
+        : "border-border bg-card text-muted-foreground"
+    }`}
+  >
+    {isCurrent ? (
+      <TrainFront className="h-4 w-4" />
+    ) : isDeparted ? (
+      <Check className="h-4 w-4" />
+    ) : (
+      <span className="h-2 w-2 rounded-full bg-muted-foreground/50" />
+    )}
+  </span>
+
+  <div className="mt-2 flex flex-col items-center px-1 text-center">
+    <span
+      className={`text-[11px] font-semibold ${
+        isCurrent ? "text-rail-orange" : "text-foreground"
+      }`}
+    >
+      {station.code}
+    </span>
+
+    <span className="mt-0.5 hidden text-[11px] leading-tight text-muted-foreground sm:block">
+      {station.name}
+    </span>
+  </div>
+</li>
           );
         })}
       </ol>
+      {selectedStation && (
+  <div className="mt-6 rounded-xl border border-border bg-background p-4">
+    <div className="flex items-center justify-between">
+      <div>
+        <h3 className="text-base font-semibold text-foreground">
+          {selectedStation.name}
+        </h3>
+
+        <p className="text-xs text-muted-foreground">
+          {selectedStation.code}
+        </p>
+      </div>
+
+      <button
+        onClick={() => setSelectedStation(null)}
+        className="text-xs text-muted-foreground hover:text-foreground"
+      >
+        Close
+      </button>
+    </div>
+
+    <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
+
+      <div className="rounded-lg border border-border p-3">
+        <p className="text-xs text-muted-foreground">
+          Scheduled Arrival
+        </p>
+        <p className="mt-1 text-lg font-semibold text-foreground">
+          {selectedStation.scheduledArrivalTime || "N/A"}
+        </p>
+      </div>
+
+      <div className="rounded-lg border border-border p-3">
+        <p className="text-xs text-muted-foreground">
+          Scheduled Departure
+        </p>
+        <p className="mt-1 text-lg font-semibold text-foreground">
+          {selectedStation.scheduledDepartureTime || "N/A"}
+        </p>
+      </div>
+
+      <div className="rounded-lg border border-border p-3">
+        <p className="text-xs text-muted-foreground">
+          Actual Arrival
+        </p>
+        <p className="mt-1 text-lg font-semibold text-foreground">
+          {selectedStation.actualArrival
+            ? new Date(selectedStation.actualArrival).toLocaleTimeString([], {
+                hour: "numeric",
+                minute: "2-digit",
+              })
+            : "Not arrived"}
+        </p>
+      </div>
+
+    </div>
+  </div>
+)}
     </section>
   );
 }
 
 function EtaComparison({ data }) {
   const status = getStatus(data.predictedDelayMin);
+
   return (
     <section className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-2">
-        <h2 className="text-sm font-semibold text-foreground">Arrival Estimate</h2>
-        <span className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-semibold ${status.badge}`}>
+        <h2 className="text-sm font-semibold text-foreground">
+          Arrival Information
+        </h2>
+
+        <span
+          className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-semibold ${status.badge}`}
+        >
           <span className={`h-2 w-2 rounded-full ${status.dot}`} />
           {status.label} · +{Math.round(data.predictedDelayMin)} min
         </span>
       </div>
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+
+        {/* SCHEDULED */}
         <div className="rounded-xl border border-border bg-secondary/50 p-4">
           <div className="flex items-center gap-2 text-muted-foreground">
             <CalendarClock className="h-4 w-4" />
-            <span className="text-xs font-medium uppercase tracking-wide">Scheduled Arrival</span>
+
+            <span className="text-xs font-medium uppercase tracking-wide">
+              Scheduled Arrival
+            </span>
           </div>
-          <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">{data.scheduledArrivalTime}</p>
-          <p className="mt-1 text-xs text-muted-foreground">{data.weather} · {data.congestion}</p>
+
+          <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">
+            {data.scheduledArrivalTime || "N/A"}
+          </p>
+
+          <p className="mt-1 text-xs text-muted-foreground">
+            Railway scheduled time
+          </p>
         </div>
+
+        {/* ACTUAL */}
+        <div className="rounded-xl border border-rail-blue/30 bg-rail-blue/5 p-4">
+          <div className="flex items-center gap-2 text-rail-blue">
+            <Check className="h-4 w-4" />
+
+            <span className="text-xs font-medium uppercase tracking-wide">
+              Actual Arrival
+            </span>
+          </div>
+
+          <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">
+            {data.actualArrivalTime || "Not arrived"}
+          </p>
+
+          <p className="mt-1 text-xs text-muted-foreground">
+            Live railway data
+          </p>
+        </div>
+
+        {/* PREDICTED */}
         <div className="rounded-xl border border-rail-orange/30 bg-rail-orange/5 p-4">
           <div className="flex items-center gap-2 text-rail-orange">
             <Sparkles className="h-4 w-4" />
-            <span className="text-xs font-medium uppercase tracking-wide">Predicted Arrival</span>
+
+            <span className="text-xs font-medium uppercase tracking-wide">
+              Expected Arrival
+            </span>
           </div>
+
           <p className="mt-2 text-2xl font-semibold tabular-nums text-foreground">
-            {data.predictedArrivalMin}<span className="mx-1 text-muted-foreground">–</span>{data.predictedArrivalMax}
+            {data.predictedArrivalMin}
+            <span className="mx-1 text-muted-foreground">–</span>
+            {data.predictedArrivalMax}
           </p>
-          <p className="mt-0.5 text-xs text-muted-foreground">(+{Math.round(data.predictedDelayMin)} min delay)</p>
+
+          <p className="mt-0.5 text-xs text-muted-foreground">
+            +{Math.round(data.predictedDelayMin)} min predicted delay
+          </p>
+
           <p className="mt-1 inline-flex items-center gap-1 text-xs font-medium text-rail-orange">
             <ShieldCheck className="h-3.5 w-3.5" />
             {data.confidencePercent}% confidence
           </p>
         </div>
+
       </div>
     </section>
   );
@@ -408,7 +547,7 @@ function Dashboard() {
               </div>
             </div>
 
-            <RouteTimeline route={data.route} />
+            <RouteTimeLine route={data.route} />
             <EtaComparison data={data} />
             <AiCopilot message={data.copilotMessage} />
 
