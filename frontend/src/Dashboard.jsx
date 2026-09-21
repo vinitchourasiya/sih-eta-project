@@ -315,7 +315,7 @@ function Dashboard() {
 
   const API_URL = import.meta.env.DEV
     ? "http://127.0.0.1:5000"
-    : "https://sih-eta-backend-l25w.onrender.com";
+    : "https://sih-eta-project.onrender.com";
 
   const fetchPrediction = async (trainNumber, stationIndex = null) => {
     try {
