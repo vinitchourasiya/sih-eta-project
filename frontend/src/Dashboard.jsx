@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import axios from "axios";
+import AlternativeRoutes from "./AlternativeRoutes";
 import {
   Search, TrainFront, Check, CalendarClock, Sparkles, ShieldCheck,
   CloudFog, TrainTrack, Timer, AlertTriangle, Bus, ArrowRight, SearchX, Bot, Radio
@@ -408,27 +409,6 @@ function ConnectionRiskScore({ score, level, factors }) {
   );
 }
 
-function AlternativeRoutes({ routes }) {
-  if (!routes || routes.length === 0) return null;
-  return (
-    <section className="rounded-2xl border border-border bg-card p-5 shadow-sm sm:p-6">
-      <h2 className="text-sm font-semibold text-foreground">Alternative Route Options</h2>
-      <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "12px" }}>
-        {routes.map((r, i) => (
-          <div key={i} style={{ border: "1px solid #e5e7eb", borderRadius: "10px", padding: "12px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <div>
-              <p style={{ fontWeight: "600", fontSize: "13px" }}>{r.option}</p>
-              <p style={{ fontSize: "12px", color: "#6b7280" }}>{r.arrival} · Extra: {r.extraCost}</p>
-            </div>
-            <span style={{ fontSize: "12px", fontWeight: "600", color: r.risk > 60 ? "#ef4444" : r.risk > 30 ? "#f59e0b" : "#22c55e" }}>
-              Risk {r.risk}%
-            </span>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
 
 function AiCopilot({ message }) {
   return (

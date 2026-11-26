@@ -7,6 +7,11 @@ import random
 import requests
 import os
 from datetime import datetime, timedelta
+from alternatives import (
+    find_alternative_trains,
+    build_alternative_routes,
+    build_copilot_message,
+)
 
 app = Flask(__name__)
 CORS(app)
@@ -260,6 +265,7 @@ def build_extras(
     current_station_name,
     next_station_name
 ):
+
     cascade_alerts = []
 
     if predicted_delay > 15:
@@ -674,6 +680,13 @@ def predict():
             current_station_name,
             next_station_name
         )
+        alt_trains = []
+        if predicted_delay > 15:
+            alt_trains = find_alternative_trains(
+                route_raw, current_idx, real_delay, train_number
+            )
+        alt_routes = build_alternative_routes(predicted_delay, risk_score, alt_trains)
+        copilot_msg = build_copilot_message(predicted_delay, risk_score, alt_trains, copilot_msg)
 
         # ---------------- RESPONSE ----------------
 
